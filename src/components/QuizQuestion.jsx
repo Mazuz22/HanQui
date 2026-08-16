@@ -1,0 +1,74 @@
+import { useState } from 'react'
+
+/**
+ * A single 4-option multiple-choice question. Owns its own "answered" state
+ * so switching questions (the parent remounts this via a `key` on the
+ * target char) resets it for free — no external reset wiring needed.
+ *
+ * Feedback is strictly deterministic: correct/incorrect plus the target's
+ * reading, revealed only after answering and never itself quizzed.
+ */
+export default function QuizQuestion({ question, kanjiRecord, onComplete }) {
+  const [selected, setSelected] = useState(null)
+
+  const answered = selected !== null
+  const wasCorrect = answered && selected === question.correctIndex
+
+  function handleSelect(index) {
+    if (answered) return
+    setSelected(index)
+  }
+
+  const reading = kanjiRecord ? [...kanjiRecord.onyomi, ...kanjiRecord.kunyomi].join('、') : ''
+
+  return (
+    <div className="quiz-question">
+      <p className="quiz-direction-label">
+        {question.direction === 'kanjiToMeaning' ? 'What does this mean?' : 'Which kanji means this?'}
+      </p>
+      <div className={question.direction === 'kanjiToMeaning' ? 'quiz-prompt quiz-prompt-char' : 'quiz-prompt quiz-prompt-meaning'}>
+        {question.prompt}
+      </div>
+
+      <div className="quiz-options">
+        {question.options.map((option, index) => {
+          const isCorrectOption = index === question.correctIndex
+          const isSelected = index === selected
+          let stateClass = ''
+          if (answered) {
+            if (isCorrectOption) stateClass = 'quiz-option-correct'
+            else if (isSelected) stateClass = 'quiz-option-incorrect'
+            else stateClass = 'quiz-option-muted'
+          }
+          return (
+            <button
+              key={option.char}
+              type="button"
+              className={`quiz-option ${stateClass}`.trim()}
+              onClick={() => handleSelect(index)}
+              disabled={answered}
+            >
+              {option.label}
+            </button>
+          )
+        })}
+      </div>
+
+      {answered && (
+        <div className="quiz-feedback in">
+          <p className={wasCorrect ? 'quiz-feedback-positive' : 'quiz-feedback-negative'}>
+            {wasCorrect ? 'Correct' : 'Not quite'}
+          </p>
+          {kanjiRecord && (
+            <p className="quiz-reading">
+              {kanjiRecord.char} · {reading || '—'}
+            </p>
+          )}
+          <button type="button" className="primary-button quiz-continue" onClick={() => onComplete(wasCorrect)}>
+            Continue
+          </button>
+        </div>
+      )}
+    </div>
+  )
+}
