@@ -5,13 +5,16 @@ function kanji(char, lessonOrder, level) {
   return { char, lessonOrder, level }
 }
 
+// 5 level-1, 5 level-2, in strict lesson order — no interleaving, so
+// coverage and "most recent tier" agree here (see the interleaved dataset
+// below for the case where they don't).
 const kanjiData = [
   kanji('a', 0, 1),
   kanji('b', 1, 1),
   kanji('c', 2, 1),
   kanji('d', 3, 1),
   kanji('e', 4, 1),
-  kanji('f', 5, 1),
+  kanji('f', 5, 2),
   kanji('g', 6, 2),
   kanji('h', 7, 2),
   kanji('i', 8, 2),
@@ -23,45 +26,61 @@ describe('estimateLevel', () => {
     expect(estimateLevel(kanjiData, 0)).toBeNull()
   })
 
-  it('picks the most common level in the trailing window, not just the newest', () => {
-    // 10 introduced, window of 4 -> last 4 (g,h,i,j) are all level 2.
-    expect(estimateLevel(kanjiData, 10, 4)).toBe(2)
+  it('stays on the easier tier until it is mostly covered', () => {
+    // 2 of 5 level-1 known -> 40%, below the 60% bar -> still level 1.
+    expect(estimateLevel(kanjiData, 2)).toBe(1)
   })
 
-  it('clamps the window to the start of the dataset for small progress', () => {
-    expect(estimateLevel(kanjiData, 2, 15)).toBe(1)
+  it('advances once the easier tier crosses the completion threshold', () => {
+    // 7 introduced: level 1 is 5/5 = 100% (done), level 2 is 2/5 = 40%
+    // (not done) -> the tier being worked on is level 2, even though
+    // barely any of it has been covered yet.
+    expect(estimateLevel(kanjiData, 7)).toBe(2)
   })
 
-  it('breaks ties in favor of the easier level, staying conservative', () => {
-    // window of 4 at introducedCount=8 -> e,f (level 1), g,h (level 2): a 2-2 tie.
-    expect(estimateLevel(kanjiData, 8, 4)).toBe(1)
+  it('respects a custom threshold', () => {
+    expect(estimateLevel(kanjiData, 7, 0.9)).toBe(2) // level 1 done regardless; level 2 at 40% < 90%
+    expect(estimateLevel(kanjiData, 7, 0.3)).toBe(2) // both tiers clear a lax 30% bar -> reports the hardest
   })
 
-  // Regression test for a real report: the lesson order isn't a clean
-  // block-by-level sequence (it's a topological sort with level as only a
-  // tie-break, so a lower-dependency character from a harder tier can
-  // become "ready" and get scheduled early, interleaved into an easier
-  // run). A single-point lookback can land squarely on one of those rare
-  // interlopers and misreport the level even though the surrounding
-  // characters are overwhelmingly the easier tier — exactly what happened
-  // when a user with 161 known kanji, mostly N4, was told N3 because the
-  // lookback point happened to land on one of only a few early N3 chars.
-  it('is not thrown off by a single interloper from a harder tier', () => {
-    const withInterloper = [
+  it('reports the hardest tier once everything is covered', () => {
+    expect(estimateLevel(kanjiData, kanjiData.length)).toBe(2)
+  })
+
+  // Regression test for a real report: with 188 known kanji only 55% of
+  // all N4-level kanji had actually been introduced (the rest were still
+  // blocked on component dependencies), yet the level estimate said N3
+  // because that's what the *most recent* lessons happened to be tagged.
+  it('is not fooled by a harder tier interleaved ahead of an unfinished easier one', () => {
+    const interleaved = [
+      // 4 level-1, fully covered early.
       kanji('a', 0, 1),
       kanji('b', 1, 1),
-      kanji('c', 2, 2), // interloper: a harder-tier char scheduled early
+      kanji('c', 2, 1),
       kanji('d', 3, 1),
-      kanji('e', 4, 1),
-      kanji('f', 5, 1),
-      kanji('g', 6, 1),
-      kanji('h', 7, 1),
-      kanji('i', 8, 2),
-      kanji('j', 9, 2),
+      // Only 3 of level-2's eventual 6 are scheduled this early — the
+      // other 3 are blocked on later-introduced components (indices 20+,
+      // not shown here since introducedCount never reaches them).
+      kanji('e', 4, 2),
+      kanji('f', 5, 2),
+      kanji('g', 6, 2),
+      // A run of level-3 characters becomes "ready" (simple dependencies)
+      // and gets scheduled before level-2 is anywhere near finished.
+      kanji('h', 7, 3),
+      kanji('i', 8, 3),
+      kanji('j', 9, 3),
+      kanji('k', 10, 3),
+      kanji('l', 11, 3),
+      // The remaining level-2 characters, still not learned by index 16.
+      kanji('m', 20, 2),
+      kanji('n', 21, 2),
+      kanji('o', 22, 2),
     ]
-    // A fixed single-point lookback (introducedCount - 1 - 5) would land on
-    // index 2 here — the interloper — and wrongly report level 2.
-    expect(estimateLevel(withInterloper, 8, 8)).toBe(1)
+    // 11 introduced (through index 10): level 1 = 4/4 = 100%, level 2 =
+    // 3/6 = 50% (below threshold), level 3 = 5/5 = 100% of what's been
+    // *scheduled* so far but the recent lessons are all level 3. The
+    // right answer is still level 2 — it's what's actually unfinished.
+    expect(estimateLevel(interleaved, 11)).toBe(2)
   })
 })
 
