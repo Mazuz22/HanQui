@@ -21,6 +21,19 @@ import { buildLessonOrder } from '../src/lib/lessonOrder.js'
 
 const here = (path) => fileURLToPath(new URL(path, import.meta.url))
 
+// KANJIDIC2's meaning order doesn't always lead with the gloss a learner
+// would actually recognize first (安 lists "Relax" before "Cheap"; even
+// WaniKani's own primary/secondary marking disagrees with intuition here,
+// so there's no single authoritative source to derive this from
+// automatically). These are manual, one-off corrections flagged from real
+// use — add to this list as more turn up, rather than trying to re-derive
+// "popularity" algorithmically for the whole dataset.
+const PRIMARY_MEANING_OVERRIDES = {
+  安: 'Cheap',
+  送: 'Send',
+  相: 'Mutual',
+}
+
 const rawKanji = JSON.parse(readFileSync(here('data/raw/kanji-data.json'), 'utf8'))
 const kanji2element = JSON.parse(readFileSync(here('data/raw/kanji2element.json'), 'utf8'))
 
@@ -42,6 +55,16 @@ const records = vocabEntries.map(([char, v]) => ({
   frequencyRank: v.freq ?? null,
   components: [], // filled in below
 }))
+
+for (const record of records) {
+  const preferred = PRIMARY_MEANING_OVERRIDES[record.char]
+  if (!preferred) continue
+  const index = record.meanings.findIndex((m) => m.toLowerCase() === preferred.toLowerCase())
+  if (index > 0) {
+    record.meanings.splice(index, 1)
+    record.meanings.unshift(preferred)
+  }
+}
 
 const vocabChars = new Set(records.map((r) => r.char))
 

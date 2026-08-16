@@ -49,10 +49,21 @@ export default function Session({ track, mode = 'daily', progress, reviewState, 
   const [localReviewState, setLocalReviewState] = useState(reviewState)
   const [stats, setStats] = useState(EMPTY_STATS)
 
+  // Practice quizzes only known characters, so its distractors should too —
+  // an unlearned character as a wrong option is never a real temptation,
+  // it's just a free giveaway that doesn't exercise recall at all. Daily
+  // sessions keep the full dataset, since their distractors need to cover
+  // brand-new introductions too.
+  const quizPool = useMemo(
+    () => (mode === 'practice' ? data.filter((k) => progress.introduced.includes(k.char)) : data),
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [],
+  )
+
   const step = steps[stepIndex]
   const record = step ? data.find((k) => k.char === step.char) : null
   const question = useMemo(
-    () => (step?.type === 'quiz' ? generateQuestion(step.char, data, step.direction) : null),
+    () => (step?.type === 'quiz' ? generateQuestion(step.char, quizPool, step.direction) : null),
     // eslint-disable-next-line react-hooks/exhaustive-deps
     [stepIndex],
   )
