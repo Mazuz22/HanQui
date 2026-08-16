@@ -2,7 +2,7 @@ import { TaskScreen } from './layout'
 import CharacterGrid from './CharacterGrid'
 import { TRACKS } from '../lib/tracks'
 
-export default function MyCharacters({ track, progress, onBack }) {
+export default function MyCharacters({ track, progress, reviewState, onBack }) {
   const { data, unitNoun } = TRACKS[track]
   const introduced = progress?.introduced ?? []
 
@@ -13,7 +13,7 @@ export default function MyCharacters({ track, progress, onBack }) {
       brief={`${introduced.length} / ${data.length} ${unitNoun} known`}
     >
       <div className="char-grid-page">
-        <CharacterGrid track={track} chars={introduced} />
+        <CharacterGrid track={track} chars={introduced} reviewState={reviewState} />
       </div>
     </TaskScreen>
   )

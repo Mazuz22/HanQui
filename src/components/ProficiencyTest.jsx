@@ -17,7 +17,7 @@ import { TRACKS } from '../lib/tracks'
  * `progress.introduced` currently ends (which is always a prefix of the
  * lesson order — see lib/lessonPath.js's getNextNewChars).
  */
-export default function ProficiencyTest({ track, progress, onComplete, onExit }) {
+export default function ProficiencyTest({ track, progress, reviewState, onComplete, onExit }) {
   const { data } = TRACKS[track]
   const orderedChars = useMemo(
     () => [...data].sort((a, b) => a.lessonOrder - b.lessonOrder).map((k) => k.char),
@@ -27,6 +27,7 @@ export default function ProficiencyTest({ track, progress, onComplete, onExit })
 
   const [index, setIndex] = useState(startIndex)
   const [confirmed, setConfirmed] = useState([])
+  const [confirmedReviewState, setConfirmedReviewState] = useState({})
   const [missed, setMissed] = useState(false)
 
   const exhausted = index >= orderedChars.length
@@ -39,9 +40,13 @@ export default function ProficiencyTest({ track, progress, onComplete, onExit })
     [currentChar],
   )
 
-  function handleAnswer(wasCorrect) {
+  // Each confirmed character gets a real FSRS card seeded from its actual
+  // answer speed, same grading as a normal quiz — a fast confident answer
+  // here means fast confident recall, just like anywhere else in the app.
+  function handleAnswer(wasCorrect, elapsedMs) {
     if (wasCorrect) {
       setConfirmed((prev) => [...prev, currentChar])
+      setConfirmedReviewState((prev) => ({ ...prev, [currentChar]: recordReview(null, true, elapsedMs, new Date()) }))
       setIndex((prev) => prev + 1)
     } else {
       setMissed(true)
@@ -49,15 +54,10 @@ export default function ProficiencyTest({ track, progress, onComplete, onExit })
   }
 
   function handleFinish() {
-    const now = new Date()
     const introduced = [...(progress?.introduced ?? []), ...confirmed]
-    const reviewState = {}
-    for (const char of confirmed) {
-      reviewState[char] = recordReview(null, true, now)
-    }
     onComplete(
       { introduced, placementComplete: true, placementStartIndex: progress?.placementStartIndex ?? 0 },
-      reviewState,
+      { ...reviewState, ...confirmedReviewState },
     )
   }
 

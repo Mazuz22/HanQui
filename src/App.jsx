@@ -10,7 +10,11 @@ import { AppFooter } from './components/layout'
 import { getLastTrack, getProgress, getReviewState, saveLastTrack, saveProgress, saveReviewState } from './lib/storage'
 import { deserializeReviewState, serializeReviewState } from './lib/reviewQueue'
 
-const EMPTY_PROGRESS = { introduced: [], placementComplete: false, placementStartIndex: 0 }
+const EMPTY_PROGRESS = { introduced: [], placementComplete: false, placementStartIndex: 0, dailySessionCount: 0 }
+// Every 2nd daily lesson, nudge toward a practice round instead of just
+// going home — new material sticks better with a quick repeat close
+// behind it than left to whatever FSRS's next due date happens to be.
+const PRACTICE_NUDGE_INTERVAL = 2
 
 // Simple screen switching, same as go-teacher — a router isn't warranted
 // for a handful of linear screens.
@@ -23,6 +27,7 @@ export default function App() {
   const [progress, setProgress] = useState(null)
   const [reviewState, setReviewState] = useState({})
   const [sessionStats, setSessionStats] = useState(null)
+  const [justFinishedDaily, setJustFinishedDaily] = useState(false)
 
   useEffect(() => {
     getLastTrack().then(setLastTrackPref)
@@ -87,6 +92,7 @@ export default function App() {
           <ProficiencyTest
             track={track}
             progress={progress}
+            reviewState={reviewState}
             onComplete={(nextProgress, nextReviewState) => {
               persist(nextProgress, nextReviewState)
               setScreen('session')
@@ -95,34 +101,47 @@ export default function App() {
           />
         )
       case 'session':
-      case 'practice':
+      case 'practice': {
+        const isDaily = screen === 'session'
         return (
           <Session
             track={track}
-            mode={screen === 'practice' ? 'practice' : 'daily'}
+            mode={isDaily ? 'daily' : 'practice'}
             progress={progress}
             reviewState={reviewState}
             onPersist={persist}
             onComplete={(stats, nextProgress, nextReviewState) => {
-              persist(nextProgress, nextReviewState)
+              const finalProgress = isDaily
+                ? { ...nextProgress, dailySessionCount: (nextProgress.dailySessionCount ?? 0) + 1 }
+                : nextProgress
+              persist(finalProgress, nextReviewState)
               setSessionStats(stats)
+              setJustFinishedDaily(isDaily)
               setScreen('summary')
             }}
             onExit={goHome}
           />
         )
+      }
       case 'summary':
         return (
           <SessionSummary
             track={track}
             stats={sessionStats}
             progress={progress}
+            reviewState={reviewState}
             onDone={goHome}
             onViewBoard={() => setScreen('board')}
+            onPractice={() => setScreen('practice')}
+            showPracticePrompt={
+              justFinishedDaily &&
+              (progress?.dailySessionCount ?? 0) > 0 &&
+              (progress?.dailySessionCount ?? 0) % PRACTICE_NUDGE_INTERVAL === 0
+            }
           />
         )
       case 'board':
-        return <MyCharacters track={track} progress={progress} onBack={goHome} />
+        return <MyCharacters track={track} progress={progress} reviewState={reviewState} onBack={goHome} />
       case 'credits':
         return <Credits onBack={() => setScreen(returnScreen)} />
       default:

@@ -6,7 +6,16 @@ import CharacterGrid from './CharacterGrid'
 // lives. The quiz itself is the game; this is just an honest readout of
 // where things stand. The advancement board (below) shows every character
 // learned so far, with this session's new ones highlighted.
-export default function SessionSummary({ track, stats, progress, onDone, onViewBoard }) {
+export default function SessionSummary({
+  track,
+  stats,
+  progress,
+  reviewState,
+  onDone,
+  onViewBoard,
+  onPractice,
+  showPracticePrompt = false,
+}) {
   const { data, unitNoun } = TRACKS[track]
   const introduced = progress?.introduced ?? []
   const introducedCount = introduced.length
@@ -35,14 +44,23 @@ export default function SessionSummary({ track, stats, progress, onDone, onViewB
       <div className="advancement-board">
         <p className="advancement-board-label">Your advancement board</p>
         <div className="char-grid-scroll">
-          <CharacterGrid track={track} chars={introduced} highlightChars={stats?.newChars ?? []} />
+          <CharacterGrid track={track} chars={introduced} reviewState={reviewState} highlightChars={stats?.newChars ?? []} />
         </div>
         <button type="button" className="link-button" onClick={onViewBoard}>
           View all my characters →
         </button>
       </div>
 
-      <button type="button" className="primary-button" onClick={onDone}>
+      {showPracticePrompt && (
+        <div className="practice-nudge">
+          <p className="practice-nudge-text">A couple of lessons in — worth locking these in with a quick practice round?</p>
+          <button type="button" className="primary-button" onClick={onPractice}>
+            Practice what you've learned
+          </button>
+        </div>
+      )}
+
+      <button type="button" className={showPracticePrompt ? 'link-button' : 'primary-button'} onClick={onDone}>
         Done
       </button>
     </div>

@@ -17,9 +17,18 @@ const FAST_ADVANCE_MS = 220
  * then `onComplete` fires on its own. A wrong answer always stops and
  * shows the normal reveal, in both modes, since that's the one moment
  * worth pausing on regardless of how fast the rest of the run is.
+ *
+ * `onComplete(wasCorrect, elapsedMs)` — elapsed time is measured from when
+ * the question first rendered to the moment an option was tapped, not when
+ * `onComplete` actually fires (which, on the fast path, is deliberately
+ * ~`FAST_ADVANCE_MS` later for the visual flash — that delay is UI
+ * polish, not part of the user's genuine thinking time, so it must not
+ * leak into the timing signal callers use to grade recall confidence).
  */
 export default function QuizQuestion({ track, question, kanjiRecord, onComplete, autoAdvanceOnCorrect = false }) {
+  const [startedAt] = useState(() => Date.now())
   const [selected, setSelected] = useState(null)
+  const [elapsedMs, setElapsedMs] = useState(null)
 
   const answered = selected !== null
   const wasCorrect = answered && selected === question.correctIndex
@@ -27,13 +36,14 @@ export default function QuizQuestion({ track, question, kanjiRecord, onComplete,
 
   useEffect(() => {
     if (!fastPath) return undefined
-    const timer = setTimeout(() => onComplete(true), FAST_ADVANCE_MS)
+    const timer = setTimeout(() => onComplete(true, elapsedMs), FAST_ADVANCE_MS)
     return () => clearTimeout(timer)
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [fastPath])
 
   function handleSelect(index) {
     if (answered) return
+    setElapsedMs(Date.now() - startedAt)
     setSelected(index)
   }
 
@@ -82,7 +92,11 @@ export default function QuizQuestion({ track, question, kanjiRecord, onComplete,
               {kanjiRecord.char} · {reading || '—'}
             </p>
           )}
-          <button type="button" className="primary-button quiz-continue" onClick={() => onComplete(wasCorrect)}>
+          <button
+            type="button"
+            className="primary-button quiz-continue"
+            onClick={() => onComplete(wasCorrect, elapsedMs)}
+          >
             Continue
           </button>
         </div>

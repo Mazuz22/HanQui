@@ -74,8 +74,8 @@ export default function Session({ track, mode = 'daily', progress, reviewState, 
     advance(nextProgress, localReviewState, nextStats)
   }
 
-  function handleQuizAnswer(wasCorrect) {
-    const nextCard = recordReview(localReviewState[step.char] ?? null, wasCorrect, new Date())
+  function handleQuizAnswer(wasCorrect, elapsedMs) {
+    const nextCard = recordReview(localReviewState[step.char] ?? null, wasCorrect, elapsedMs, new Date())
     const nextReviewState = { ...localReviewState, [step.char]: nextCard }
     const nextStats = {
       ...stats,
