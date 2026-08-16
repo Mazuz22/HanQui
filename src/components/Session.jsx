@@ -1,12 +1,12 @@
 import { useMemo, useState } from 'react'
 import { TaskScreen } from './layout'
 import QuizQuestion from './QuizQuestion'
-import { buildTodaySession } from '../lib/session'
+import { buildPracticeSession, buildTodaySession } from '../lib/session'
 import { generateQuestion } from '../lib/quizGenerator'
 import { recordReview } from '../lib/reviewQueue'
 import { TRACKS } from '../lib/tracks'
 
-const EMPTY_STATS = { introduced: 0, reviewed: 0, correct: 0, total: 0 }
+const EMPTY_STATS = { introduced: 0, reviewed: 0, correct: 0, total: 0, newChars: [] }
 
 function IntroCard({ track, record, onContinue }) {
   const reading = TRACKS[track].formatReading(record)
@@ -26,16 +26,24 @@ function IntroCard({ track, record, onContinue }) {
 }
 
 /**
- * Walks one day's worth of lesson-path introductions and due reviews (see
- * lib/session.js's buildTodaySession) one step at a time, persisting after
- * every answered step so a closed tab mid-session never loses progress.
+ * Walks a set of steps one at a time, persisting after every answered step
+ * so a closed tab mid-session never loses progress.
+ *
+ * Two modes, both sharing this same walk/persist/stats machinery:
+ * - 'daily' (default): lib/session.js's buildTodaySession — one day's worth
+ *   of lesson-path introductions and FSRS-due reviews.
+ * - 'practice': buildPracticeSession — a free, on-demand quiz over
+ *   characters already known, not gated by due dates. Answers still update
+ *   FSRS state, since practicing is genuine review signal.
  */
-export default function Session({ track, progress, reviewState, onPersist, onComplete, onExit }) {
+export default function Session({ track, mode = 'daily', progress, reviewState, onPersist, onComplete, onExit }) {
   const { data } = TRACKS[track]
-  // Computed once at mount — the session shouldn't reshuffle itself as the
-  // user answers questions within it.
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  const steps = useMemo(() => buildTodaySession(data, progress, reviewState, new Date()), [])
+  function buildSteps() {
+    return mode === 'practice' ? buildPracticeSession(progress) : buildTodaySession(data, progress, reviewState, new Date())
+  }
+  // Computed once at mount (lazy useState initializer) — the session
+  // shouldn't reshuffle itself as the user answers questions within it.
+  const [steps] = useState(buildSteps)
   const [stepIndex, setStepIndex] = useState(0)
   const [localProgress, setLocalProgress] = useState(progress)
   const [localReviewState, setLocalReviewState] = useState(reviewState)
@@ -60,7 +68,7 @@ export default function Session({ track, progress, reviewState, onPersist, onCom
 
   function handleIntroContinue() {
     const nextProgress = { ...localProgress, introduced: [...localProgress.introduced, step.char] }
-    const nextStats = { ...stats, introduced: stats.introduced + 1 }
+    const nextStats = { ...stats, introduced: stats.introduced + 1, newChars: [...stats.newChars, step.char] }
     setLocalProgress(nextProgress)
     setStats(nextStats)
     advance(nextProgress, localReviewState, nextStats)
@@ -83,7 +91,11 @@ export default function Session({ track, progress, reviewState, onPersist, onCom
   if (steps.length === 0) {
     return (
       <TaskScreen onBack={onExit} backLabel="← Home">
-        <p className="session-caught-up">You're all caught up — nothing due right now.</p>
+        <p className="session-caught-up">
+          {mode === 'practice'
+            ? 'Nothing to practice yet — learn some characters first.'
+            : "You're all caught up — nothing due right now."}
+        </p>
         <button
           type="button"
           className="primary-button"

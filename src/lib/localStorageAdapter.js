@@ -18,6 +18,7 @@
  */
 const progressKey = (track) => `hanqui.progress.${track}`
 const reviewStateKey = (track) => `hanqui.reviewState.${track}`
+const LAST_TRACK_KEY = 'hanqui.lastTrack'
 
 export async function getProgress(track) {
   try {
@@ -59,5 +60,24 @@ export async function clearAll(track) {
     localStorage.removeItem(reviewStateKey(track))
   } catch {
     /* nothing to do */
+  }
+}
+
+// Not track-scoped like everything above — this is the one piece of global
+// state, remembering which track the user last studied so the landing
+// screen can put it forward.
+export async function getLastTrack() {
+  try {
+    return localStorage.getItem(LAST_TRACK_KEY)
+  } catch {
+    return null
+  }
+}
+
+export async function saveLastTrack(track) {
+  try {
+    localStorage.setItem(LAST_TRACK_KEY, track)
+  } catch {
+    // Private browsing or a full quota — the app still works, just forgetfully.
   }
 }

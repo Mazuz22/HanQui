@@ -1,5 +1,12 @@
 import { describe, expect, it } from 'vitest'
-import { BACKLOG_THRESHOLD, MAX_NEW_PER_SESSION, MAX_REVIEWS_PER_SESSION, buildTodaySession } from './session'
+import {
+  BACKLOG_THRESHOLD,
+  MAX_NEW_PER_SESSION,
+  MAX_REVIEWS_PER_SESSION,
+  PRACTICE_SESSION_SIZE,
+  buildPracticeSession,
+  buildTodaySession,
+} from './session'
 
 const NOW = new Date('2026-01-01T00:00:00Z')
 
@@ -60,5 +67,36 @@ describe('buildTodaySession', () => {
       expect(session[i + 1]?.type).toBe('quiz')
       expect(session[i + 1]?.char).toBe(step.char)
     })
+  })
+})
+
+describe('buildPracticeSession', () => {
+  it('only includes already-introduced characters, all as quiz steps', () => {
+    const progress = { introduced: ['a', 'b', 'c'] }
+    const session = buildPracticeSession(progress)
+    expect(session.every((s) => s.type === 'quiz')).toBe(true)
+    expect(session.every((s) => progress.introduced.includes(s.char))).toBe(true)
+  })
+
+  it('caps the session at the requested count', () => {
+    const progress = { introduced: Array.from({ length: 50 }, (_, i) => `k${i}`) }
+    const session = buildPracticeSession(progress, 20)
+    expect(session.length).toBe(20)
+  })
+
+  it('defaults to PRACTICE_SESSION_SIZE when no count is given', () => {
+    const progress = { introduced: Array.from({ length: 50 }, (_, i) => `k${i}`) }
+    const session = buildPracticeSession(progress)
+    expect(session.length).toBe(PRACTICE_SESSION_SIZE)
+  })
+
+  it('returns an empty session when nothing has been introduced yet', () => {
+    expect(buildPracticeSession({ introduced: [] })).toEqual([])
+  })
+
+  it('never includes the same character twice', () => {
+    const progress = { introduced: Array.from({ length: 50 }, (_, i) => `k${i}`) }
+    const session = buildPracticeSession(progress, 20)
+    expect(new Set(session.map((s) => s.char)).size).toBe(session.length)
   })
 })

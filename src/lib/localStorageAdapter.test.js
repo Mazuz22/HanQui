@@ -1,5 +1,13 @@
 import { afterEach, beforeEach, describe, expect, it } from 'vitest'
-import { clearAll, getProgress, getReviewState, saveProgress, saveReviewState } from './localStorageAdapter'
+import {
+  clearAll,
+  getLastTrack,
+  getProgress,
+  getReviewState,
+  saveLastTrack,
+  saveProgress,
+  saveReviewState,
+} from './localStorageAdapter'
 
 // vitest's default (Node) environment has no localStorage global, so a tiny
 // in-memory stand-in is installed here rather than pulling in jsdom for one
@@ -66,6 +74,26 @@ describe('clearAll', () => {
     await clearAll('kanji')
     expect(await getProgress('kanji')).toBeNull()
     expect(await getReviewState('kanji')).toEqual({})
+  })
+})
+
+describe('last-track preference', () => {
+  it('returns null when nothing has been saved yet', async () => {
+    expect(await getLastTrack()).toBeNull()
+  })
+
+  it('returns exactly what was saved', async () => {
+    await saveLastTrack('hanzi')
+    expect(await getLastTrack()).toBe('hanzi')
+  })
+
+  it('is global, not per-track', async () => {
+    await saveProgress('kanji', { introduced: ['日'], placementComplete: true, placementStartIndex: 1 })
+    await saveLastTrack('kanji')
+    expect(await getLastTrack()).toBe('kanji')
+    await saveLastTrack('hanzi')
+    expect(await getLastTrack()).toBe('hanzi')
+    expect((await getProgress('kanji')).introduced).toEqual(['日']) // untouched
   })
 })
 

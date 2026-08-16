@@ -16,6 +16,7 @@ import { getNextNewChars } from './lessonPath'
 export const MAX_REVIEWS_PER_SESSION = 15
 export const MAX_NEW_PER_SESSION = 5
 export const BACKLOG_THRESHOLD = 20
+export const PRACTICE_SESSION_SIZE = 20
 
 export function buildTodaySession(kanjiData, progress, reviewState, now = new Date(), rng = Math.random) {
   const due = getDueChars(reviewState, now)
@@ -33,6 +34,31 @@ export function buildTodaySession(kanjiData, progress, reviewState, now = new Da
   ])
 
   return interleaveUnits(reviewUnits, newUnits)
+}
+
+/**
+ * A free, on-demand review session over characters the user already
+ * knows — not gated by FSRS due dates, unlike buildTodaySession. Answers
+ * still feed back into the FSRS review state (see Session.jsx), so
+ * practicing is genuine review signal, not a no-op quiz.
+ */
+export function buildPracticeSession(progress, count = PRACTICE_SESSION_SIZE, rng = Math.random) {
+  const introduced = progress?.introduced ?? []
+  const shuffled = shuffle(introduced, rng)
+  return shuffled.slice(0, Math.min(count, shuffled.length)).map((char) => ({
+    type: 'quiz',
+    char,
+    direction: rng() < 0.5 ? 'kanjiToMeaning' : 'meaningToKanji',
+  }))
+}
+
+function shuffle(items, rng) {
+  const copy = [...items]
+  for (let i = copy.length - 1; i > 0; i--) {
+    const j = Math.floor(rng() * (i + 1))
+    ;[copy[i], copy[j]] = [copy[j], copy[i]]
+  }
+  return copy
 }
 
 // Spreads `insertUnits` evenly across `baseUnits` (each a small run of steps

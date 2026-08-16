@@ -274,9 +274,10 @@ body {
 
 .track-cards {
   display: flex;
+  align-items: flex-start;
   gap: 14px;
   width: 100%;
-  max-width: 380px;
+  max-width: 420px;
 }
 
 .track-card {
@@ -285,12 +286,25 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 6px;
-  padding: 22px 12px;
+  padding: 22px 10px 14px;
   border-radius: 14px;
   border: var(--rule);
   background: var(--card-bg);
+  transition: transform 0.16s var(--ease-out), border-color 0.16s var(--ease-out), flex-basis 0.2s var(--ease-out);
+}
+
+.track-card-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  width: 100%;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: 0;
   cursor: pointer;
-  transition: transform 0.16s var(--ease-out), border-color 0.16s var(--ease-out);
 }
 
 .track-card-char {
@@ -308,18 +322,58 @@ body {
   color: var(--text-muted);
 }
 
-.track-card-active:hover {
+.track-card-active:hover,
+.track-card-preferred:hover {
   transform: translateY(-2px);
   border-color: var(--accent);
 }
 
-.track-card-active .track-card-char {
+.track-card-active .track-card-char,
+.track-card-preferred .track-card-char {
   color: var(--accent-strong);
 }
 
-.track-card-disabled {
-  opacity: 0.55;
-  cursor: default;
+/* Once a preference exists, the last-studied track is put forward — bigger
+   and brighter — while the other shrinks to a quieter secondary option,
+   without ever becoming unreachable. */
+.track-card-preferred {
+  flex-basis: 60%;
+  border-color: var(--accent);
+  box-shadow: 0 4px 20px rgba(var(--accent-rgb), 0.18);
+}
+
+.track-card-secondary {
+  flex-basis: 40%;
+  opacity: 0.75;
+  padding-top: 14px;
+}
+
+.track-card-secondary .track-card-char {
+  font-size: 30px;
+}
+
+.track-card-secondary .track-card-label {
+  font-size: 15px;
+}
+
+.track-card-secondary:hover {
+  opacity: 1;
+}
+
+.track-card-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+  margin-top: 4px;
+  border-top: var(--rule);
+  padding-top: 4px;
+  width: 100%;
+}
+
+.track-card-links .link-button {
+  font-size: 12px;
+  padding: 4px 2px;
 }
 
 /* ---------------------------------------------------------------------------
@@ -485,10 +539,37 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   text-align: center;
   padding: 24px;
   gap: var(--gap-tight);
+  overflow-y: auto;
+}
+
+.session-summary > .primary-button {
+  margin-top: var(--gap-section);
+  max-width: 320px;
+}
+
+.advancement-board {
+  width: 100%;
+  max-width: 420px;
+  margin-top: var(--gap-section);
+  padding-top: var(--gap-tight);
+  border-top: var(--rule);
+}
+
+.advancement-board-label {
+  font-size: var(--type-label);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+  margin: 0 0 var(--gap-tight);
+}
+
+.char-grid-scroll {
+  max-height: 260px;
+  overflow-y: auto;
+  padding: 2px;
 }
 
 .session-summary-title {
@@ -521,6 +602,92 @@ body {
   color: var(--text-muted);
   font-size: var(--type-label);
   margin: 6px 0 var(--gap-section);
+}
+
+/* ---------------------------------------------------------------------------
+   Character grid ("advancement board" / My Characters page)
+   --------------------------------------------------------------------------- */
+
+.char-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(58px, 1fr));
+  gap: 6px;
+}
+
+.char-grid-empty {
+  color: var(--text-muted);
+  text-align: center;
+  margin: var(--gap-section) 0;
+}
+
+.char-grid-page {
+  padding-bottom: var(--gap-section);
+}
+
+.char-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: 8px 4px;
+  border-radius: 8px;
+  border: var(--rule);
+  background: var(--card-bg);
+}
+
+.char-tile-char {
+  font-size: 22px;
+  line-height: 1.1;
+}
+
+.char-tile-meaning {
+  font-size: 10px;
+  color: var(--text-muted);
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 100%;
+}
+
+.char-tile-new {
+  border-color: var(--accent);
+  background: rgba(var(--accent-rgb), 0.14);
+}
+
+.char-tile-new .char-tile-char {
+  color: var(--accent-strong);
+}
+
+/* ---------------------------------------------------------------------------
+   Proficiency test
+   --------------------------------------------------------------------------- */
+
+.proficiency-result {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 24px;
+  gap: var(--gap-tight);
+}
+
+.proficiency-result-title {
+  font-size: var(--type-display);
+  font-weight: 800;
+  margin: 0;
+}
+
+.proficiency-result-note {
+  color: var(--text-muted);
+  max-width: 36ch;
+  margin: 0 0 var(--gap-section);
+}
+
+.proficiency-result .primary-button {
+  max-width: 280px;
 }
 
 /* ---------------------------------------------------------------------------
