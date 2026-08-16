@@ -1,13 +1,15 @@
-import { estimateJlptLevel, formatJlptLevel } from '../lib/levelEstimate'
+import { estimateLevel, formatLevel } from '../lib/levelEstimate'
+import { TRACKS } from '../lib/tracks'
 
 // Plain progress bar plus a level estimate — deliberately no streaks, XP, or
 // lives. The quiz itself is the game; this is just an honest readout of
 // where things stand.
-export default function SessionSummary({ stats, progress, kanjiData, onDone }) {
+export default function SessionSummary({ track, stats, progress, onDone }) {
+  const { data, unitNoun } = TRACKS[track]
   const introducedCount = progress?.introduced?.length ?? 0
-  const totalCount = kanjiData.length
+  const totalCount = data.length
   const percent = totalCount > 0 ? Math.round((introducedCount / totalCount) * 100) : 0
-  const level = estimateJlptLevel(kanjiData, introducedCount)
+  const level = estimateLevel(data, introducedCount)
 
   return (
     <div className="session-summary stagger">
@@ -24,7 +26,7 @@ export default function SessionSummary({ stats, progress, kanjiData, onDone }) {
         <div className="progress-bar-fill" style={{ width: `${percent}%` }} />
       </div>
       <p className="progress-bar-label">
-        {introducedCount} / {totalCount} kanji · {formatJlptLevel(level)}
+        {introducedCount} / {totalCount} {unitNoun} · {formatLevel(level, track)}
       </p>
 
       <button type="button" className="primary-button" onClick={onDone}>

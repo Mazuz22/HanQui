@@ -1,22 +1,22 @@
 import { describe, expect, it } from 'vitest'
 import { generateQuestion } from './quizGenerator'
 
-function kanji(char, meanings, { jlptLevel = 3, strokeCount = 5 } = {}) {
-  return { char, meanings, onyomi: [], kunyomi: [], strokeCount, jlptLevel, frequencyRank: null, components: [] }
+function kanji(char, meanings, { level = 3, strokeCount = 5 } = {}) {
+  return { char, meanings, onyomi: [], kunyomi: [], strokeCount, level, frequencyRank: null, components: [] }
 }
 
 const dataset = [
-  kanji('日', ['Day', 'Sun'], { jlptLevel: 5, strokeCount: 4 }),
-  kanji('月', ['Month', 'Moon'], { jlptLevel: 5, strokeCount: 4 }),
-  kanji('明', ['Bright', 'Light'], { jlptLevel: 4, strokeCount: 8 }),
-  kanji('本', ['Book', 'Origin'], { jlptLevel: 5, strokeCount: 5 }),
-  kanji('木', ['Tree', 'Wood'], { jlptLevel: 5, strokeCount: 4 }),
-  kanji('林', ['Grove', 'Woods'], { jlptLevel: 2, strokeCount: 8 }),
-  kanji('森', ['Forest'], { jlptLevel: 1, strokeCount: 12 }),
-  kanji('火', ['Fire'], { jlptLevel: 5, strokeCount: 4 }),
-  kanji('水', ['Water'], { jlptLevel: 5, strokeCount: 4 }),
-  kanji('金', ['Gold', 'Money'], { jlptLevel: 5, strokeCount: 8 }),
-  kanji('土', ['Earth', 'Soil'], { jlptLevel: 5, strokeCount: 3 }),
+  kanji('日', ['Day', 'Sun'], { level: 1, strokeCount: 4 }),
+  kanji('月', ['Month', 'Moon'], { level: 1, strokeCount: 4 }),
+  kanji('明', ['Bright', 'Light'], { level: 2, strokeCount: 8 }),
+  kanji('本', ['Book', 'Origin'], { level: 1, strokeCount: 5 }),
+  kanji('木', ['Tree', 'Wood'], { level: 1, strokeCount: 4 }),
+  kanji('林', ['Grove', 'Woods'], { level: 4, strokeCount: 8 }),
+  kanji('森', ['Forest'], { level: 5, strokeCount: 12 }),
+  kanji('火', ['Fire'], { level: 1, strokeCount: 4 }),
+  kanji('水', ['Water'], { level: 1, strokeCount: 4 }),
+  kanji('金', ['Gold', 'Money'], { level: 1, strokeCount: 8 }),
+  kanji('土', ['Earth', 'Soil'], { level: 1, strokeCount: 3 }),
 ]
 
 describe('generateQuestion', () => {
@@ -27,7 +27,7 @@ describe('generateQuestion', () => {
   })
 
   it('never includes a distractor sharing a meaning with the target', () => {
-    const withDupe = [...dataset, kanji('陽', ['Sun', 'Yang'], { jlptLevel: 5, strokeCount: 4 })]
+    const withDupe = [...dataset, kanji('陽', ['Sun', 'Yang'], { level: 1, strokeCount: 4 })]
     const q = generateQuestion('日', withDupe, 'kanjiToMeaning')
     const distractorChars = q.options.filter((_, i) => i !== q.correctIndex).map((o) => o.char)
     expect(distractorChars).not.toContain('陽')

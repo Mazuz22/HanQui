@@ -28,35 +28,44 @@ afterEach(() => {
 
 describe('progress round trip', () => {
   it('returns null when nothing has been saved yet', async () => {
-    expect(await getProgress()).toBeNull()
+    expect(await getProgress('kanji')).toBeNull()
   })
 
   it('returns exactly what was saved', async () => {
     const progress = { introduced: ['日', '一'], placementComplete: true, placementStartIndex: 12 }
-    await saveProgress(progress)
-    expect(await getProgress()).toEqual(progress)
+    await saveProgress('kanji', progress)
+    expect(await getProgress('kanji')).toEqual(progress)
   })
 })
 
 describe('review state round trip', () => {
   it('returns an empty object when nothing has been saved yet', async () => {
-    expect(await getReviewState()).toEqual({})
+    expect(await getReviewState('kanji')).toEqual({})
   })
 
   it('returns exactly what was saved', async () => {
     const reviewState = { 日: { due: '2026-01-01T00:00:00.000Z', reps: 1 } }
-    await saveReviewState(reviewState)
-    expect(await getReviewState()).toEqual(reviewState)
+    await saveReviewState('kanji', reviewState)
+    expect(await getReviewState('kanji')).toEqual(reviewState)
+  })
+})
+
+describe('per-track isolation', () => {
+  it('keeps kanji and hanzi progress independent', async () => {
+    await saveProgress('kanji', { introduced: ['日'], placementComplete: true, placementStartIndex: 1 })
+    await saveProgress('hanzi', { introduced: ['你'], placementComplete: true, placementStartIndex: 2 })
+    expect((await getProgress('kanji')).introduced).toEqual(['日'])
+    expect((await getProgress('hanzi')).introduced).toEqual(['你'])
   })
 })
 
 describe('clearAll', () => {
-  it('removes both progress and review state', async () => {
-    await saveProgress({ introduced: ['日'], placementComplete: true, placementStartIndex: 1 })
-    await saveReviewState({ 日: { reps: 1 } })
-    await clearAll()
-    expect(await getProgress()).toBeNull()
-    expect(await getReviewState()).toEqual({})
+  it('removes both progress and review state for the given track', async () => {
+    await saveProgress('kanji', { introduced: ['日'], placementComplete: true, placementStartIndex: 1 })
+    await saveReviewState('kanji', { 日: { reps: 1 } })
+    await clearAll('kanji')
+    expect(await getProgress('kanji')).toBeNull()
+    expect(await getReviewState('kanji')).toEqual({})
   })
 })
 
@@ -73,8 +82,8 @@ describe('storage failures', () => {
         throw new Error('unavailable')
       },
     }
-    await expect(saveProgress({ introduced: [] })).resolves.toBeUndefined()
-    await expect(getProgress()).resolves.toBeNull()
-    await expect(clearAll()).resolves.toBeUndefined()
+    await expect(saveProgress('kanji', { introduced: [] })).resolves.toBeUndefined()
+    await expect(getProgress('kanji')).resolves.toBeNull()
+    await expect(clearAll('kanji')).resolves.toBeUndefined()
   })
 })

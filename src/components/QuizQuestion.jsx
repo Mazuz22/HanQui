@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { TRACKS } from '../lib/tracks'
 
 /**
  * A single 4-option multiple-choice question. Owns its own "answered" state
@@ -8,7 +9,7 @@ import { useState } from 'react'
  * Feedback is strictly deterministic: correct/incorrect plus the target's
  * reading, revealed only after answering and never itself quizzed.
  */
-export default function QuizQuestion({ question, kanjiRecord, onComplete }) {
+export default function QuizQuestion({ track, question, kanjiRecord, onComplete }) {
   const [selected, setSelected] = useState(null)
 
   const answered = selected !== null
@@ -19,12 +20,12 @@ export default function QuizQuestion({ question, kanjiRecord, onComplete }) {
     setSelected(index)
   }
 
-  const reading = kanjiRecord ? [...kanjiRecord.onyomi, ...kanjiRecord.kunyomi].join('、') : ''
+  const reading = kanjiRecord ? TRACKS[track].formatReading(kanjiRecord) : ''
 
   return (
     <div className="quiz-question">
       <p className="quiz-direction-label">
-        {question.direction === 'kanjiToMeaning' ? 'What does this mean?' : 'Which kanji means this?'}
+        {question.direction === 'kanjiToMeaning' ? 'What does this mean?' : 'Which character means this?'}
       </p>
       <div className={question.direction === 'kanjiToMeaning' ? 'quiz-prompt quiz-prompt-char' : 'quiz-prompt quiz-prompt-meaning'}>
         {question.prompt}

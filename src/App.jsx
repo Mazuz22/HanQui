@@ -1,5 +1,4 @@
-import { useEffect, useState } from 'react'
-import kanjiData from './assets/kanji-data.json'
+import { useState } from 'react'
 import TrackSelect from './components/TrackSelect'
 import PlacementTest from './components/PlacementTest'
 import Session from './components/Session'
@@ -13,30 +12,18 @@ import { deserializeReviewState, serializeReviewState } from './lib/reviewQueue'
 // for a handful of linear screens.
 export default function App() {
   const [screen, setScreen] = useState('landing')
+  const [track, setTrack] = useState(null)
   const [returnScreen, setReturnScreen] = useState('landing')
-  const [loading, setLoading] = useState(true)
+  const [loading, setLoading] = useState(false)
   const [progress, setProgress] = useState(null)
   const [reviewState, setReviewState] = useState({})
   const [sessionStats, setSessionStats] = useState(null)
 
-  useEffect(() => {
-    let cancelled = false
-    Promise.all([getProgress(), getReviewState()]).then(([storedProgress, storedReviewState]) => {
-      if (cancelled) return
-      setProgress(storedProgress)
-      setReviewState(deserializeReviewState(storedReviewState))
-      setLoading(false)
-    })
-    return () => {
-      cancelled = true
-    }
-  }, [])
-
   function persist(nextProgress, nextReviewState) {
     setProgress(nextProgress)
     setReviewState(nextReviewState)
-    saveProgress(nextProgress)
-    saveReviewState(serializeReviewState(nextReviewState))
+    saveProgress(track, nextProgress)
+    saveReviewState(track, serializeReviewState(nextReviewState))
   }
 
   function openCredits() {
@@ -44,8 +31,20 @@ export default function App() {
     setScreen('credits')
   }
 
-  function handleSelectKanji() {
-    setScreen(progress?.placementComplete ? 'session' : 'placement')
+  function handleSelectTrack(nextTrack) {
+    setTrack(nextTrack)
+    setLoading(true)
+    Promise.all([getProgress(nextTrack), getReviewState(nextTrack)]).then(([storedProgress, storedReviewState]) => {
+      setProgress(storedProgress)
+      setReviewState(deserializeReviewState(storedReviewState))
+      setLoading(false)
+      setScreen(storedProgress?.placementComplete ? 'session' : 'placement')
+    })
+  }
+
+  function goHome() {
+    setTrack(null)
+    setScreen('landing')
   }
 
   function render() {
@@ -55,18 +54,18 @@ export default function App() {
       case 'placement':
         return (
           <PlacementTest
-            kanjiData={kanjiData}
+            track={track}
             onComplete={(nextProgress, nextReviewState) => {
               persist(nextProgress, nextReviewState)
               setScreen('session')
             }}
-            onExit={() => setScreen('landing')}
+            onExit={goHome}
           />
         )
       case 'session':
         return (
           <Session
-            kanjiData={kanjiData}
+            track={track}
             progress={progress}
             reviewState={reviewState}
             onPersist={persist}
@@ -75,31 +74,24 @@ export default function App() {
               setSessionStats(stats)
               setScreen('summary')
             }}
-            onExit={() => setScreen('landing')}
+            onExit={goHome}
           />
         )
       case 'summary':
-        return (
-          <SessionSummary
-            stats={sessionStats}
-            progress={progress}
-            kanjiData={kanjiData}
-            onDone={() => setScreen('landing')}
-          />
-        )
+        return <SessionSummary track={track} stats={sessionStats} progress={progress} onDone={goHome} />
       case 'credits':
         return <Credits onBack={() => setScreen(returnScreen)} />
       default:
-        return <TrackSelect onSelectKanji={handleSelectKanji} />
+        return <TrackSelect onSelectTrack={handleSelectTrack} />
     }
   }
 
   return (
     <div className="app-shell">
-      <div className="screen" key={screen}>
+      <div className="screen" key={`${screen}-${track ?? ''}`}>
         {render()}
       </div>
-      {screen !== 'credits' && !loading && <AppFooter onCredits={openCredits} />}
+      {screen !== 'credits' && <AppFooter onCredits={openCredits} />}
     </div>
   )
 }

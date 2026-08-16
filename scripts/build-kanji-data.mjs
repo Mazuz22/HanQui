@@ -27,13 +27,18 @@ const kanji2element = JSON.parse(readFileSync(here('data/raw/kanji2element.json'
 // Step 1: filter to the JLPT-tagged v1 vocabulary and normalize field names.
 const vocabEntries = Object.entries(rawKanji).filter(([, v]) => v.jlpt_new != null)
 
+// `level` is the track-agnostic scale the shared engine (lessonOrder,
+// quizGenerator, levelEstimate) actually uses — always "lower = easier".
+// KANJIDIC2's jlpt_new runs the opposite way (N5=5 easiest .. N1=1
+// hardest), so it's inverted here rather than baking the JLPT-specific
+// direction into shared, track-agnostic code.
 const records = vocabEntries.map(([char, v]) => ({
   char,
   meanings: v.meanings ?? [],
   onyomi: v.readings_on ?? [],
   kunyomi: v.readings_kun ?? [],
   strokeCount: v.strokes,
-  jlptLevel: v.jlpt_new,
+  level: 6 - v.jlpt_new,
   frequencyRank: v.freq ?? null,
   components: [], // filled in below
 }))

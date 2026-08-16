@@ -1,0 +1,11435 @@
+[
+  {
+    "char": "了",
+    "meanings": [
+      "clear; to finish; particle of completed action"
+    ],
+    "pinyin": [
+      "le",
+      "liǎo"
+    ],
+    "strokeCount": 2,
+    "level": 1,
+    "frequencyRank": 3,
+    "components": [],
+    "lessonOrder": 0
+  },
+  {
+    "char": "我",
+    "meanings": [
+      "I",
+      "me",
+      "my; our",
+      "us"
+    ],
+    "pinyin": [
+      "wǒ"
+    ],
+    "strokeCount": 7,
+    "level": 1,
+    "frequencyRank": 3,
+    "components": [],
+    "lessonOrder": 1
+  },
+  {
+    "char": "你",
+    "meanings": [
+      "you",
+      "second person pronoun"
+    ],
+    "pinyin": [
+      "nǐ"
+    ],
+    "strokeCount": 7,
+    "level": 1,
+    "frequencyRank": 5,
+    "components": [],
+    "lessonOrder": 2
+  },
+  {
+    "char": "这",
+    "meanings": [
+      "this",
+      "these; such; here"
+    ],
+    "pinyin": [
+      "zhè"
+    ],
+    "strokeCount": 7,
+    "level": 1,
+    "frequencyRank": 11,
+    "components": [],
+    "lessonOrder": 3
+  },
+  {
+    "char": "人",
+    "meanings": [
+      "man",
+      "person; people"
+    ],
+    "pinyin": [
+      "rén"
+    ],
+    "strokeCount": 2,
+    "level": 1,
+    "frequencyRank": 19,
+    "components": [],
+    "lessonOrder": 4
+  },
+  {
+    "char": "个",
+    "meanings": [
+      "this",
+      "that; single; measure word for individuals"
+    ],
+    "pinyin": [
+      "gè"
+    ],
+    "strokeCount": 3,
+    "level": 1,
+    "frequencyRank": 19,
+    "components": [
+      "人"
+    ],
+    "lessonOrder": 5
+  },
+  {
+    "char": "好",
+    "meanings": [
+      "good",
+      "excellent",
+      "fine; proper",
+      "suitable; well"
+    ],
+    "pinyin": [
+      "hǎo"
+    ],
+    "strokeCount": 6,
+    "level": 1,
+    "frequencyRank": 20,
+    "components": [],
+    "lessonOrder": 6
+  },
+  {
+    "char": "一",
+    "meanings": [
+      "one; a",
+      "an; alone"
+    ],
+    "pinyin": [
+      "yī"
+    ],
+    "strokeCount": 1,
+    "level": 1,
+    "frequencyRank": 21,
+    "components": [],
+    "lessonOrder": 7
+  },
+  {
+    "char": "不",
+    "meanings": [
+      "no",
+      "not",
+      "un-; negative prefix"
+    ],
+    "pinyin": [
+      "bù"
+    ],
+    "strokeCount": 4,
+    "level": 1,
+    "frequencyRank": 9,
+    "components": [
+      "一"
+    ],
+    "lessonOrder": 8
+  },
+  {
+    "char": "都",
+    "meanings": [
+      "all",
+      "each",
+      "entirely",
+      "whole; metropolis; capital"
+    ],
+    "pinyin": [
+      "dōu"
+    ],
+    "strokeCount": 10,
+    "level": 1,
+    "frequencyRank": 25,
+    "components": [],
+    "lessonOrder": 9
+  },
+  {
+    "char": "上",
+    "meanings": [
+      "above",
+      "on top",
+      "superior; to go up; to attend; previous"
+    ],
+    "pinyin": [
+      "shàng"
+    ],
+    "strokeCount": 3,
+    "level": 1,
+    "frequencyRank": 29,
+    "components": [
+      "一"
+    ],
+    "lessonOrder": 10
+  },
+  {
+    "char": "来",
+    "meanings": [
+      "to arrive",
+      "to come",
+      "to return; in the future",
+      "later on"
+    ],
+    "pinyin": [
+      "lái"
+    ],
+    "strokeCount": 7,
+    "level": 1,
+    "frequencyRank": 31,
+    "components": [],
+    "lessonOrder": 11
+  },
+  {
+    "char": "很",
+    "meanings": [
+      "very",
+      "quite",
+      "much"
+    ],
+    "pinyin": [
+      "hěn"
+    ],
+    "strokeCount": 9,
+    "level": 1,
+    "frequencyRank": 35,
+    "components": [],
+    "lessonOrder": 12
+  },
+  {
+    "char": "去",
+    "meanings": [
+      "to go away",
+      "to leave",
+      "to depart"
+    ],
+    "pinyin": [
+      "qù"
+    ],
+    "strokeCount": 5,
+    "level": 1,
+    "frequencyRank": 38,
+    "components": [],
+    "lessonOrder": 13
+  },
+  {
+    "char": "想",
+    "meanings": [
+      "to believe",
+      "to wish for; to consider",
+      "to plan",
+      "to think"
+    ],
+    "pinyin": [
+      "xiǎng"
+    ],
+    "strokeCount": 13,
+    "level": 1,
+    "frequencyRank": 44,
+    "components": [],
+    "lessonOrder": 14
+  },
+  {
+    "char": "能",
+    "meanings": [
+      "can",
+      "may; capable",
+      "full of energy"
+    ],
+    "pinyin": [
+      "néng"
+    ],
+    "strokeCount": 10,
+    "level": 1,
+    "frequencyRank": 46,
+    "components": [],
+    "lessonOrder": 15
+  },
+  {
+    "char": "那",
+    "meanings": [
+      "that",
+      "that one",
+      "those"
+    ],
+    "pinyin": [
+      "nà"
+    ],
+    "strokeCount": 6,
+    "level": 1,
+    "frequencyRank": 48,
+    "components": [],
+    "lessonOrder": 16
+  },
+  {
+    "char": "看",
+    "meanings": [
+      "to look",
+      "to see; to examine",
+      "to scrutinize"
+    ],
+    "pinyin": [
+      "kàn"
+    ],
+    "strokeCount": 9,
+    "level": 1,
+    "frequencyRank": 52,
+    "components": [],
+    "lessonOrder": 17
+  },
+  {
+    "char": "做",
+    "meanings": [
+      "to work",
+      "to make; to act"
+    ],
+    "pinyin": [
+      "zuò"
+    ],
+    "strokeCount": 11,
+    "level": 1,
+    "frequencyRank": 53,
+    "components": [],
+    "lessonOrder": 18
+  },
+  {
+    "char": "点",
+    "meanings": [
+      "dot",
+      "point",
+      "speck"
+    ],
+    "pinyin": [
+      "diǎn"
+    ],
+    "strokeCount": 9,
+    "level": 1,
+    "frequencyRank": 58,
+    "components": [],
+    "lessonOrder": 19
+  },
+  {
+    "char": "没",
+    "meanings": [
+      "not",
+      "none",
+      "gone; to bury; to sink",
+      "to drown"
+    ],
+    "pinyin": [
+      "méi"
+    ],
+    "strokeCount": 7,
+    "level": 1,
+    "frequencyRank": 63,
+    "components": [],
+    "lessonOrder": 20
+  },
+  {
+    "char": "大",
+    "meanings": [
+      "big",
+      "great",
+      "vast",
+      "high",
+      "deep"
+    ],
+    "pinyin": [
+      "dà"
+    ],
+    "strokeCount": 3,
+    "level": 1,
+    "frequencyRank": 66,
+    "components": [
+      "一",
+      "人"
+    ],
+    "lessonOrder": 21
+  },
+  {
+    "char": "下",
+    "meanings": [
+      "below",
+      "underneath; inferior; to bring down; next"
+    ],
+    "pinyin": [
+      "xià"
+    ],
+    "strokeCount": 3,
+    "level": 1,
+    "frequencyRank": 70,
+    "components": [
+      "一"
+    ],
+    "lessonOrder": 22
+  },
+  {
+    "char": "里",
+    "meanings": [
+      "unit of distance equal to 0.5km; village; lane"
+    ],
+    "pinyin": [
+      "lǐ"
+    ],
+    "strokeCount": 7,
+    "level": 1,
+    "frequencyRank": 75,
+    "components": [],
+    "lessonOrder": 23
+  },
+  {
+    "char": "多",
+    "meanings": [
+      "much",
+      "many",
+      "multi-; more than",
+      "over"
+    ],
+    "pinyin": [
+      "duō"
+    ],
+    "strokeCount": 6,
+    "level": 1,
+    "frequencyRank": 80,
+    "components": [],
+    "lessonOrder": 24
+  },
+  {
+    "char": "太",
+    "meanings": [
+      "very",
+      "too much; big; extreme"
+    ],
+    "pinyin": [
+      "tài"
+    ],
+    "strokeCount": 4,
+    "level": 1,
+    "frequencyRank": 87,
+    "components": [
+      "大"
+    ],
+    "lessonOrder": 25
+  },
+  {
+    "char": "家",
+    "meanings": [
+      "house",
+      "home",
+      "residence; family"
+    ],
+    "pinyin": [
+      "jiā"
+    ],
+    "strokeCount": 10,
+    "level": 1,
+    "frequencyRank": 124,
+    "components": [],
+    "lessonOrder": 26
+  },
+  {
+    "char": "爱",
+    "meanings": [
+      "to love",
+      "to like",
+      "to be fond of; love",
+      "affection"
+    ],
+    "pinyin": [
+      "ài"
+    ],
+    "strokeCount": 10,
+    "level": 1,
+    "frequencyRank": 130,
+    "components": [],
+    "lessonOrder": 27
+  },
+  {
+    "char": "谁",
+    "meanings": [
+      "who? whom? whose? anyone?"
+    ],
+    "pinyin": [
+      "shuí"
+    ],
+    "strokeCount": 10,
+    "level": 1,
+    "frequencyRank": 142,
+    "components": [],
+    "lessonOrder": 28
+  },
+  {
+    "char": "开",
+    "meanings": [
+      "to open; to start",
+      "to initiate",
+      "to begin"
+    ],
+    "pinyin": [
+      "kāi"
+    ],
+    "strokeCount": 4,
+    "level": 1,
+    "frequencyRank": 195,
+    "components": [
+      "一"
+    ],
+    "lessonOrder": 29
+  },
+  {
+    "char": "钱",
+    "meanings": [
+      "money",
+      "currency",
+      "coins"
+    ],
+    "pinyin": [
+      "qián"
+    ],
+    "strokeCount": 10,
+    "level": 1,
+    "frequencyRank": 218,
+    "components": [],
+    "lessonOrder": 30
+  },
+  {
+    "char": "本",
+    "meanings": [
+      "root",
+      "origin",
+      "source; basis"
+    ],
+    "pinyin": [
+      "běn"
+    ],
+    "strokeCount": 5,
+    "level": 1,
+    "frequencyRank": 222,
+    "components": [
+      "一"
+    ],
+    "lessonOrder": 31
+  },
+  {
+    "char": "买",
+    "meanings": [
+      "to buy",
+      "to purchase; to bribe",
+      "to persuade"
+    ],
+    "pinyin": [
+      "mǎi"
+    ],
+    "strokeCount": 6,
+    "level": 1,
+    "frequencyRank": 240,
+    "components": [],
+    "lessonOrder": 32
+  },
+  {
+    "char": "岁",
+    "meanings": [
+      "year; years old",
+      "age; harvest"
+    ],
+    "pinyin": [
+      "suì"
+    ],
+    "strokeCount": 6,
+    "level": 1,
+    "frequencyRank": 266,
+    "components": [],
+    "lessonOrder": 33
+  },
+  {
+    "char": "住",
+    "meanings": [
+      "to reside",
+      "to live at",
+      "to dwell",
+      "to lodge; to stop"
+    ],
+    "pinyin": [
+      "zhù"
+    ],
+    "strokeCount": 7,
+    "level": 1,
+    "frequencyRank": 280,
+    "components": [],
+    "lessonOrder": 34
+  },
+  {
+    "char": "水",
+    "meanings": [
+      "water",
+      "liquid",
+      "lotion",
+      "juice"
+    ],
+    "pinyin": [
+      "shuǐ"
+    ],
+    "strokeCount": 4,
+    "level": 1,
+    "frequencyRank": 335,
+    "components": [],
+    "lessonOrder": 35
+  },
+  {
+    "char": "四",
+    "meanings": [
+      "four"
+    ],
+    "pinyin": [
+      "sì"
+    ],
+    "strokeCount": 5,
+    "level": 1,
+    "frequencyRank": 481,
+    "components": [],
+    "lessonOrder": 36
+  },
+  {
+    "char": "块",
+    "meanings": [
+      "piece",
+      "lump",
+      "chunk; dollar; measure word for currency"
+    ],
+    "pinyin": [
+      "kuài"
+    ],
+    "strokeCount": 7,
+    "level": 1,
+    "frequencyRank": 483,
+    "components": [],
+    "lessonOrder": 37
+  },
+  {
+    "char": "书",
+    "meanings": [
+      "book",
+      "letter",
+      "document; writing"
+    ],
+    "pinyin": [
+      "shū"
+    ],
+    "strokeCount": 4,
+    "level": 1,
+    "frequencyRank": 560,
+    "components": [],
+    "lessonOrder": 38
+  },
+  {
+    "char": "狗",
+    "meanings": [
+      "dog"
+    ],
+    "pinyin": [
+      "gǒu"
+    ],
+    "strokeCount": 8,
+    "level": 1,
+    "frequencyRank": 620,
+    "components": [],
+    "lessonOrder": 39
+  },
+  {
+    "char": "二",
+    "meanings": [
+      "two; twice"
+    ],
+    "pinyin": [
+      "èr"
+    ],
+    "strokeCount": 2,
+    "level": 1,
+    "frequencyRank": 664,
+    "components": [
+      "一",
+      "一"
+    ],
+    "lessonOrder": 40
+  },
+  {
+    "char": "月",
+    "meanings": [
+      "moon; month"
+    ],
+    "pinyin": [
+      "yuè"
+    ],
+    "strokeCount": 4,
+    "level": 1,
+    "frequencyRank": 161,
+    "components": [
+      "二"
+    ],
+    "lessonOrder": 41
+  },
+  {
+    "char": "有",
+    "meanings": [
+      "to have",
+      "to own",
+      "to possess; to exist"
+    ],
+    "pinyin": [
+      "yǒu"
+    ],
+    "strokeCount": 6,
+    "level": 1,
+    "frequencyRank": 9,
+    "components": [
+      "月"
+    ],
+    "lessonOrder": 42
+  },
+  {
+    "char": "三",
+    "meanings": [
+      "three"
+    ],
+    "pinyin": [
+      "sān"
+    ],
+    "strokeCount": 3,
+    "level": 1,
+    "frequencyRank": 233,
+    "components": [
+      "一",
+      "二"
+    ],
+    "lessonOrder": 43
+  },
+  {
+    "char": "五",
+    "meanings": [
+      "five; surname"
+    ],
+    "pinyin": [
+      "wǔ"
+    ],
+    "strokeCount": 4,
+    "level": 1,
+    "frequencyRank": 563,
+    "components": [
+      "二"
+    ],
+    "lessonOrder": 44
+  },
+  {
+    "char": "些",
+    "meanings": [
+      "little",
+      "few; rather",
+      "somewhat"
+    ],
+    "pinyin": [
+      "xiē"
+    ],
+    "strokeCount": 8,
+    "level": 1,
+    "frequencyRank": 611,
+    "components": [
+      "二"
+    ],
+    "lessonOrder": 45
+  },
+  {
+    "char": "十",
+    "meanings": [
+      "ten",
+      "tenth; complete; perfect"
+    ],
+    "pinyin": [
+      "shí"
+    ],
+    "strokeCount": 2,
+    "level": 1,
+    "frequencyRank": 865,
+    "components": [
+      "一"
+    ],
+    "lessonOrder": 46
+  },
+  {
+    "char": "字",
+    "meanings": [
+      "character",
+      "letter",
+      "symbol",
+      "word"
+    ],
+    "pinyin": [
+      "zì"
+    ],
+    "strokeCount": 6,
+    "level": 1,
+    "frequencyRank": 913,
+    "components": [],
+    "lessonOrder": 47
+  },
+  {
+    "char": "热",
+    "meanings": [
+      "heat",
+      "fever",
+      "zeal"
+    ],
+    "pinyin": [
+      "rè"
+    ],
+    "strokeCount": 10,
+    "level": 1,
+    "frequencyRank": 938,
+    "components": [],
+    "lessonOrder": 48
+  },
+  {
+    "char": "冷",
+    "meanings": [
+      "cold",
+      "cool; lonely"
+    ],
+    "pinyin": [
+      "lěng"
+    ],
+    "strokeCount": 7,
+    "level": 1,
+    "frequencyRank": 1027,
+    "components": [],
+    "lessonOrder": 49
+  },
+  {
+    "char": "猫",
+    "meanings": [
+      "cat"
+    ],
+    "pinyin": [
+      "māo"
+    ],
+    "strokeCount": 11,
+    "level": 1,
+    "frequencyRank": 1150,
+    "components": [],
+    "lessonOrder": 50
+  },
+  {
+    "char": "八",
+    "meanings": [
+      "eight; all around",
+      "all sides"
+    ],
+    "pinyin": [
+      "bā"
+    ],
+    "strokeCount": 2,
+    "level": 1,
+    "frequencyRank": 1362,
+    "components": [],
+    "lessonOrder": 51
+  },
+  {
+    "char": "小",
+    "meanings": [
+      "small",
+      "tiny",
+      "insignificant"
+    ],
+    "pinyin": [
+      "xiǎo"
+    ],
+    "strokeCount": 3,
+    "level": 1,
+    "frequencyRank": 100,
+    "components": [
+      "八"
+    ],
+    "lessonOrder": 52
+  },
+  {
+    "char": "少",
+    "meanings": [
+      "few",
+      "little; less; inadequate"
+    ],
+    "pinyin": [
+      "shǎo"
+    ],
+    "strokeCount": 4,
+    "level": 1,
+    "frequencyRank": 538,
+    "components": [
+      "小"
+    ],
+    "lessonOrder": 53
+  },
+  {
+    "char": "六",
+    "meanings": [
+      "six"
+    ],
+    "pinyin": [
+      "liù"
+    ],
+    "strokeCount": 4,
+    "level": 1,
+    "frequencyRank": 802,
+    "components": [
+      "八"
+    ],
+    "lessonOrder": 54
+  },
+  {
+    "char": "七",
+    "meanings": [
+      "seven"
+    ],
+    "pinyin": [
+      "qī"
+    ],
+    "strokeCount": 2,
+    "level": 1,
+    "frequencyRank": 1419,
+    "components": [
+      "一"
+    ],
+    "lessonOrder": 55
+  },
+  {
+    "char": "菜",
+    "meanings": [
+      "vegetables; order",
+      "dish; food"
+    ],
+    "pinyin": [
+      "cài"
+    ],
+    "strokeCount": 11,
+    "level": 1,
+    "frequencyRank": 1448,
+    "components": [],
+    "lessonOrder": 56
+  },
+  {
+    "char": "茶",
+    "meanings": [
+      "tea; tea leaves; tea plant"
+    ],
+    "pinyin": [
+      "chá"
+    ],
+    "strokeCount": 9,
+    "level": 1,
+    "frequencyRank": 1910,
+    "components": [
+      "人"
+    ],
+    "lessonOrder": 57
+  },
+  {
+    "char": "零",
+    "meanings": [
+      "zero; fragment",
+      "fraction"
+    ],
+    "pinyin": [
+      "líng"
+    ],
+    "strokeCount": 13,
+    "level": 1,
+    "frequencyRank": 3623,
+    "components": [],
+    "lessonOrder": 58
+  },
+  {
+    "char": "就",
+    "meanings": [
+      "just",
+      "simply; to go to; to approach",
+      "near"
+    ],
+    "pinyin": [
+      "jiù"
+    ],
+    "strokeCount": 12,
+    "level": 2,
+    "frequencyRank": 15,
+    "components": [],
+    "lessonOrder": 59
+  },
+  {
+    "char": "要",
+    "meanings": [
+      "essential",
+      "necessary; to ask for; to coerce; to demand"
+    ],
+    "pinyin": [
+      "yào"
+    ],
+    "strokeCount": 9,
+    "level": 2,
+    "frequencyRank": 19,
+    "components": [],
+    "lessonOrder": 60
+  },
+  {
+    "char": "也",
+    "meanings": [
+      "also",
+      "too"
+    ],
+    "pinyin": [
+      "yě"
+    ],
+    "strokeCount": 3,
+    "level": 2,
+    "frequencyRank": 23,
+    "components": [],
+    "lessonOrder": 61
+  },
+  {
+    "char": "他",
+    "meanings": [
+      "other",
+      "another; he",
+      "she",
+      "it"
+    ],
+    "pinyin": [
+      "tā"
+    ],
+    "strokeCount": 5,
+    "level": 1,
+    "frequencyRank": 10,
+    "components": [
+      "也"
+    ],
+    "lessonOrder": 62
+  },
+  {
+    "char": "她",
+    "meanings": [
+      "she",
+      "her"
+    ],
+    "pinyin": [
+      "tā"
+    ],
+    "strokeCount": 6,
+    "level": 1,
+    "frequencyRank": 38,
+    "components": [
+      "也"
+    ],
+    "lessonOrder": 63
+  },
+  {
+    "char": "到",
+    "meanings": [
+      "to go to",
+      "to arrive"
+    ],
+    "pinyin": [
+      "dào"
+    ],
+    "strokeCount": 8,
+    "level": 2,
+    "frequencyRank": 29,
+    "components": [],
+    "lessonOrder": 64
+  },
+  {
+    "char": "还",
+    "meanings": [
+      "also",
+      "besides; still",
+      "yet; to return"
+    ],
+    "pinyin": [
+      "hái"
+    ],
+    "strokeCount": 7,
+    "level": 2,
+    "frequencyRank": 37,
+    "components": [
+      "不"
+    ],
+    "lessonOrder": 65
+  },
+  {
+    "char": "着",
+    "meanings": [
+      "to make a move",
+      "to take action"
+    ],
+    "pinyin": [
+      "zhe"
+    ],
+    "strokeCount": 11,
+    "level": 2,
+    "frequencyRank": 38,
+    "components": [],
+    "lessonOrder": 66
+  },
+  {
+    "char": "给",
+    "meanings": [
+      "to give",
+      "to lend; for",
+      "by"
+    ],
+    "pinyin": [
+      "gěi"
+    ],
+    "strokeCount": 9,
+    "level": 2,
+    "frequencyRank": 46,
+    "components": [],
+    "lessonOrder": 67
+  },
+  {
+    "char": "让",
+    "meanings": [
+      "to allow",
+      "to permit",
+      "to yield"
+    ],
+    "pinyin": [
+      "ràng"
+    ],
+    "strokeCount": 5,
+    "level": 2,
+    "frequencyRank": 54,
+    "components": [
+      "上"
+    ],
+    "lessonOrder": 68
+  },
+  {
+    "char": "为",
+    "meanings": [
+      "to do",
+      "to act; to handle",
+      "to govern; to be"
+    ],
+    "pinyin": [
+      "wèi"
+    ],
+    "strokeCount": 4,
+    "level": 2,
+    "frequencyRank": 58,
+    "components": [],
+    "lessonOrder": 69
+  },
+  {
+    "char": "得",
+    "meanings": [
+      "to obtain",
+      "to get",
+      "to acquire; suitable",
+      "proper; ready"
+    ],
+    "pinyin": [
+      "dé"
+    ],
+    "strokeCount": 11,
+    "level": 2,
+    "frequencyRank": 58,
+    "components": [],
+    "lessonOrder": 70
+  },
+  {
+    "char": "从",
+    "meanings": [
+      "from",
+      "by",
+      "since",
+      "whence",
+      "through"
+    ],
+    "pinyin": [
+      "cóng"
+    ],
+    "strokeCount": 4,
+    "level": 2,
+    "frequencyRank": 70,
+    "components": [
+      "人",
+      "人"
+    ],
+    "lessonOrder": 71
+  },
+  {
+    "char": "坐",
+    "meanings": [
+      "seat; to sit; to ride",
+      "to travel by"
+    ],
+    "pinyin": [
+      "zuò"
+    ],
+    "strokeCount": 7,
+    "level": 1,
+    "frequencyRank": 435,
+    "components": [
+      "从"
+    ],
+    "lessonOrder": 72
+  },
+  {
+    "char": "两",
+    "meanings": [
+      "two",
+      "both",
+      "pair",
+      "couple; ounce"
+    ],
+    "pinyin": [
+      "liǎng"
+    ],
+    "strokeCount": 7,
+    "level": 2,
+    "frequencyRank": 81,
+    "components": [
+      "一",
+      "从"
+    ],
+    "lessonOrder": 73
+  },
+  {
+    "char": "出",
+    "meanings": [
+      "to go out",
+      "to send out; stand; produce"
+    ],
+    "pinyin": [
+      "chū"
+    ],
+    "strokeCount": 5,
+    "level": 2,
+    "frequencyRank": 85,
+    "components": [],
+    "lessonOrder": 74
+  },
+  {
+    "char": "再",
+    "meanings": [
+      "again",
+      "twice",
+      "re-"
+    ],
+    "pinyin": [
+      "zài"
+    ],
+    "strokeCount": 6,
+    "level": 2,
+    "frequencyRank": 91,
+    "components": [
+      "一"
+    ],
+    "lessonOrder": 75
+  },
+  {
+    "char": "走",
+    "meanings": [
+      "to walk",
+      "to run",
+      "to flee"
+    ],
+    "pinyin": [
+      "zǒu"
+    ],
+    "strokeCount": 7,
+    "level": 2,
+    "frequencyRank": 109,
+    "components": [],
+    "lessonOrder": 76
+  },
+  {
+    "char": "它",
+    "meanings": [
+      "it; other"
+    ],
+    "pinyin": [
+      "tā"
+    ],
+    "strokeCount": 5,
+    "level": 2,
+    "frequencyRank": 114,
+    "components": [],
+    "lessonOrder": 77
+  },
+  {
+    "char": "新",
+    "meanings": [
+      "new",
+      "recent",
+      "fresh",
+      "modern"
+    ],
+    "pinyin": [
+      "xīn"
+    ],
+    "strokeCount": 13,
+    "level": 2,
+    "frequencyRank": 150,
+    "components": [],
+    "lessonOrder": 78
+  },
+  {
+    "char": "找",
+    "meanings": [
+      "to search for",
+      "to look for",
+      "to find; change (as in money)"
+    ],
+    "pinyin": [
+      "zhǎo"
+    ],
+    "strokeCount": 7,
+    "level": 2,
+    "frequencyRank": 152,
+    "components": [],
+    "lessonOrder": 79
+  },
+  {
+    "char": "快",
+    "meanings": [
+      "speedy",
+      "rapid",
+      "quick; soon"
+    ],
+    "pinyin": [
+      "kuài"
+    ],
+    "strokeCount": 7,
+    "level": 2,
+    "frequencyRank": 153,
+    "components": [],
+    "lessonOrder": 80
+  },
+  {
+    "char": "比",
+    "meanings": [
+      "to compare",
+      "liken; comparison; than"
+    ],
+    "pinyin": [
+      "bǐ"
+    ],
+    "strokeCount": 4,
+    "level": 2,
+    "frequencyRank": 155,
+    "components": [],
+    "lessonOrder": 81
+  },
+  {
+    "char": "别",
+    "meanings": [
+      "to separate",
+      "to distinguish",
+      "to classify; to leave; other; do not",
+      "must not"
+    ],
+    "pinyin": [
+      "bié"
+    ],
+    "strokeCount": 7,
+    "level": 2,
+    "frequencyRank": 214,
+    "components": [],
+    "lessonOrder": 82
+  },
+  {
+    "char": "长",
+    "meanings": [
+      "long",
+      "lasting; to excel in"
+    ],
+    "pinyin": [
+      "zhǎng"
+    ],
+    "strokeCount": 4,
+    "level": 2,
+    "frequencyRank": 246,
+    "components": [
+      "一"
+    ],
+    "lessonOrder": 83
+  },
+  {
+    "char": "件",
+    "meanings": [
+      "item",
+      "matter; component",
+      "part; measure word for events"
+    ],
+    "pinyin": [
+      "jiàn"
+    ],
+    "strokeCount": 6,
+    "level": 2,
+    "frequencyRank": 292,
+    "components": [],
+    "lessonOrder": 84
+  },
+  {
+    "char": "张",
+    "meanings": [
+      "to display; to expand",
+      "to open; to stretch; a sheet of paper"
+    ],
+    "pinyin": [
+      "zhāng"
+    ],
+    "strokeCount": 7,
+    "level": 2,
+    "frequencyRank": 316,
+    "components": [
+      "长"
+    ],
+    "lessonOrder": 85
+  },
+  {
+    "char": "每",
+    "meanings": [
+      "each",
+      "every"
+    ],
+    "pinyin": [
+      "měi"
+    ],
+    "strokeCount": 7,
+    "level": 2,
+    "frequencyRank": 340,
+    "components": [],
+    "lessonOrder": 86
+  },
+  {
+    "char": "您",
+    "meanings": [
+      "honorific for 'you'"
+    ],
+    "pinyin": [
+      "nín"
+    ],
+    "strokeCount": 11,
+    "level": 2,
+    "frequencyRank": 357,
+    "components": [
+      "你"
+    ],
+    "lessonOrder": 87
+  },
+  {
+    "char": "笑",
+    "meanings": [
+      "to smile",
+      "to laugh; to giggle; to snicker"
+    ],
+    "pinyin": [
+      "xiào"
+    ],
+    "strokeCount": 10,
+    "level": 2,
+    "frequencyRank": 382,
+    "components": [],
+    "lessonOrder": 88
+  },
+  {
+    "char": "门",
+    "meanings": [
+      "gate",
+      "door",
+      "entrance",
+      "opening"
+    ],
+    "pinyin": [
+      "mén"
+    ],
+    "strokeCount": 3,
+    "level": 2,
+    "frequencyRank": 422,
+    "components": [],
+    "lessonOrder": 89
+  },
+  {
+    "char": "穿",
+    "meanings": [
+      "to drill",
+      "to pierce; to dress",
+      "to wear"
+    ],
+    "pinyin": [
+      "chuān"
+    ],
+    "strokeCount": 9,
+    "level": 2,
+    "frequencyRank": 430,
+    "components": [],
+    "lessonOrder": 90
+  },
+  {
+    "char": "外",
+    "meanings": [
+      "out",
+      "outside",
+      "external; foreign; in addition"
+    ],
+    "pinyin": [
+      "wài"
+    ],
+    "strokeCount": 5,
+    "level": 2,
+    "frequencyRank": 489,
+    "components": [],
+    "lessonOrder": 91
+  },
+  {
+    "char": "错",
+    "meanings": [
+      "error",
+      "mistake; incorrect",
+      "wrong"
+    ],
+    "pinyin": [
+      "cuò"
+    ],
+    "strokeCount": 13,
+    "level": 2,
+    "frequencyRank": 531,
+    "components": [],
+    "lessonOrder": 92
+  },
+  {
+    "char": "卖",
+    "meanings": [
+      "to sell; to betray; to show off"
+    ],
+    "pinyin": [
+      "mài"
+    ],
+    "strokeCount": 8,
+    "level": 2,
+    "frequencyRank": 590,
+    "components": [
+      "十",
+      "买"
+    ],
+    "lessonOrder": 93
+  },
+  {
+    "char": "读",
+    "meanings": [
+      "to study",
+      "to learn; to read",
+      "to pronounce"
+    ],
+    "pinyin": [
+      "dú"
+    ],
+    "strokeCount": 10,
+    "level": 1,
+    "frequencyRank": 1013,
+    "components": [
+      "卖"
+    ],
+    "lessonOrder": 94
+  },
+  {
+    "char": "懂",
+    "meanings": [
+      "to understand",
+      "to know"
+    ],
+    "pinyin": [
+      "dǒng"
+    ],
+    "strokeCount": 15,
+    "level": 2,
+    "frequencyRank": 669,
+    "components": [],
+    "lessonOrder": 95
+  },
+  {
+    "char": "药",
+    "meanings": [
+      "drugs",
+      "medicine; the leaf of the Dahurian angelica plant"
+    ],
+    "pinyin": [
+      "yào"
+    ],
+    "strokeCount": 9,
+    "level": 2,
+    "frequencyRank": 701,
+    "components": [],
+    "lessonOrder": 96
+  },
+  {
+    "char": "黑",
+    "meanings": [
+      "black; dark; evil",
+      "sinister"
+    ],
+    "pinyin": [
+      "hēi"
+    ],
+    "strokeCount": 12,
+    "level": 2,
+    "frequencyRank": 724,
+    "components": [],
+    "lessonOrder": 97
+  },
+  {
+    "char": "元",
+    "meanings": [
+      "first; dollar; origin; head"
+    ],
+    "pinyin": [
+      "yuán"
+    ],
+    "strokeCount": 4,
+    "level": 2,
+    "frequencyRank": 744,
+    "components": [
+      "二"
+    ],
+    "lessonOrder": 98
+  },
+  {
+    "char": "完",
+    "meanings": [
+      "to complete",
+      "to finish",
+      "to settle; whole"
+    ],
+    "pinyin": [
+      "wán"
+    ],
+    "strokeCount": 7,
+    "level": 2,
+    "frequencyRank": 395,
+    "components": [
+      "元"
+    ],
+    "lessonOrder": 99
+  },
+  {
+    "char": "玩",
+    "meanings": [
+      "to play with",
+      "to joke",
+      "to entertain"
+    ],
+    "pinyin": [
+      "wán"
+    ],
+    "strokeCount": 8,
+    "level": 2,
+    "frequencyRank": 415,
+    "components": [
+      "元"
+    ],
+    "lessonOrder": 100
+  },
+  {
+    "char": "远",
+    "meanings": [
+      "distant",
+      "remote",
+      "far; profound"
+    ],
+    "pinyin": [
+      "yuǎn"
+    ],
+    "strokeCount": 7,
+    "level": 2,
+    "frequencyRank": 635,
+    "components": [
+      "元"
+    ],
+    "lessonOrder": 101
+  },
+  {
+    "char": "红",
+    "meanings": [
+      "red",
+      "vermillion; to blush",
+      "to flush; popular"
+    ],
+    "pinyin": [
+      "hóng"
+    ],
+    "strokeCount": 6,
+    "level": 2,
+    "frequencyRank": 794,
+    "components": [],
+    "lessonOrder": 102
+  },
+  {
+    "char": "近",
+    "meanings": [
+      "to approach; near",
+      "close; intimate"
+    ],
+    "pinyin": [
+      "jìn"
+    ],
+    "strokeCount": 7,
+    "level": 2,
+    "frequencyRank": 822,
+    "components": [],
+    "lessonOrder": 103
+  },
+  {
+    "char": "忙",
+    "meanings": [
+      "busy",
+      "hurried",
+      "pressed for time"
+    ],
+    "pinyin": [
+      "máng"
+    ],
+    "strokeCount": 6,
+    "level": 2,
+    "frequencyRank": 859,
+    "components": [],
+    "lessonOrder": 104
+  },
+  {
+    "char": "离",
+    "meanings": [
+      "rare beast; strange; elegant"
+    ],
+    "pinyin": [
+      "lí"
+    ],
+    "strokeCount": 10,
+    "level": 2,
+    "frequencyRank": 912,
+    "components": [],
+    "lessonOrder": 105
+  },
+  {
+    "char": "票",
+    "meanings": [
+      "bank note; ticket; vote; a slip of paper"
+    ],
+    "pinyin": [
+      "piào"
+    ],
+    "strokeCount": 11,
+    "level": 2,
+    "frequencyRank": 956,
+    "components": [],
+    "lessonOrder": 106
+  },
+  {
+    "char": "鱼",
+    "meanings": [
+      "fish"
+    ],
+    "pinyin": [
+      "yú"
+    ],
+    "strokeCount": 8,
+    "level": 2,
+    "frequencyRank": 1189,
+    "components": [
+      "一"
+    ],
+    "lessonOrder": 107
+  },
+  {
+    "char": "累",
+    "meanings": [
+      "tired; to accumulate; to involve; bother",
+      "nuisance"
+    ],
+    "pinyin": [
+      "lèi"
+    ],
+    "strokeCount": 11,
+    "level": 2,
+    "frequencyRank": 1197,
+    "components": [],
+    "lessonOrder": 108
+  },
+  {
+    "char": "课",
+    "meanings": [
+      "subject",
+      "lesson",
+      "course; classwork"
+    ],
+    "pinyin": [
+      "kè"
+    ],
+    "strokeCount": 10,
+    "level": 2,
+    "frequencyRank": 1517,
+    "components": [],
+    "lessonOrder": 109
+  },
+  {
+    "char": "千",
+    "meanings": [
+      "thousand; many",
+      "numerous; very"
+    ],
+    "pinyin": [
+      "qiān"
+    ],
+    "strokeCount": 3,
+    "level": 2,
+    "frequencyRank": 1728,
+    "components": [
+      "十"
+    ],
+    "lessonOrder": 110
+  },
+  {
+    "char": "慢",
+    "meanings": [
+      "slowly",
+      "leisurely; sluggish"
+    ],
+    "pinyin": [
+      "màn"
+    ],
+    "strokeCount": 14,
+    "level": 2,
+    "frequencyRank": 1770,
+    "components": [],
+    "lessonOrder": 111
+  },
+  {
+    "char": "雪",
+    "meanings": [
+      "snow; wipe away shame",
+      "avenge"
+    ],
+    "pinyin": [
+      "xuě"
+    ],
+    "strokeCount": 11,
+    "level": 2,
+    "frequencyRank": 1971,
+    "components": [],
+    "lessonOrder": 112
+  },
+  {
+    "char": "贵",
+    "meanings": [
+      "expensive",
+      "costly; valuable",
+      "precious"
+    ],
+    "pinyin": [
+      "guì"
+    ],
+    "strokeCount": 9,
+    "level": 2,
+    "frequencyRank": 2239,
+    "components": [
+      "一"
+    ],
+    "lessonOrder": 113
+  },
+  {
+    "char": "踢",
+    "meanings": [
+      "to kick"
+    ],
+    "pinyin": [
+      "tī"
+    ],
+    "strokeCount": 15,
+    "level": 2,
+    "frequencyRank": 2330,
+    "components": [],
+    "lessonOrder": 114
+  },
+  {
+    "char": "姓",
+    "meanings": [
+      "name",
+      "family name",
+      "surname; clan",
+      "people"
+    ],
+    "pinyin": [
+      "xìng"
+    ],
+    "strokeCount": 8,
+    "level": 2,
+    "frequencyRank": 3576,
+    "components": [],
+    "lessonOrder": 115
+  },
+  {
+    "char": "阴",
+    "meanings": [
+      "the female principle; dark",
+      "shaded; hidden",
+      "implicit",
+      "secret"
+    ],
+    "pinyin": [
+      "yīn"
+    ],
+    "strokeCount": 6,
+    "level": 2,
+    "frequencyRank": 4058,
+    "components": [
+      "月"
+    ],
+    "lessonOrder": 116
+  },
+  {
+    "char": "把",
+    "meanings": [
+      "to grasp",
+      "to hold; to guard",
+      "to take; handle"
+    ],
+    "pinyin": [
+      "bǎ"
+    ],
+    "strokeCount": 7,
+    "level": 3,
+    "frequencyRank": 50,
+    "components": [],
+    "lessonOrder": 117
+  },
+  {
+    "char": "被",
+    "meanings": [
+      "bedding; a passive particle meaning \"by\""
+    ],
+    "pinyin": [
+      "bèi"
+    ],
+    "strokeCount": 10,
+    "level": 3,
+    "frequencyRank": 54,
+    "components": [],
+    "lessonOrder": 118
+  },
+  {
+    "char": "用",
+    "meanings": [
+      "to use",
+      "to employ",
+      "to apply; use"
+    ],
+    "pinyin": [
+      "yòng"
+    ],
+    "strokeCount": 5,
+    "level": 3,
+    "frequencyRank": 79,
+    "components": [],
+    "lessonOrder": 119
+  },
+  {
+    "char": "又",
+    "meanings": [
+      "and",
+      "also",
+      "again",
+      "in addition"
+    ],
+    "pinyin": [
+      "yòu"
+    ],
+    "strokeCount": 2,
+    "level": 3,
+    "frequencyRank": 91,
+    "components": [],
+    "lessonOrder": 120
+  },
+  {
+    "char": "更",
+    "meanings": [
+      "more",
+      "further; to shift",
+      "to alternate; to modify"
+    ],
+    "pinyin": [
+      "gèng"
+    ],
+    "strokeCount": 7,
+    "level": 3,
+    "frequencyRank": 127,
+    "components": [
+      "一"
+    ],
+    "lessonOrder": 121
+  },
+  {
+    "char": "地",
+    "meanings": [
+      "earth",
+      "ground",
+      "soil; land",
+      "region; structural particle used before a verb"
+    ],
+    "pinyin": [
+      "de"
+    ],
+    "strokeCount": 6,
+    "level": 3,
+    "frequencyRank": 132,
+    "components": [
+      "也"
+    ],
+    "lessonOrder": 122
+  },
+  {
+    "char": "才",
+    "meanings": [
+      "ability",
+      "talent",
+      "gift; just",
+      "only"
+    ],
+    "pinyin": [
+      "cái"
+    ],
+    "strokeCount": 3,
+    "level": 3,
+    "frequencyRank": 133,
+    "components": [],
+    "lessonOrder": 123
+  },
+  {
+    "char": "在",
+    "meanings": [
+      "at",
+      "in",
+      "on; to exist; used to indicate the present progressive tense"
+    ],
+    "pinyin": [
+      "zài"
+    ],
+    "strokeCount": 6,
+    "level": 1,
+    "frequencyRank": 5,
+    "components": [
+      "才"
+    ],
+    "lessonOrder": 124
+  },
+  {
+    "char": "跟",
+    "meanings": [
+      "heel; to accompany",
+      "to follow; with"
+    ],
+    "pinyin": [
+      "gēn"
+    ],
+    "strokeCount": 13,
+    "level": 3,
+    "frequencyRank": 135,
+    "components": [],
+    "lessonOrder": 125
+  },
+  {
+    "char": "像",
+    "meanings": [
+      "picture",
+      "image",
+      "figure; to resemble"
+    ],
+    "pinyin": [
+      "xiàng"
+    ],
+    "strokeCount": 13,
+    "level": 3,
+    "frequencyRank": 151,
+    "components": [],
+    "lessonOrder": 126
+  },
+  {
+    "char": "位",
+    "meanings": [
+      "seat",
+      "throne; rank",
+      "status; position",
+      "location"
+    ],
+    "pinyin": [
+      "wèi"
+    ],
+    "strokeCount": 7,
+    "level": 3,
+    "frequencyRank": 177,
+    "components": [],
+    "lessonOrder": 127
+  },
+  {
+    "char": "带",
+    "meanings": [
+      "belt",
+      "strap; band",
+      "ribbon; area",
+      "zone; to carry",
+      "to raise",
+      "to wear"
+    ],
+    "pinyin": [
+      "dài"
+    ],
+    "strokeCount": 9,
+    "level": 3,
+    "frequencyRank": 177,
+    "components": [],
+    "lessonOrder": 128
+  },
+  {
+    "char": "种",
+    "meanings": [
+      "race",
+      "kind",
+      "breed; seed; to plant"
+    ],
+    "pinyin": [
+      "zhǒng"
+    ],
+    "strokeCount": 9,
+    "level": 3,
+    "frequencyRank": 179,
+    "components": [],
+    "lessonOrder": 129
+  },
+  {
+    "char": "老",
+    "meanings": [
+      "old",
+      "aged; experienced"
+    ],
+    "pinyin": [
+      "lǎo"
+    ],
+    "strokeCount": 6,
+    "level": 3,
+    "frequencyRank": 266,
+    "components": [],
+    "lessonOrder": 130
+  },
+  {
+    "char": "条",
+    "meanings": [
+      "clause",
+      "condition; string",
+      "stripe"
+    ],
+    "pinyin": [
+      "tiáo"
+    ],
+    "strokeCount": 7,
+    "level": 3,
+    "frequencyRank": 277,
+    "components": [],
+    "lessonOrder": 131
+  },
+  {
+    "char": "拿",
+    "meanings": [
+      "to bring",
+      "to grasp",
+      "to hold",
+      "to take"
+    ],
+    "pinyin": [
+      "ná"
+    ],
+    "strokeCount": 10,
+    "level": 3,
+    "frequencyRank": 287,
+    "components": [],
+    "lessonOrder": 132
+  },
+  {
+    "char": "先",
+    "meanings": [
+      "first",
+      "former",
+      "previous"
+    ],
+    "pinyin": [
+      "xiān"
+    ],
+    "strokeCount": 6,
+    "level": 3,
+    "frequencyRank": 306,
+    "components": [],
+    "lessonOrder": 133
+  },
+  {
+    "char": "洗",
+    "meanings": [
+      "to bathe",
+      "to rinse",
+      "to wash"
+    ],
+    "pinyin": [
+      "xǐ"
+    ],
+    "strokeCount": 9,
+    "level": 2,
+    "frequencyRank": 1298,
+    "components": [
+      "先"
+    ],
+    "lessonOrder": 134
+  },
+  {
+    "char": "站",
+    "meanings": [
+      "stand",
+      "station; to halt",
+      "to stand; website; measure word for stands and stations"
+    ],
+    "pinyin": [
+      "zhàn"
+    ],
+    "strokeCount": 10,
+    "level": 3,
+    "frequencyRank": 399,
+    "components": [],
+    "lessonOrder": 135
+  },
+  {
+    "char": "使",
+    "meanings": [
+      "cause",
+      "mission",
+      "orders; envoy",
+      "messenger",
+      "ambassador"
+    ],
+    "pinyin": [
+      "shǐ"
+    ],
+    "strokeCount": 8,
+    "level": 3,
+    "frequencyRank": 400,
+    "components": [],
+    "lessonOrder": 136
+  },
+  {
+    "char": "信",
+    "meanings": [
+      "to trust",
+      "to believe; letter",
+      "sign"
+    ],
+    "pinyin": [
+      "xìn"
+    ],
+    "strokeCount": 9,
+    "level": 3,
+    "frequencyRank": 419,
+    "components": [],
+    "lessonOrder": 137
+  },
+  {
+    "char": "接",
+    "meanings": [
+      "to connect",
+      "to join; to receive",
+      "to meet",
+      "to answer the phone"
+    ],
+    "pinyin": [
+      "jiē"
+    ],
+    "strokeCount": 11,
+    "level": 3,
+    "frequencyRank": 425,
+    "components": [],
+    "lessonOrder": 138
+  },
+  {
+    "char": "花",
+    "meanings": [
+      "flower",
+      "blossom; to spend (time or money)"
+    ],
+    "pinyin": [
+      "huā"
+    ],
+    "strokeCount": 7,
+    "level": 3,
+    "frequencyRank": 435,
+    "components": [],
+    "lessonOrder": 139
+  },
+  {
+    "char": "难",
+    "meanings": [
+      "hard",
+      "difficult",
+      "arduous; unable"
+    ],
+    "pinyin": [
+      "nán"
+    ],
+    "strokeCount": 10,
+    "level": 3,
+    "frequencyRank": 544,
+    "components": [
+      "又"
+    ],
+    "lessonOrder": 140
+  },
+  {
+    "char": "万",
+    "meanings": [
+      "ten thousand; innumerable"
+    ],
+    "pinyin": [
+      "wàn"
+    ],
+    "strokeCount": 3,
+    "level": 3,
+    "frequencyRank": 557,
+    "components": [
+      "一"
+    ],
+    "lessonOrder": 141
+  },
+  {
+    "char": "越",
+    "meanings": [
+      "to exceed",
+      "to surpass",
+      "to transcend"
+    ],
+    "pinyin": [
+      "yuè"
+    ],
+    "strokeCount": 12,
+    "level": 3,
+    "frequencyRank": 574,
+    "components": [
+      "走"
+    ],
+    "lessonOrder": 142
+  },
+  {
+    "char": "马",
+    "meanings": [
+      "horse; surname"
+    ],
+    "pinyin": [
+      "mǎ"
+    ],
+    "strokeCount": 3,
+    "level": 3,
+    "frequencyRank": 605,
+    "components": [
+      "一"
+    ],
+    "lessonOrder": 143
+  },
+  {
+    "char": "换",
+    "meanings": [
+      "to change; to exchange",
+      "to swap",
+      "to trade"
+    ],
+    "pinyin": [
+      "huàn"
+    ],
+    "strokeCount": 10,
+    "level": 3,
+    "frequencyRank": 618,
+    "components": [],
+    "lessonOrder": 144
+  },
+  {
+    "char": "脸",
+    "meanings": [
+      "face",
+      "cheek; reputation"
+    ],
+    "pinyin": [
+      "liǎn"
+    ],
+    "strokeCount": 11,
+    "level": 3,
+    "frequencyRank": 629,
+    "components": [],
+    "lessonOrder": 145
+  },
+  {
+    "char": "口",
+    "meanings": [
+      "mouth; entrance",
+      "gate",
+      "opening"
+    ],
+    "pinyin": [
+      "kǒu"
+    ],
+    "strokeCount": 3,
+    "level": 3,
+    "frequencyRank": 637,
+    "components": [
+      "一"
+    ],
+    "lessonOrder": 146
+  },
+  {
+    "char": "和",
+    "meanings": [
+      "harmony",
+      "peace; calm",
+      "peaceful"
+    ],
+    "pinyin": [
+      "hé"
+    ],
+    "strokeCount": 8,
+    "level": 1,
+    "frequencyRank": 19,
+    "components": [
+      "口"
+    ],
+    "lessonOrder": 147
+  },
+  {
+    "char": "吗",
+    "meanings": [
+      "final interrogative particle"
+    ],
+    "pinyin": [
+      "ma"
+    ],
+    "strokeCount": 6,
+    "level": 1,
+    "frequencyRank": 83,
+    "components": [
+      "口",
+      "马"
+    ],
+    "lessonOrder": 148
+  },
+  {
+    "char": "呢",
+    "meanings": [
+      "wool; interrogative or emphatic final particle"
+    ],
+    "pinyin": [
+      "né",
+      "ne"
+    ],
+    "strokeCount": 8,
+    "level": 1,
+    "frequencyRank": 96,
+    "components": [
+      "口"
+    ],
+    "lessonOrder": 149
+  },
+  {
+    "char": "吃",
+    "meanings": [
+      "to eat; to drink; to suffer",
+      "to endure",
+      "to bear"
+    ],
+    "pinyin": [
+      "chī"
+    ],
+    "strokeCount": 6,
+    "level": 1,
+    "frequencyRank": 142,
+    "components": [
+      "口"
+    ],
+    "lessonOrder": 150
+  },
+  {
+    "char": "听",
+    "meanings": [
+      "to hear",
+      "to listen; to understand; to obey"
+    ],
+    "pinyin": [
+      "tīng"
+    ],
+    "strokeCount": 7,
+    "level": 1,
+    "frequencyRank": 190,
+    "components": [
+      "口"
+    ],
+    "lessonOrder": 151
+  },
+  {
+    "char": "叫",
+    "meanings": [
+      "cry",
+      "shout; to call",
+      "to greet",
+      "to hail"
+    ],
+    "pinyin": [
+      "jiào"
+    ],
+    "strokeCount": 5,
+    "level": 1,
+    "frequencyRank": 200,
+    "components": [
+      "口"
+    ],
+    "lessonOrder": 152
+  },
+  {
+    "char": "回",
+    "meanings": [
+      "to return",
+      "to turn around; a time"
+    ],
+    "pinyin": [
+      "huí"
+    ],
+    "strokeCount": 6,
+    "level": 1,
+    "frequencyRank": 225,
+    "components": [
+      "口"
+    ],
+    "lessonOrder": 153
+  },
+  {
+    "char": "日",
+    "meanings": [
+      "sun; day; daytime"
+    ],
+    "pinyin": [
+      "rì"
+    ],
+    "strokeCount": 4,
+    "level": 1,
+    "frequencyRank": 395,
+    "components": [
+      "口",
+      "一"
+    ],
+    "lessonOrder": 154
+  },
+  {
+    "char": "是",
+    "meanings": [
+      "to be; indeed",
+      "right",
+      "yes; okay"
+    ],
+    "pinyin": [
+      "shì"
+    ],
+    "strokeCount": 9,
+    "level": 1,
+    "frequencyRank": 4,
+    "components": [
+      "日"
+    ],
+    "lessonOrder": 155
+  },
+  {
+    "char": "喝",
+    "meanings": [
+      "to drink; to shout",
+      "to call out"
+    ],
+    "pinyin": [
+      "hē"
+    ],
+    "strokeCount": 12,
+    "level": 1,
+    "frequencyRank": 428,
+    "components": [
+      "口"
+    ],
+    "lessonOrder": 156
+  },
+  {
+    "char": "哪",
+    "meanings": [
+      "which? where? how?"
+    ],
+    "pinyin": [
+      "nǎ"
+    ],
+    "strokeCount": 9,
+    "level": 1,
+    "frequencyRank": 547,
+    "components": [
+      "口",
+      "那"
+    ],
+    "lessonOrder": 157
+  },
+  {
+    "char": "喂",
+    "meanings": [
+      "interjection used to call attention"
+    ],
+    "pinyin": [
+      "wèi"
+    ],
+    "strokeCount": 12,
+    "level": 1,
+    "frequencyRank": 1301,
+    "components": [
+      "口"
+    ],
+    "lessonOrder": 158
+  },
+  {
+    "char": "吧",
+    "meanings": [
+      "emphatic final particle"
+    ],
+    "pinyin": [
+      "bā"
+    ],
+    "strokeCount": 7,
+    "level": 2,
+    "frequencyRank": 58,
+    "components": [
+      "口"
+    ],
+    "lessonOrder": 159
+  },
+  {
+    "char": "向",
+    "meanings": [
+      "towards; direction",
+      "trend"
+    ],
+    "pinyin": [
+      "xiàng"
+    ],
+    "strokeCount": 6,
+    "level": 2,
+    "frequencyRank": 165,
+    "components": [
+      "口"
+    ],
+    "lessonOrder": 160
+  },
+  {
+    "char": "问",
+    "meanings": [
+      "to ask about",
+      "to inquire after"
+    ],
+    "pinyin": [
+      "wèn"
+    ],
+    "strokeCount": 6,
+    "level": 2,
+    "frequencyRank": 246,
+    "components": [
+      "门",
+      "口"
+    ],
+    "lessonOrder": 161
+  },
+  {
+    "char": "号",
+    "meanings": [
+      "mark",
+      "sign; symbol; number; to call",
+      "to cry",
+      "to roar"
+    ],
+    "pinyin": [
+      "hào"
+    ],
+    "strokeCount": 5,
+    "level": 2,
+    "frequencyRank": 278,
+    "components": [
+      "口"
+    ],
+    "lessonOrder": 162
+  },
+  {
+    "char": "高",
+    "meanings": [
+      "tall",
+      "lofty; high",
+      "elevated"
+    ],
+    "pinyin": [
+      "gāo"
+    ],
+    "strokeCount": 10,
+    "level": 2,
+    "frequencyRank": 290,
+    "components": [
+      "口"
+    ],
+    "lessonOrder": 163
+  },
+  {
+    "char": "白",
+    "meanings": [
+      "white; clear",
+      "pure",
+      "unblemished; bright"
+    ],
+    "pinyin": [
+      "bái"
+    ],
+    "strokeCount": 5,
+    "level": 2,
+    "frequencyRank": 930,
+    "components": [
+      "日"
+    ],
+    "lessonOrder": 164
+  },
+  {
+    "char": "的",
+    "meanings": [
+      "aim",
+      "goal; of; possessive particle; -self suffix"
+    ],
+    "pinyin": [
+      "de"
+    ],
+    "strokeCount": 8,
+    "level": 1,
+    "frequencyRank": 1,
+    "components": [
+      "白"
+    ],
+    "lessonOrder": 165
+  },
+  {
+    "char": "百",
+    "meanings": [
+      "one hundred; numerous",
+      "many"
+    ],
+    "pinyin": [
+      "bǎi"
+    ],
+    "strokeCount": 6,
+    "level": 2,
+    "frequencyRank": 2455,
+    "components": [
+      "一",
+      "白"
+    ],
+    "lessonOrder": 166
+  },
+  {
+    "char": "啊",
+    "meanings": [
+      "ah",
+      "exclamatory particle"
+    ],
+    "pinyin": [
+      "a"
+    ],
+    "strokeCount": 10,
+    "level": 3,
+    "frequencyRank": 47,
+    "components": [
+      "口"
+    ],
+    "lessonOrder": 167
+  },
+  {
+    "char": "只",
+    "meanings": [
+      "only",
+      "merely",
+      "just"
+    ],
+    "pinyin": [
+      "zhī"
+    ],
+    "strokeCount": 5,
+    "level": 3,
+    "frequencyRank": 98,
+    "components": [
+      "口",
+      "八"
+    ],
+    "lessonOrder": 168
+  },
+  {
+    "char": "双",
+    "meanings": [
+      "pair",
+      "couple; both; measure word for things that come in pairs"
+    ],
+    "pinyin": [
+      "shuāng"
+    ],
+    "strokeCount": 4,
+    "level": 3,
+    "frequencyRank": 642,
+    "components": [
+      "又",
+      "又"
+    ],
+    "lessonOrder": 169
+  },
+  {
+    "char": "段",
+    "meanings": [
+      "section",
+      "piece",
+      "division"
+    ],
+    "pinyin": [
+      "duàn"
+    ],
+    "strokeCount": 9,
+    "level": 3,
+    "frequencyRank": 647,
+    "components": [],
+    "lessonOrder": 170
+  },
+  {
+    "char": "米",
+    "meanings": [
+      "rice",
+      "millet",
+      "grain"
+    ],
+    "pinyin": [
+      "mǐ"
+    ],
+    "strokeCount": 6,
+    "level": 3,
+    "frequencyRank": 663,
+    "components": [],
+    "lessonOrder": 171
+  },
+  {
+    "char": "辆",
+    "meanings": [
+      "measure word for vehicles"
+    ],
+    "pinyin": [
+      "liàng"
+    ],
+    "strokeCount": 11,
+    "level": 3,
+    "frequencyRank": 699,
+    "components": [
+      "两"
+    ],
+    "lessonOrder": 172
+  },
+  {
+    "char": "半",
+    "meanings": [
+      "half; semi-",
+      "incomplete"
+    ],
+    "pinyin": [
+      "bàn"
+    ],
+    "strokeCount": 5,
+    "level": 3,
+    "frequencyRank": 727,
+    "components": [],
+    "lessonOrder": 173
+  },
+  {
+    "char": "包",
+    "meanings": [
+      "wrap",
+      "pack",
+      "bundle; package"
+    ],
+    "pinyin": [
+      "bāo"
+    ],
+    "strokeCount": 5,
+    "level": 3,
+    "frequencyRank": 755,
+    "components": [],
+    "lessonOrder": 174
+  },
+  {
+    "char": "楼",
+    "meanings": [
+      "multi-story building; floor"
+    ],
+    "pinyin": [
+      "lóu"
+    ],
+    "strokeCount": 13,
+    "level": 3,
+    "frequencyRank": 765,
+    "components": [],
+    "lessonOrder": 175
+  },
+  {
+    "char": "敢",
+    "meanings": [
+      "bold",
+      "brave; to dare",
+      "to venture"
+    ],
+    "pinyin": [
+      "gǎn"
+    ],
+    "strokeCount": 11,
+    "level": 3,
+    "frequencyRank": 902,
+    "components": [],
+    "lessonOrder": 176
+  },
+  {
+    "char": "低",
+    "meanings": [
+      "low; to lower",
+      "to hang; to bend",
+      "to bow"
+    ],
+    "pinyin": [
+      "dī"
+    ],
+    "strokeCount": 7,
+    "level": 3,
+    "frequencyRank": 951,
+    "components": [],
+    "lessonOrder": 177
+  },
+  {
+    "char": "西",
+    "meanings": [
+      "west",
+      "western",
+      "westward"
+    ],
+    "pinyin": [
+      "xī"
+    ],
+    "strokeCount": 6,
+    "level": 3,
+    "frequencyRank": 958,
+    "components": [],
+    "lessonOrder": 178
+  },
+  {
+    "char": "差",
+    "meanings": [
+      "difference",
+      "gap; almost",
+      "nearly; in error; an officer"
+    ],
+    "pinyin": [
+      "chà"
+    ],
+    "strokeCount": 9,
+    "level": 3,
+    "frequencyRank": 968,
+    "components": [],
+    "lessonOrder": 179
+  },
+  {
+    "char": "短",
+    "meanings": [
+      "brief",
+      "short; deficient",
+      "lacking"
+    ],
+    "pinyin": [
+      "duǎn"
+    ],
+    "strokeCount": 12,
+    "level": 3,
+    "frequencyRank": 983,
+    "components": [],
+    "lessonOrder": 180
+  },
+  {
+    "char": "教",
+    "meanings": [
+      "school",
+      "education"
+    ],
+    "pinyin": [
+      "jiào"
+    ],
+    "strokeCount": 11,
+    "level": 3,
+    "frequencyRank": 988,
+    "components": [],
+    "lessonOrder": 181
+  },
+  {
+    "char": "久",
+    "meanings": [
+      "long ago; a long time"
+    ],
+    "pinyin": [
+      "jiǔ"
+    ],
+    "strokeCount": 3,
+    "level": 3,
+    "frequencyRank": 1103,
+    "components": [],
+    "lessonOrder": 182
+  },
+  {
+    "char": "画",
+    "meanings": [
+      "picture",
+      "painting",
+      "drawing; to draw"
+    ],
+    "pinyin": [
+      "huà"
+    ],
+    "strokeCount": 8,
+    "level": 3,
+    "frequencyRank": 1119,
+    "components": [
+      "一"
+    ],
+    "lessonOrder": 183
+  },
+  {
+    "char": "关",
+    "meanings": [
+      "frontier pass; to close",
+      "to shut; relation"
+    ],
+    "pinyin": [
+      "guān"
+    ],
+    "strokeCount": 6,
+    "level": 3,
+    "frequencyRank": 1129,
+    "components": [],
+    "lessonOrder": 184
+  },
+  {
+    "char": "送",
+    "meanings": [
+      "to see off",
+      "to send off",
+      "to dispatch; to give"
+    ],
+    "pinyin": [
+      "sòng"
+    ],
+    "strokeCount": 9,
+    "level": 2,
+    "frequencyRank": 370,
+    "components": [
+      "关"
+    ],
+    "lessonOrder": 185
+  },
+  {
+    "char": "祝",
+    "meanings": [
+      "to pray; to wish well; surname"
+    ],
+    "pinyin": [
+      "zhù"
+    ],
+    "strokeCount": 9,
+    "level": 3,
+    "frequencyRank": 1197,
+    "components": [],
+    "lessonOrder": 186
+  },
+  {
+    "char": "班",
+    "meanings": [
+      "class",
+      "squad",
+      "team",
+      "work shift"
+    ],
+    "pinyin": [
+      "bān"
+    ],
+    "strokeCount": 10,
+    "level": 3,
+    "frequencyRank": 1238,
+    "components": [],
+    "lessonOrder": 187
+  },
+  {
+    "char": "坏",
+    "meanings": [
+      "bad",
+      "rotten",
+      "spoiled; to break down"
+    ],
+    "pinyin": [
+      "huài"
+    ],
+    "strokeCount": 7,
+    "level": 3,
+    "frequencyRank": 1239,
+    "components": [
+      "不"
+    ],
+    "lessonOrder": 188
+  },
+  {
+    "char": "鞋",
+    "meanings": [
+      "shoes",
+      "footwear in general"
+    ],
+    "pinyin": [
+      "xié"
+    ],
+    "strokeCount": 15,
+    "level": 3,
+    "frequencyRank": 1249,
+    "components": [],
+    "lessonOrder": 189
+  },
+  {
+    "char": "极",
+    "meanings": [
+      "extreme",
+      "top; final",
+      "furthest",
+      "utmost; pole"
+    ],
+    "pinyin": [
+      "jí"
+    ],
+    "strokeCount": 7,
+    "level": 3,
+    "frequencyRank": 1404,
+    "components": [],
+    "lessonOrder": 190
+  },
+  {
+    "char": "饿",
+    "meanings": [
+      "hungry; greedy"
+    ],
+    "pinyin": [
+      "è"
+    ],
+    "strokeCount": 10,
+    "level": 3,
+    "frequencyRank": 1477,
+    "components": [
+      "我"
+    ],
+    "lessonOrder": 191
+  },
+  {
+    "char": "借",
+    "meanings": [
+      "to borrow; to lend; excuse",
+      "pretext"
+    ],
+    "pinyin": [
+      "jiè"
+    ],
+    "strokeCount": 10,
+    "level": 3,
+    "frequencyRank": 1495,
+    "components": [],
+    "lessonOrder": 192
+  },
+  {
+    "char": "东",
+    "meanings": [
+      "east",
+      "eastern",
+      "eastward"
+    ],
+    "pinyin": [
+      "dōng"
+    ],
+    "strokeCount": 5,
+    "level": 3,
+    "frequencyRank": 1509,
+    "components": [
+      "七",
+      "小"
+    ],
+    "lessonOrder": 193
+  },
+  {
+    "char": "鸟",
+    "meanings": [
+      "bird"
+    ],
+    "pinyin": [
+      "niǎo"
+    ],
+    "strokeCount": 5,
+    "level": 3,
+    "frequencyRank": 1593,
+    "components": [],
+    "lessonOrder": 194
+  },
+  {
+    "char": "蓝",
+    "meanings": [
+      "blue; indigo plant; surname"
+    ],
+    "pinyin": [
+      "lán"
+    ],
+    "strokeCount": 13,
+    "level": 3,
+    "frequencyRank": 1615,
+    "components": [],
+    "lessonOrder": 195
+  },
+  {
+    "char": "旧",
+    "meanings": [
+      "old",
+      "ancient; former",
+      "past"
+    ],
+    "pinyin": [
+      "jiù"
+    ],
+    "strokeCount": 5,
+    "level": 3,
+    "frequencyRank": 1787,
+    "components": [
+      "日"
+    ],
+    "lessonOrder": 196
+  },
+  {
+    "char": "糖",
+    "meanings": [
+      "candy",
+      "sugar",
+      "sweets"
+    ],
+    "pinyin": [
+      "táng"
+    ],
+    "strokeCount": 16,
+    "level": 3,
+    "frequencyRank": 2036,
+    "components": [
+      "米"
+    ],
+    "lessonOrder": 197
+  },
+  {
+    "char": "骑",
+    "meanings": [
+      "to ride",
+      "to mount; cavalry"
+    ],
+    "pinyin": [
+      "qí"
+    ],
+    "strokeCount": 11,
+    "level": 3,
+    "frequencyRank": 2231,
+    "components": [
+      "马"
+    ],
+    "lessonOrder": 198
+  },
+  {
+    "char": "河",
+    "meanings": [
+      "river",
+      "stream; the Yellow river"
+    ],
+    "pinyin": [
+      "hé"
+    ],
+    "strokeCount": 8,
+    "level": 3,
+    "frequencyRank": 2245,
+    "components": [],
+    "lessonOrder": 199
+  },
+  {
+    "char": "搬",
+    "meanings": [
+      "to move",
+      "to remove",
+      "to shift",
+      "to transfer"
+    ],
+    "pinyin": [
+      "bān"
+    ],
+    "strokeCount": 13,
+    "level": 3,
+    "frequencyRank": 2254,
+    "components": [],
+    "lessonOrder": 200
+  },
+  {
+    "char": "角",
+    "meanings": [
+      "angle",
+      "corner; horn",
+      "horn-shaped"
+    ],
+    "pinyin": [
+      "jiǎo"
+    ],
+    "strokeCount": 7,
+    "level": 3,
+    "frequencyRank": 2370,
+    "components": [
+      "用"
+    ],
+    "lessonOrder": 201
+  },
+  {
+    "char": "胖",
+    "meanings": [
+      "fat",
+      "plump",
+      "obese; a fat person"
+    ],
+    "pinyin": [
+      "pàng"
+    ],
+    "strokeCount": 9,
+    "level": 3,
+    "frequencyRank": 2396,
+    "components": [
+      "半"
+    ],
+    "lessonOrder": 202
+  },
+  {
+    "char": "草",
+    "meanings": [
+      "grass",
+      "herbs; straw",
+      "thatch"
+    ],
+    "pinyin": [
+      "cǎo"
+    ],
+    "strokeCount": 9,
+    "level": 3,
+    "frequencyRank": 2467,
+    "components": [],
+    "lessonOrder": 203
+  },
+  {
+    "char": "甜",
+    "meanings": [
+      "sweet",
+      "sweetness"
+    ],
+    "pinyin": [
+      "tián"
+    ],
+    "strokeCount": 11,
+    "level": 3,
+    "frequencyRank": 2472,
+    "components": [],
+    "lessonOrder": 204
+  },
+  {
+    "char": "瘦",
+    "meanings": [
+      "thin",
+      "lean",
+      "emaciated; meager"
+    ],
+    "pinyin": [
+      "shòu"
+    ],
+    "strokeCount": 14,
+    "level": 3,
+    "frequencyRank": 2595,
+    "components": [],
+    "lessonOrder": 205
+  },
+  {
+    "char": "绿",
+    "meanings": [
+      "green; chlorine"
+    ],
+    "pinyin": [
+      "lǜ"
+    ],
+    "strokeCount": 11,
+    "level": 3,
+    "frequencyRank": 2608,
+    "components": [],
+    "lessonOrder": 206
+  },
+  {
+    "char": "碗",
+    "meanings": [
+      "bowl",
+      "small dish"
+    ],
+    "pinyin": [
+      "wǎn"
+    ],
+    "strokeCount": 13,
+    "level": 3,
+    "frequencyRank": 2866,
+    "components": [],
+    "lessonOrder": 207
+  },
+  {
+    "char": "刷",
+    "meanings": [
+      "brush; to clean",
+      "to scrub"
+    ],
+    "pinyin": [
+      "shuā"
+    ],
+    "strokeCount": 8,
+    "level": 3,
+    "frequencyRank": 3060,
+    "components": [],
+    "lessonOrder": 208
+  },
+  {
+    "char": "云",
+    "meanings": [
+      "cloud; to say",
+      "to speak"
+    ],
+    "pinyin": [
+      "yún"
+    ],
+    "strokeCount": 4,
+    "level": 3,
+    "frequencyRank": 3335,
+    "components": [
+      "二"
+    ],
+    "lessonOrder": 209
+  },
+  {
+    "char": "会",
+    "meanings": [
+      "to assemble",
+      "to meet; meeting; association",
+      "group"
+    ],
+    "pinyin": [
+      "huì"
+    ],
+    "strokeCount": 6,
+    "level": 1,
+    "frequencyRank": 23,
+    "components": [
+      "人",
+      "云"
+    ],
+    "lessonOrder": 210
+  },
+  {
+    "char": "层",
+    "meanings": [
+      "layer",
+      "floor",
+      "story",
+      "stratum"
+    ],
+    "pinyin": [
+      "céng"
+    ],
+    "strokeCount": 7,
+    "level": 3,
+    "frequencyRank": 1202,
+    "components": [
+      "云"
+    ],
+    "lessonOrder": 211
+  },
+  {
+    "char": "刻",
+    "meanings": [
+      "to carve",
+      "to engrave; a quarter hour; a moment"
+    ],
+    "pinyin": [
+      "kè"
+    ],
+    "strokeCount": 8,
+    "level": 3,
+    "frequencyRank": 3756,
+    "components": [],
+    "lessonOrder": 212
+  },
+  {
+    "char": "夏",
+    "meanings": [
+      "summer; the Xia or Hsia dynasty"
+    ],
+    "pinyin": [
+      "xià"
+    ],
+    "strokeCount": 10,
+    "level": 3,
+    "frequencyRank": 3828,
+    "components": [
+      "一"
+    ],
+    "lessonOrder": 213
+  },
+  {
+    "char": "刮",
+    "meanings": [
+      "to shave; to scrape; to blow"
+    ],
+    "pinyin": [
+      "guā"
+    ],
+    "strokeCount": 8,
+    "level": 3,
+    "frequencyRank": 3910,
+    "components": [],
+    "lessonOrder": 214
+  },
+  {
+    "char": "矮",
+    "meanings": [
+      "short",
+      "low; dwarf"
+    ],
+    "pinyin": [
+      "ǎi"
+    ],
+    "strokeCount": 13,
+    "level": 3,
+    "frequencyRank": 3952,
+    "components": [],
+    "lessonOrder": 215
+  },
+  {
+    "char": "春",
+    "meanings": [
+      "springtime; joyful",
+      "lustful",
+      "wanton"
+    ],
+    "pinyin": [
+      "chūn"
+    ],
+    "strokeCount": 9,
+    "level": 3,
+    "frequencyRank": 4065,
+    "components": [
+      "日"
+    ],
+    "lessonOrder": 216
+  },
+  {
+    "char": "饱",
+    "meanings": [
+      "satisfied; to eat one's fill"
+    ],
+    "pinyin": [
+      "bǎo"
+    ],
+    "strokeCount": 8,
+    "level": 3,
+    "frequencyRank": 4742,
+    "components": [
+      "包"
+    ],
+    "lessonOrder": 217
+  },
+  {
+    "char": "冬",
+    "meanings": [
+      "winter",
+      "11th lunar month"
+    ],
+    "pinyin": [
+      "dōng"
+    ],
+    "strokeCount": 5,
+    "level": 3,
+    "frequencyRank": 5272,
+    "components": [],
+    "lessonOrder": 218
+  },
+  {
+    "char": "疼",
+    "meanings": [
+      "ache",
+      "pain; to love dearly"
+    ],
+    "pinyin": [
+      "téng"
+    ],
+    "strokeCount": 10,
+    "level": 3,
+    "frequencyRank": 1641,
+    "components": [
+      "冬"
+    ],
+    "lessonOrder": 219
+  },
+  {
+    "char": "伞",
+    "meanings": [
+      "umbrella",
+      "parasol",
+      "parachute"
+    ],
+    "pinyin": [
+      "sǎn"
+    ],
+    "strokeCount": 6,
+    "level": 3,
+    "frequencyRank": 6101,
+    "components": [
+      "人"
+    ],
+    "lessonOrder": 220
+  },
+  {
+    "char": "渴",
+    "meanings": [
+      "thirsty",
+      "parched; to yearn",
+      "to pine for"
+    ],
+    "pinyin": [
+      "kě"
+    ],
+    "strokeCount": 12,
+    "level": 3,
+    "frequencyRank": 9442,
+    "components": [],
+    "lessonOrder": 221
+  },
+  {
+    "char": "对",
+    "meanings": [
+      "correct",
+      "right; facing",
+      "opposed"
+    ],
+    "pinyin": [
+      "duì"
+    ],
+    "strokeCount": 5,
+    "level": 4,
+    "frequencyRank": 28,
+    "components": [
+      "又"
+    ],
+    "lessonOrder": 222
+  },
+  {
+    "char": "树",
+    "meanings": [
+      "tree; to plant; to set up",
+      "to establish"
+    ],
+    "pinyin": [
+      "shù"
+    ],
+    "strokeCount": 9,
+    "level": 3,
+    "frequencyRank": 1481,
+    "components": [
+      "对"
+    ],
+    "lessonOrder": 223
+  },
+  {
+    "char": "过",
+    "meanings": [
+      "pass; to go across",
+      "to pass through"
+    ],
+    "pinyin": [
+      "guò"
+    ],
+    "strokeCount": 6,
+    "level": 4,
+    "frequencyRank": 60,
+    "components": [],
+    "lessonOrder": 224
+  },
+  {
+    "char": "而",
+    "meanings": [
+      "and",
+      "and then",
+      "and yet; but"
+    ],
+    "pinyin": [
+      "ér"
+    ],
+    "strokeCount": 6,
+    "level": 4,
+    "frequencyRank": 75,
+    "components": [],
+    "lessonOrder": 225
+  },
+  {
+    "char": "等",
+    "meanings": [
+      "rank",
+      "grade; same",
+      "equal; to wait"
+    ],
+    "pinyin": [
+      "děng"
+    ],
+    "strokeCount": 12,
+    "level": 4,
+    "frequencyRank": 83,
+    "components": [],
+    "lessonOrder": 226
+  },
+  {
+    "char": "与",
+    "meanings": [
+      "and; with; to; for; to give",
+      "to grant"
+    ],
+    "pinyin": [
+      "yǔ"
+    ],
+    "strokeCount": 3,
+    "level": 4,
+    "frequencyRank": 147,
+    "components": [
+      "一"
+    ],
+    "lessonOrder": 227
+  },
+  {
+    "char": "写",
+    "meanings": [
+      "to write; to draw",
+      "to sketch; to compose"
+    ],
+    "pinyin": [
+      "xiě"
+    ],
+    "strokeCount": 5,
+    "level": 1,
+    "frequencyRank": 352,
+    "components": [
+      "与"
+    ],
+    "lessonOrder": 228
+  },
+  {
+    "char": "当",
+    "meanings": [
+      "appropriate",
+      "timely; to act",
+      "to serve; the sound of bells"
+    ],
+    "pinyin": [
+      "dāng"
+    ],
+    "strokeCount": 6,
+    "level": 4,
+    "frequencyRank": 155,
+    "components": [],
+    "lessonOrder": 229
+  },
+  {
+    "char": "之",
+    "meanings": [
+      "marks preceding phrase as modifier of following phrase; it",
+      "him her",
+      "them; to go to"
+    ],
+    "pinyin": [
+      "zhī"
+    ],
+    "strokeCount": 3,
+    "level": 4,
+    "frequencyRank": 160,
+    "components": [],
+    "lessonOrder": 230
+  },
+  {
+    "char": "以",
+    "meanings": [
+      "according to; so as to; because of; then"
+    ],
+    "pinyin": [
+      "yǐ"
+    ],
+    "strokeCount": 4,
+    "level": 4,
+    "frequencyRank": 166,
+    "components": [
+      "人"
+    ],
+    "lessonOrder": 231
+  },
+  {
+    "char": "死",
+    "meanings": [
+      "dead; death; impassable",
+      "inflexible"
+    ],
+    "pinyin": [
+      "sǐ"
+    ],
+    "strokeCount": 6,
+    "level": 4,
+    "frequencyRank": 177,
+    "components": [],
+    "lessonOrder": 232
+  },
+  {
+    "char": "却",
+    "meanings": [
+      "still",
+      "but; decline; retreat"
+    ],
+    "pinyin": [
+      "què"
+    ],
+    "strokeCount": 7,
+    "level": 4,
+    "frequencyRank": 199,
+    "components": [
+      "去"
+    ],
+    "lessonOrder": 233
+  },
+  {
+    "char": "脚",
+    "meanings": [
+      "leg",
+      "foot; foundation",
+      "base"
+    ],
+    "pinyin": [
+      "jiǎo"
+    ],
+    "strokeCount": 11,
+    "level": 3,
+    "frequencyRank": 1024,
+    "components": [
+      "却"
+    ],
+    "lessonOrder": 234
+  },
+  {
+    "char": "行",
+    "meanings": [
+      "to go",
+      "to walk",
+      "to move; professional"
+    ],
+    "pinyin": [
+      "xíng"
+    ],
+    "strokeCount": 6,
+    "level": 4,
+    "frequencyRank": 272,
+    "components": [],
+    "lessonOrder": 235
+  },
+  {
+    "char": "内",
+    "meanings": [
+      "inside"
+    ],
+    "pinyin": [
+      "nèi"
+    ],
+    "strokeCount": 4,
+    "level": 4,
+    "frequencyRank": 319,
+    "components": [
+      "人"
+    ],
+    "lessonOrder": 236
+  },
+  {
+    "char": "无",
+    "meanings": [
+      "no",
+      "not; lacking",
+      "-less"
+    ],
+    "pinyin": [
+      "wú"
+    ],
+    "strokeCount": 4,
+    "level": 4,
+    "frequencyRank": 344,
+    "components": [
+      "一"
+    ],
+    "lessonOrder": 237
+  },
+  {
+    "char": "由",
+    "meanings": [
+      "cause",
+      "reason; from"
+    ],
+    "pinyin": [
+      "yóu"
+    ],
+    "strokeCount": 5,
+    "level": 4,
+    "frequencyRank": 353,
+    "components": [],
+    "lessonOrder": 238
+  },
+  {
+    "char": "黄",
+    "meanings": [
+      "yellow; surname"
+    ],
+    "pinyin": [
+      "huáng"
+    ],
+    "strokeCount": 11,
+    "level": 3,
+    "frequencyRank": 1809,
+    "components": [
+      "由",
+      "八"
+    ],
+    "lessonOrder": 239
+  },
+  {
+    "char": "发",
+    "meanings": [
+      "to issue",
+      "to dispatch",
+      "to send out; hair"
+    ],
+    "pinyin": [
+      "fā"
+    ],
+    "strokeCount": 5,
+    "level": 4,
+    "frequencyRank": 400,
+    "components": [
+      "又"
+    ],
+    "lessonOrder": 240
+  },
+  {
+    "char": "连",
+    "meanings": [
+      "to join",
+      "to connect; continuous; even"
+    ],
+    "pinyin": [
+      "lián"
+    ],
+    "strokeCount": 7,
+    "level": 4,
+    "frequencyRank": 406,
+    "components": [],
+    "lessonOrder": 241
+  },
+  {
+    "char": "呀",
+    "meanings": [
+      "particle used to express surprise"
+    ],
+    "pinyin": [
+      "ya"
+    ],
+    "strokeCount": 7,
+    "level": 4,
+    "frequencyRank": 432,
+    "components": [
+      "口"
+    ],
+    "lessonOrder": 242
+  },
+  {
+    "char": "干",
+    "meanings": [
+      "arid",
+      "dry; to oppose; to offend; to invade"
+    ],
+    "pinyin": [
+      "gàn"
+    ],
+    "strokeCount": 3,
+    "level": 4,
+    "frequencyRank": 463,
+    "components": [
+      "一",
+      "十"
+    ],
+    "lessonOrder": 243
+  },
+  {
+    "char": "年",
+    "meanings": [
+      "year; anniversary; a person's age"
+    ],
+    "pinyin": [
+      "nián"
+    ],
+    "strokeCount": 6,
+    "level": 1,
+    "frequencyRank": 79,
+    "components": [
+      "干"
+    ],
+    "lessonOrder": 244
+  },
+  {
+    "char": "南",
+    "meanings": [
+      "south; southern; southward"
+    ],
+    "pinyin": [
+      "nán"
+    ],
+    "strokeCount": 9,
+    "level": 3,
+    "frequencyRank": 1709,
+    "components": [
+      "十",
+      "干"
+    ],
+    "lessonOrder": 245
+  },
+  {
+    "char": "拉",
+    "meanings": [
+      "to pull",
+      "to drag; to seize",
+      "to hold; to lengthen; to play (a violin)"
+    ],
+    "pinyin": [
+      "lā"
+    ],
+    "strokeCount": 8,
+    "level": 4,
+    "frequencyRank": 484,
+    "components": [],
+    "lessonOrder": 246
+  },
+  {
+    "char": "掉",
+    "meanings": [
+      "to drop",
+      "to fall",
+      "to remove"
+    ],
+    "pinyin": [
+      "diào"
+    ],
+    "strokeCount": 11,
+    "level": 4,
+    "frequencyRank": 549,
+    "components": [],
+    "lessonOrder": 247
+  },
+  {
+    "char": "指",
+    "meanings": [
+      "finger",
+      "toe; to point",
+      "to indicate"
+    ],
+    "pinyin": [
+      "zhǐ"
+    ],
+    "strokeCount": 9,
+    "level": 4,
+    "frequencyRank": 639,
+    "components": [],
+    "lessonOrder": 248
+  },
+  {
+    "char": "台",
+    "meanings": [
+      "platform; unit; term of address"
+    ],
+    "pinyin": [
+      "tái"
+    ],
+    "strokeCount": 5,
+    "level": 4,
+    "frequencyRank": 696,
+    "components": [
+      "口"
+    ],
+    "lessonOrder": 249
+  },
+  {
+    "char": "算",
+    "meanings": [
+      "to calculate",
+      "to count; to figure",
+      "to plan"
+    ],
+    "pinyin": [
+      "suàn"
+    ],
+    "strokeCount": 14,
+    "level": 4,
+    "frequencyRank": 698,
+    "components": [],
+    "lessonOrder": 250
+  },
+  {
+    "char": "留",
+    "meanings": [
+      "to stay",
+      "to remain; to preserve",
+      "to keep; to leave a message; "
+    ],
+    "pinyin": [
+      "liú"
+    ],
+    "strokeCount": 10,
+    "level": 4,
+    "frequencyRank": 705,
+    "components": [],
+    "lessonOrder": 251
+  },
+  {
+    "char": "交",
+    "meanings": [
+      "to connect; to deliver",
+      "to exchange; to intersect; to mix"
+    ],
+    "pinyin": [
+      "jiāo"
+    ],
+    "strokeCount": 6,
+    "level": 4,
+    "frequencyRank": 715,
+    "components": [
+      "六"
+    ],
+    "lessonOrder": 252
+  },
+  {
+    "char": "血",
+    "meanings": [
+      "blood"
+    ],
+    "pinyin": [
+      "xuè"
+    ],
+    "strokeCount": 6,
+    "level": 4,
+    "frequencyRank": 726,
+    "components": [],
+    "lessonOrder": 253
+  },
+  {
+    "char": "挺",
+    "meanings": [
+      "to straighten",
+      "to stand upright; rigid",
+      "stiff"
+    ],
+    "pinyin": [
+      "tǐng"
+    ],
+    "strokeCount": 9,
+    "level": 4,
+    "frequencyRank": 737,
+    "components": [],
+    "lessonOrder": 254
+  },
+  {
+    "char": "座",
+    "meanings": [
+      "seat; stand",
+      "base"
+    ],
+    "pinyin": [
+      "zuò"
+    ],
+    "strokeCount": 10,
+    "level": 4,
+    "frequencyRank": 751,
+    "components": [
+      "坐"
+    ],
+    "lessonOrder": 255
+  },
+  {
+    "char": "往",
+    "meanings": [
+      "to go",
+      "to depart; past",
+      "former"
+    ],
+    "pinyin": [
+      "wǎng"
+    ],
+    "strokeCount": 8,
+    "level": 4,
+    "frequencyRank": 760,
+    "components": [],
+    "lessonOrder": 256
+  },
+  {
+    "char": "光",
+    "meanings": [
+      "light; bright",
+      "brilliant; only",
+      "merely"
+    ],
+    "pinyin": [
+      "guāng"
+    ],
+    "strokeCount": 6,
+    "level": 4,
+    "frequencyRank": 800,
+    "components": [],
+    "lessonOrder": 257
+  },
+  {
+    "char": "收",
+    "meanings": [
+      "to collect",
+      "to gather",
+      "to harvest"
+    ],
+    "pinyin": [
+      "shōu"
+    ],
+    "strokeCount": 6,
+    "level": 4,
+    "frequencyRank": 834,
+    "components": [],
+    "lessonOrder": 258
+  },
+  {
+    "char": "底",
+    "meanings": [
+      "bottom",
+      "underside; below",
+      "underneath"
+    ],
+    "pinyin": [
+      "dǐ"
+    ],
+    "strokeCount": 8,
+    "level": 4,
+    "frequencyRank": 849,
+    "components": [],
+    "lessonOrder": 259
+  },
+  {
+    "char": "谈",
+    "meanings": [
+      "to talk",
+      "to chat; conversation; surname"
+    ],
+    "pinyin": [
+      "tán"
+    ],
+    "strokeCount": 10,
+    "level": 4,
+    "frequencyRank": 862,
+    "components": [],
+    "lessonOrder": 260
+  },
+  {
+    "char": "梦",
+    "meanings": [
+      "dream"
+    ],
+    "pinyin": [
+      "mèng"
+    ],
+    "strokeCount": 11,
+    "level": 4,
+    "frequencyRank": 913,
+    "components": [],
+    "lessonOrder": 261
+  },
+  {
+    "char": "试",
+    "meanings": [
+      "to try",
+      "to experiment; exam",
+      "test"
+    ],
+    "pinyin": [
+      "shì"
+    ],
+    "strokeCount": 8,
+    "level": 4,
+    "frequencyRank": 938,
+    "components": [],
+    "lessonOrder": 262
+  },
+  {
+    "char": "弄",
+    "meanings": [
+      "to do; to mock",
+      "to tease; to play with"
+    ],
+    "pinyin": [
+      "nòng"
+    ],
+    "strokeCount": 7,
+    "level": 4,
+    "frequencyRank": 952,
+    "components": [],
+    "lessonOrder": 263
+  },
+  {
+    "char": "赢",
+    "meanings": [
+      "to win",
+      "to gain; surplus",
+      "profit"
+    ],
+    "pinyin": [
+      "yíng"
+    ],
+    "strokeCount": 17,
+    "level": 4,
+    "frequencyRank": 952,
+    "components": [],
+    "lessonOrder": 264
+  },
+  {
+    "char": "满",
+    "meanings": [
+      "to fill; full",
+      "packed; satisfied"
+    ],
+    "pinyin": [
+      "mǎn"
+    ],
+    "strokeCount": 13,
+    "level": 4,
+    "frequencyRank": 961,
+    "components": [
+      "两"
+    ],
+    "lessonOrder": 265
+  },
+  {
+    "char": "深",
+    "meanings": [
+      "deep",
+      "profound; depth"
+    ],
+    "pinyin": [
+      "shēn"
+    ],
+    "strokeCount": 11,
+    "level": 4,
+    "frequencyRank": 1014,
+    "components": [],
+    "lessonOrder": 266
+  },
+  {
+    "char": "各",
+    "meanings": [
+      "individual; each",
+      "every; all"
+    ],
+    "pinyin": [
+      "gè"
+    ],
+    "strokeCount": 6,
+    "level": 4,
+    "frequencyRank": 1022,
+    "components": [
+      "口"
+    ],
+    "lessonOrder": 267
+  },
+  {
+    "char": "路",
+    "meanings": [
+      "road",
+      "path",
+      "street; journey"
+    ],
+    "pinyin": [
+      "lù"
+    ],
+    "strokeCount": 13,
+    "level": 2,
+    "frequencyRank": 409,
+    "components": [
+      "各"
+    ],
+    "lessonOrder": 268
+  },
+  {
+    "char": "假",
+    "meanings": [
+      "fake",
+      "false",
+      "deceitful; vacation"
+    ],
+    "pinyin": [
+      "jiǎ"
+    ],
+    "strokeCount": 11,
+    "level": 4,
+    "frequencyRank": 1053,
+    "components": [],
+    "lessonOrder": 269
+  },
+  {
+    "char": "嘴",
+    "meanings": [
+      "mouth",
+      "lips"
+    ],
+    "pinyin": [
+      "zuǐ"
+    ],
+    "strokeCount": 16,
+    "level": 4,
+    "frequencyRank": 1059,
+    "components": [
+      "口"
+    ],
+    "lessonOrder": 270
+  },
+  {
+    "char": "省",
+    "meanings": [
+      "province; frugal; to save",
+      "to leave out"
+    ],
+    "pinyin": [
+      "shěng"
+    ],
+    "strokeCount": 9,
+    "level": 4,
+    "frequencyRank": 1081,
+    "components": [
+      "少"
+    ],
+    "lessonOrder": 271
+  },
+  {
+    "char": "陪",
+    "meanings": [
+      "to accompany",
+      "to be with",
+      "to keep company"
+    ],
+    "pinyin": [
+      "péi"
+    ],
+    "strokeCount": 10,
+    "level": 4,
+    "frequencyRank": 1090,
+    "components": [],
+    "lessonOrder": 272
+  },
+  {
+    "char": "挂",
+    "meanings": [
+      "to suspend",
+      "to put up",
+      "to hang; suspense"
+    ],
+    "pinyin": [
+      "guà"
+    ],
+    "strokeCount": 9,
+    "level": 4,
+    "frequencyRank": 1092,
+    "components": [],
+    "lessonOrder": 273
+  },
+  {
+    "char": "群",
+    "meanings": [
+      "group",
+      "crowd; multitude",
+      "mob"
+    ],
+    "pinyin": [
+      "qún"
+    ],
+    "strokeCount": 13,
+    "level": 4,
+    "frequencyRank": 1165,
+    "components": [],
+    "lessonOrder": 274
+  },
+  {
+    "char": "够",
+    "meanings": [
+      "enough",
+      "adequate; to reach",
+      "to attain; to pass muster"
+    ],
+    "pinyin": [
+      "gòu"
+    ],
+    "strokeCount": 11,
+    "level": 4,
+    "frequencyRank": 1173,
+    "components": [
+      "多"
+    ],
+    "lessonOrder": 275
+  },
+  {
+    "char": "火",
+    "meanings": [
+      "fire",
+      "flame; to burn; anger",
+      "rage"
+    ],
+    "pinyin": [
+      "huǒ"
+    ],
+    "strokeCount": 4,
+    "level": 4,
+    "frequencyRank": 1181,
+    "components": [
+      "人"
+    ],
+    "lessonOrder": 276
+  },
+  {
+    "char": "秋",
+    "meanings": [
+      "autumn",
+      "fall; year"
+    ],
+    "pinyin": [
+      "qiū"
+    ],
+    "strokeCount": 9,
+    "level": 3,
+    "frequencyRank": 5603,
+    "components": [
+      "火"
+    ],
+    "lessonOrder": 277
+  },
+  {
+    "char": "取",
+    "meanings": [
+      "to take",
+      "to receive",
+      "to obtain; to select"
+    ],
+    "pinyin": [
+      "qǔ"
+    ],
+    "strokeCount": 8,
+    "level": 4,
+    "frequencyRank": 1198,
+    "components": [
+      "又"
+    ],
+    "lessonOrder": 278
+  },
+  {
+    "char": "最",
+    "meanings": [
+      "most",
+      "extremely",
+      "exceedingly; superlative"
+    ],
+    "pinyin": [
+      "zuì"
+    ],
+    "strokeCount": 12,
+    "level": 2,
+    "frequencyRank": 89,
+    "components": [
+      "日",
+      "取"
+    ],
+    "lessonOrder": 279
+  },
+  {
+    "char": "乱",
+    "meanings": [
+      "anarchy",
+      "chaos; revolt"
+    ],
+    "pinyin": [
+      "luàn"
+    ],
+    "strokeCount": 7,
+    "level": 4,
+    "frequencyRank": 1206,
+    "components": [],
+    "lessonOrder": 280
+  },
+  {
+    "char": "抱",
+    "meanings": [
+      "to embrace",
+      "to hold in one's arms; to enfold"
+    ],
+    "pinyin": [
+      "bào"
+    ],
+    "strokeCount": 8,
+    "level": 4,
+    "frequencyRank": 1238,
+    "components": [
+      "包"
+    ],
+    "lessonOrder": 281
+  },
+  {
+    "char": "破",
+    "meanings": [
+      "to break",
+      "to rout; to ruin",
+      "to destroy"
+    ],
+    "pinyin": [
+      "pò"
+    ],
+    "strokeCount": 10,
+    "level": 4,
+    "frequencyRank": 1272,
+    "components": [],
+    "lessonOrder": 282
+  },
+  {
+    "char": "推",
+    "meanings": [
+      "to push; to expel; to drive; to decline"
+    ],
+    "pinyin": [
+      "tuī"
+    ],
+    "strokeCount": 11,
+    "level": 4,
+    "frequencyRank": 1277,
+    "components": [],
+    "lessonOrder": 283
+  },
+  {
+    "char": "刀",
+    "meanings": [
+      "knife; old coin; measure"
+    ],
+    "pinyin": [
+      "dāo"
+    ],
+    "strokeCount": 2,
+    "level": 4,
+    "frequencyRank": 1285,
+    "components": [],
+    "lessonOrder": 284
+  },
+  {
+    "char": "分",
+    "meanings": [
+      "to divide",
+      "to allocate; fraction; small unit of time or other quantity"
+    ],
+    "pinyin": [
+      "fēn"
+    ],
+    "strokeCount": 4,
+    "level": 3,
+    "frequencyRank": 372,
+    "components": [
+      "八",
+      "刀"
+    ],
+    "lessonOrder": 285
+  },
+  {
+    "char": "份",
+    "meanings": [
+      "job",
+      "part",
+      "role; duty"
+    ],
+    "pinyin": [
+      "fèn"
+    ],
+    "strokeCount": 6,
+    "level": 4,
+    "frequencyRank": 608,
+    "components": [
+      "分"
+    ],
+    "lessonOrder": 286
+  },
+  {
+    "char": "倍",
+    "meanings": [
+      "to double; to increase or multiply"
+    ],
+    "pinyin": [
+      "bèi"
+    ],
+    "strokeCount": 10,
+    "level": 4,
+    "frequencyRank": 1396,
+    "components": [],
+    "lessonOrder": 287
+  },
+  {
+    "char": "醒",
+    "meanings": [
+      "to wake up",
+      "to startle; to sober up"
+    ],
+    "pinyin": [
+      "xǐng"
+    ],
+    "strokeCount": 16,
+    "level": 4,
+    "frequencyRank": 1399,
+    "components": [],
+    "lessonOrder": 288
+  },
+  {
+    "char": "输",
+    "meanings": [
+      "to carry",
+      "to haul",
+      "to transport"
+    ],
+    "pinyin": [
+      "shū"
+    ],
+    "strokeCount": 13,
+    "level": 4,
+    "frequencyRank": 1403,
+    "components": [],
+    "lessonOrder": 289
+  },
+  {
+    "char": "俩",
+    "meanings": [
+      "two",
+      "a pair",
+      "a couple"
+    ],
+    "pinyin": [
+      "liǎ"
+    ],
+    "strokeCount": 9,
+    "level": 4,
+    "frequencyRank": 1419,
+    "components": [
+      "两"
+    ],
+    "lessonOrder": 290
+  },
+  {
+    "char": "帅",
+    "meanings": [
+      "commander; commander-in-chief; handsome",
+      "smart"
+    ],
+    "pinyin": [
+      "shuài"
+    ],
+    "strokeCount": 5,
+    "level": 4,
+    "frequencyRank": 1452,
+    "components": [],
+    "lessonOrder": 291
+  },
+  {
+    "char": "猪",
+    "meanings": [
+      "pig",
+      "hog",
+      "wild boar"
+    ],
+    "pinyin": [
+      "zhū"
+    ],
+    "strokeCount": 11,
+    "level": 4,
+    "frequencyRank": 1583,
+    "components": [],
+    "lessonOrder": 292
+  },
+  {
+    "char": "丢",
+    "meanings": [
+      "to lose; to discard"
+    ],
+    "pinyin": [
+      "diū"
+    ],
+    "strokeCount": 6,
+    "level": 4,
+    "frequencyRank": 1655,
+    "components": [],
+    "lessonOrder": 293
+  },
+  {
+    "char": "断",
+    "meanings": [
+      "to sever",
+      "to cut off",
+      "to interrupt"
+    ],
+    "pinyin": [
+      "duàn"
+    ],
+    "strokeCount": 11,
+    "level": 4,
+    "frequencyRank": 1707,
+    "components": [
+      "米"
+    ],
+    "lessonOrder": 294
+  },
+  {
+    "char": "墙",
+    "meanings": [
+      "wall"
+    ],
+    "pinyin": [
+      "qiáng"
+    ],
+    "strokeCount": 14,
+    "level": 4,
+    "frequencyRank": 1741,
+    "components": [],
+    "lessonOrder": 295
+  },
+  {
+    "char": "修",
+    "meanings": [
+      "to study; to repair; to decorate; to cultivate"
+    ],
+    "pinyin": [
+      "xiū"
+    ],
+    "strokeCount": 9,
+    "level": 4,
+    "frequencyRank": 1778,
+    "components": [],
+    "lessonOrder": 296
+  },
+  {
+    "char": "戴",
+    "meanings": [
+      "to support; to respect; to put on",
+      "to wear; surname"
+    ],
+    "pinyin": [
+      "dài"
+    ],
+    "strokeCount": 17,
+    "level": 4,
+    "frequencyRank": 1802,
+    "components": [
+      "十"
+    ],
+    "lessonOrder": 297
+  },
+  {
+    "char": "轻",
+    "meanings": [
+      "light",
+      "gentle; simple",
+      "easy"
+    ],
+    "pinyin": [
+      "qīng"
+    ],
+    "strokeCount": 9,
+    "level": 4,
+    "frequencyRank": 1814,
+    "components": [
+      "又"
+    ],
+    "lessonOrder": 298
+  },
+  {
+    "char": "困",
+    "meanings": [
+      "to surround; to besiege; surrounded",
+      "in distress; poor; tired",
+      "sleepy"
+    ],
+    "pinyin": [
+      "kùn"
+    ],
+    "strokeCount": 7,
+    "level": 4,
+    "frequencyRank": 1868,
+    "components": [],
+    "lessonOrder": 299
+  },
+  {
+    "char": "躺",
+    "meanings": [
+      "to recline",
+      "to lie down"
+    ],
+    "pinyin": [
+      "tǎng"
+    ],
+    "strokeCount": 15,
+    "level": 4,
+    "frequencyRank": 1892,
+    "components": [],
+    "lessonOrder": 300
+  },
+  {
+    "char": "擦",
+    "meanings": [
+      "to clean",
+      "to erase",
+      "to polish; a brush"
+    ],
+    "pinyin": [
+      "cā"
+    ],
+    "strokeCount": 17,
+    "level": 4,
+    "frequencyRank": 1952,
+    "components": [],
+    "lessonOrder": 301
+  },
+  {
+    "char": "香",
+    "meanings": [
+      "incense; fragrant",
+      "aromatic"
+    ],
+    "pinyin": [
+      "xiāng"
+    ],
+    "strokeCount": 9,
+    "level": 4,
+    "frequencyRank": 1953,
+    "components": [
+      "日"
+    ],
+    "lessonOrder": 302
+  },
+  {
+    "char": "撞",
+    "meanings": [
+      "to bump into",
+      "to collide",
+      "to hit",
+      "to knock against"
+    ],
+    "pinyin": [
+      "zhuàng"
+    ],
+    "strokeCount": 15,
+    "level": 4,
+    "frequencyRank": 2075,
+    "components": [],
+    "lessonOrder": 303
+  },
+  {
+    "char": "桥",
+    "meanings": [
+      "bridge; beam",
+      "crosspiece"
+    ],
+    "pinyin": [
+      "qiáo"
+    ],
+    "strokeCount": 10,
+    "level": 4,
+    "frequencyRank": 2120,
+    "components": [],
+    "lessonOrder": 304
+  },
+  {
+    "char": "赚",
+    "meanings": [
+      "to earn",
+      "to profit",
+      "to make money"
+    ],
+    "pinyin": [
+      "zhuàn"
+    ],
+    "strokeCount": 14,
+    "level": 4,
+    "frequencyRank": 2163,
+    "components": [],
+    "lessonOrder": 305
+  },
+  {
+    "char": "汤",
+    "meanings": [
+      "soup",
+      "gravy",
+      "broth; hot water"
+    ],
+    "pinyin": [
+      "tāng"
+    ],
+    "strokeCount": 6,
+    "level": 4,
+    "frequencyRank": 2237,
+    "components": [],
+    "lessonOrder": 306
+  },
+  {
+    "char": "响",
+    "meanings": [
+      "to make noise",
+      "to make sound; sound"
+    ],
+    "pinyin": [
+      "xiǎng"
+    ],
+    "strokeCount": 9,
+    "level": 4,
+    "frequencyRank": 2237,
+    "components": [
+      "口",
+      "向"
+    ],
+    "lessonOrder": 307
+  },
+  {
+    "char": "脱",
+    "meanings": [
+      "to take off",
+      "to shed; to escape from"
+    ],
+    "pinyin": [
+      "tuō"
+    ],
+    "strokeCount": 11,
+    "level": 4,
+    "frequencyRank": 2303,
+    "components": [],
+    "lessonOrder": 308
+  },
+  {
+    "char": "苦",
+    "meanings": [
+      "bitter; hardship",
+      "suffering"
+    ],
+    "pinyin": [
+      "kǔ"
+    ],
+    "strokeCount": 8,
+    "level": 4,
+    "frequencyRank": 2331,
+    "components": [],
+    "lessonOrder": 309
+  },
+  {
+    "char": "租",
+    "meanings": [
+      "to rent",
+      "to lease; tax",
+      "rent"
+    ],
+    "pinyin": [
+      "zū"
+    ],
+    "strokeCount": 10,
+    "level": 4,
+    "frequencyRank": 2332,
+    "components": [],
+    "lessonOrder": 310
+  },
+  {
+    "char": "页",
+    "meanings": [
+      "page",
+      "sheet",
+      "leaf"
+    ],
+    "pinyin": [
+      "yè"
+    ],
+    "strokeCount": 6,
+    "level": 4,
+    "frequencyRank": 2404,
+    "components": [],
+    "lessonOrder": 311
+  },
+  {
+    "char": "题",
+    "meanings": [
+      "forehead; headline",
+      "title; theme"
+    ],
+    "pinyin": [
+      "tí"
+    ],
+    "strokeCount": 15,
+    "level": 2,
+    "frequencyRank": 2690,
+    "components": [
+      "是",
+      "页"
+    ],
+    "lessonOrder": 312
+  },
+  {
+    "char": "顿",
+    "meanings": [
+      "to pause; to bow; to arrange"
+    ],
+    "pinyin": [
+      "dùn"
+    ],
+    "strokeCount": 10,
+    "level": 4,
+    "frequencyRank": 1617,
+    "components": [
+      "页"
+    ],
+    "lessonOrder": 313
+  },
+  {
+    "char": "扔",
+    "meanings": [
+      "to throw",
+      "to hurl",
+      "to cast away"
+    ],
+    "pinyin": [
+      "rēng"
+    ],
+    "strokeCount": 5,
+    "level": 4,
+    "frequencyRank": 2405,
+    "components": [],
+    "lessonOrder": 314
+  },
+  {
+    "char": "硬",
+    "meanings": [
+      "firm",
+      "hard",
+      "strong; obstinate"
+    ],
+    "pinyin": [
+      "yìng"
+    ],
+    "strokeCount": 12,
+    "level": 4,
+    "frequencyRank": 2476,
+    "components": [
+      "更"
+    ],
+    "lessonOrder": 315
+  },
+  {
+    "char": "弹",
+    "meanings": [
+      "bullet",
+      "pellet",
+      "shell; elastic",
+      "springy"
+    ],
+    "pinyin": [
+      "dàn"
+    ],
+    "strokeCount": 11,
+    "level": 4,
+    "frequencyRank": 2520,
+    "components": [],
+    "lessonOrder": 316
+  },
+  {
+    "char": "暗",
+    "meanings": [
+      "dark",
+      "gloomy; obscure; secret",
+      "covert"
+    ],
+    "pinyin": [
+      "àn"
+    ],
+    "strokeCount": 13,
+    "level": 4,
+    "frequencyRank": 2594,
+    "components": [
+      "日"
+    ],
+    "lessonOrder": 317
+  },
+  {
+    "char": "吵",
+    "meanings": [
+      "to argue",
+      "to dispute; to annoy",
+      "to disturb"
+    ],
+    "pinyin": [
+      "chǎo"
+    ],
+    "strokeCount": 7,
+    "level": 4,
+    "frequencyRank": 2738,
+    "components": [
+      "口",
+      "少"
+    ],
+    "lessonOrder": 318
+  },
+  {
+    "char": "寄",
+    "meanings": [
+      "to mail",
+      "to send",
+      "to transit; to deposit",
+      "to entrust; to rely on"
+    ],
+    "pinyin": [
+      "jì"
+    ],
+    "strokeCount": 11,
+    "level": 4,
+    "frequencyRank": 2842,
+    "components": [],
+    "lessonOrder": 319
+  },
+  {
+    "char": "圆",
+    "meanings": [
+      "circle; circular",
+      "round; complete"
+    ],
+    "pinyin": [
+      "yuán"
+    ],
+    "strokeCount": 10,
+    "level": 4,
+    "frequencyRank": 2899,
+    "components": [],
+    "lessonOrder": 320
+  },
+  {
+    "char": "富",
+    "meanings": [
+      "abundant",
+      "ample; rich",
+      "wealthy"
+    ],
+    "pinyin": [
+      "fù"
+    ],
+    "strokeCount": 12,
+    "level": 4,
+    "frequencyRank": 3016,
+    "components": [],
+    "lessonOrder": 321
+  },
+  {
+    "char": "趟",
+    "meanings": [
+      "time",
+      "occasion; to make a journey"
+    ],
+    "pinyin": [
+      "tàng"
+    ],
+    "strokeCount": 15,
+    "level": 4,
+    "frequencyRank": 3174,
+    "components": [
+      "走"
+    ],
+    "lessonOrder": 322
+  },
+  {
+    "char": "尝",
+    "meanings": [
+      "to taste; to experience",
+      "to experiment with"
+    ],
+    "pinyin": [
+      "cháng"
+    ],
+    "strokeCount": 9,
+    "level": 4,
+    "frequencyRank": 3212,
+    "components": [
+      "云"
+    ],
+    "lessonOrder": 323
+  },
+  {
+    "char": "酸",
+    "meanings": [
+      "tart",
+      "sour; spoiled; acid"
+    ],
+    "pinyin": [
+      "suān"
+    ],
+    "strokeCount": 14,
+    "level": 4,
+    "frequencyRank": 3361,
+    "components": [],
+    "lessonOrder": 324
+  },
+  {
+    "char": "宽",
+    "meanings": [
+      "broad",
+      "spacious",
+      "vast",
+      "wide"
+    ],
+    "pinyin": [
+      "kuān"
+    ],
+    "strokeCount": 10,
+    "level": 4,
+    "frequencyRank": 3471,
+    "components": [],
+    "lessonOrder": 325
+  },
+  {
+    "char": "抬",
+    "meanings": [
+      "to carry",
+      "to lift",
+      "to raise"
+    ],
+    "pinyin": [
+      "tái"
+    ],
+    "strokeCount": 8,
+    "level": 4,
+    "frequencyRank": 3574,
+    "components": [
+      "台"
+    ],
+    "lessonOrder": 326
+  },
+  {
+    "char": "盐",
+    "meanings": [
+      "salt"
+    ],
+    "pinyin": [
+      "yán"
+    ],
+    "strokeCount": 10,
+    "level": 4,
+    "frequencyRank": 3653,
+    "components": [],
+    "lessonOrder": 327
+  },
+  {
+    "char": "厚",
+    "meanings": [
+      "generous; substantial; deep (as a friendship)"
+    ],
+    "pinyin": [
+      "hòu"
+    ],
+    "strokeCount": 9,
+    "level": 4,
+    "frequencyRank": 3759,
+    "components": [
+      "日"
+    ],
+    "lessonOrder": 328
+  },
+  {
+    "char": "笨",
+    "meanings": [
+      "stupid",
+      "foolish",
+      "dull",
+      "awkward"
+    ],
+    "pinyin": [
+      "bèn"
+    ],
+    "strokeCount": 11,
+    "level": 4,
+    "frequencyRank": 3806,
+    "components": [
+      "本"
+    ],
+    "lessonOrder": 329
+  },
+  {
+    "char": "敲",
+    "meanings": [
+      "to hammer",
+      "to pound",
+      "to strike"
+    ],
+    "pinyin": [
+      "qiāo"
+    ],
+    "strokeCount": 14,
+    "level": 4,
+    "frequencyRank": 4007,
+    "components": [
+      "高"
+    ],
+    "lessonOrder": 330
+  },
+  {
+    "char": "棵",
+    "meanings": [
+      "measure word for trees"
+    ],
+    "pinyin": [
+      "kē"
+    ],
+    "strokeCount": 12,
+    "level": 4,
+    "frequencyRank": 4222,
+    "components": [],
+    "lessonOrder": 331
+  },
+  {
+    "char": "汗",
+    "meanings": [
+      "perspiration",
+      "sweat"
+    ],
+    "pinyin": [
+      "hàn"
+    ],
+    "strokeCount": 6,
+    "level": 4,
+    "frequencyRank": 4310,
+    "components": [
+      "干"
+    ],
+    "lessonOrder": 332
+  },
+  {
+    "char": "穷",
+    "meanings": [
+      "poor",
+      "destitute; to exhaust"
+    ],
+    "pinyin": [
+      "qióng"
+    ],
+    "strokeCount": 7,
+    "level": 4,
+    "frequencyRank": 4355,
+    "components": [],
+    "lessonOrder": 333
+  },
+  {
+    "char": "脏",
+    "meanings": [
+      "organs",
+      "viscera; dirty",
+      "filthy"
+    ],
+    "pinyin": [
+      "zàng"
+    ],
+    "strokeCount": 10,
+    "level": 4,
+    "frequencyRank": 4623,
+    "components": [],
+    "lessonOrder": 334
+  },
+  {
+    "char": "逛",
+    "meanings": [
+      "to ramble",
+      "to stroll",
+      "to wander"
+    ],
+    "pinyin": [
+      "guàng"
+    ],
+    "strokeCount": 10,
+    "level": 4,
+    "frequencyRank": 4709,
+    "components": [],
+    "lessonOrder": 335
+  },
+  {
+    "char": "懒",
+    "meanings": [
+      "lazy",
+      "languid",
+      "listless"
+    ],
+    "pinyin": [
+      "lǎn"
+    ],
+    "strokeCount": 16,
+    "level": 4,
+    "frequencyRank": 6238,
+    "components": [],
+    "lessonOrder": 336
+  },
+  {
+    "char": "咸",
+    "meanings": [
+      "all",
+      "together",
+      "united; salted"
+    ],
+    "pinyin": [
+      "xián"
+    ],
+    "strokeCount": 9,
+    "level": 4,
+    "frequencyRank": 7379,
+    "components": [
+      "一",
+      "口"
+    ],
+    "lessonOrder": 337
+  },
+  {
+    "char": "窄",
+    "meanings": [
+      "narrow",
+      "tight; narrow-minded"
+    ],
+    "pinyin": [
+      "zhǎi"
+    ],
+    "strokeCount": 10,
+    "level": 4,
+    "frequencyRank": 8622,
+    "components": [],
+    "lessonOrder": 338
+  },
+  {
+    "char": "所",
+    "meanings": [
+      "place",
+      "location; \"that which\"",
+      "a particle introducing a passive clause"
+    ],
+    "pinyin": [
+      "suǒ"
+    ],
+    "strokeCount": 8,
+    "level": 5,
+    "frequencyRank": 159,
+    "components": [],
+    "lessonOrder": 339
+  },
+  {
+    "char": "正",
+    "meanings": [
+      "straight",
+      "right",
+      "proper",
+      "correct",
+      "just",
+      "true"
+    ],
+    "pinyin": [
+      "zhèng"
+    ],
+    "strokeCount": 5,
+    "level": 5,
+    "frequencyRank": 294,
+    "components": [
+      "一"
+    ],
+    "lessonOrder": 340
+  },
+  {
+    "char": "搞",
+    "meanings": [
+      "to do",
+      "to fix",
+      "to make",
+      "to settle"
+    ],
+    "pinyin": [
+      "gǎo"
+    ],
+    "strokeCount": 13,
+    "level": 5,
+    "frequencyRank": 387,
+    "components": [
+      "高"
+    ],
+    "lessonOrder": 341
+  },
+  {
+    "char": "杀",
+    "meanings": [
+      "to kill",
+      "to murder",
+      "to slaughter; to hurt"
+    ],
+    "pinyin": [
+      "shā"
+    ],
+    "strokeCount": 6,
+    "level": 5,
+    "frequencyRank": 557,
+    "components": [],
+    "lessonOrder": 342
+  },
+  {
+    "char": "片",
+    "meanings": [
+      "slice",
+      "splinter; page",
+      "strip"
+    ],
+    "pinyin": [
+      "piàn"
+    ],
+    "strokeCount": 4,
+    "level": 5,
+    "frequencyRank": 560,
+    "components": [],
+    "lessonOrder": 343
+  },
+  {
+    "char": "拍",
+    "meanings": [
+      "to clap",
+      "to tap; to hit",
+      "to beat",
+      "to slap; beat",
+      "rhythm"
+    ],
+    "pinyin": [
+      "pāi"
+    ],
+    "strokeCount": 8,
+    "level": 5,
+    "frequencyRank": 567,
+    "components": [
+      "白"
+    ],
+    "lessonOrder": 344
+  },
+  {
+    "char": "重",
+    "meanings": [
+      "heavy",
+      "weighty; to double",
+      "to repeat"
+    ],
+    "pinyin": [
+      "zhòng"
+    ],
+    "strokeCount": 9,
+    "level": 5,
+    "frequencyRank": 608,
+    "components": [
+      "千",
+      "里"
+    ],
+    "lessonOrder": 345
+  },
+  {
+    "char": "哈",
+    "meanings": [
+      "the sound of laughter"
+    ],
+    "pinyin": [
+      "hā"
+    ],
+    "strokeCount": 9,
+    "level": 5,
+    "frequencyRank": 676,
+    "components": [
+      "口"
+    ],
+    "lessonOrder": 346
+  },
+  {
+    "char": "套",
+    "meanings": [
+      "case",
+      "cover",
+      "envelope",
+      "wrapper"
+    ],
+    "pinyin": [
+      "tào"
+    ],
+    "strokeCount": 10,
+    "level": 5,
+    "frequencyRank": 715,
+    "components": [
+      "大"
+    ],
+    "lessonOrder": 347
+  },
+  {
+    "char": "克",
+    "meanings": [
+      "to subdue",
+      "to restrain",
+      "to overcome; used in transliterations"
+    ],
+    "pinyin": [
+      "kè"
+    ],
+    "strokeCount": 7,
+    "level": 5,
+    "frequencyRank": 738,
+    "components": [
+      "十"
+    ],
+    "lessonOrder": 348
+  },
+  {
+    "char": "装",
+    "meanings": [
+      "dress",
+      "clothes",
+      "attire; to wear",
+      "to install"
+    ],
+    "pinyin": [
+      "zhuāng"
+    ],
+    "strokeCount": 12,
+    "level": 5,
+    "frequencyRank": 741,
+    "components": [],
+    "lessonOrder": 349
+  },
+  {
+    "char": "派",
+    "meanings": [
+      "clique",
+      "faction",
+      "group",
+      "sect"
+    ],
+    "pinyin": [
+      "pài"
+    ],
+    "strokeCount": 9,
+    "level": 5,
+    "frequencyRank": 751,
+    "components": [],
+    "lessonOrder": 350
+  },
+  {
+    "char": "倒",
+    "meanings": [
+      "to collapse",
+      "to fall over; to lie down"
+    ],
+    "pinyin": [
+      "dào"
+    ],
+    "strokeCount": 10,
+    "level": 5,
+    "frequencyRank": 780,
+    "components": [
+      "到"
+    ],
+    "lessonOrder": 351
+  },
+  {
+    "char": "便",
+    "meanings": [
+      "easy",
+      "convenient; expedient"
+    ],
+    "pinyin": [
+      "biàn"
+    ],
+    "strokeCount": 9,
+    "level": 5,
+    "frequencyRank": 811,
+    "components": [
+      "更"
+    ],
+    "lessonOrder": 352
+  },
+  {
+    "char": "项",
+    "meanings": [
+      "neck",
+      "nape; item; a term in an equation"
+    ],
+    "pinyin": [
+      "xiàng"
+    ],
+    "strokeCount": 9,
+    "level": 5,
+    "frequencyRank": 837,
+    "components": [
+      "页"
+    ],
+    "lessonOrder": 353
+  },
+  {
+    "char": "某",
+    "meanings": [
+      "some",
+      "someone; a certain thing or person"
+    ],
+    "pinyin": [
+      "mǒu"
+    ],
+    "strokeCount": 9,
+    "level": 5,
+    "frequencyRank": 913,
+    "components": [],
+    "lessonOrder": 354
+  },
+  {
+    "char": "支",
+    "meanings": [
+      "to support",
+      "to sustain; to withdraw",
+      "to pay; a branch (of a bank)"
+    ],
+    "pinyin": [
+      "zhī"
+    ],
+    "strokeCount": 4,
+    "level": 5,
+    "frequencyRank": 915,
+    "components": [
+      "十",
+      "又"
+    ],
+    "lessonOrder": 355
+  },
+  {
+    "char": "提",
+    "meanings": [
+      "to hold in the hand; to lift",
+      "to raise"
+    ],
+    "pinyin": [
+      "tí"
+    ],
+    "strokeCount": 12,
+    "level": 5,
+    "frequencyRank": 919,
+    "components": [
+      "是"
+    ],
+    "lessonOrder": 356
+  },
+  {
+    "char": "非",
+    "meanings": [
+      "not",
+      "negative",
+      "non-; to oppose"
+    ],
+    "pinyin": [
+      "fēi"
+    ],
+    "strokeCount": 8,
+    "level": 5,
+    "frequencyRank": 949,
+    "components": [],
+    "lessonOrder": 357
+  },
+  {
+    "char": "则",
+    "meanings": [
+      "rule",
+      "law",
+      "regulation; grades"
+    ],
+    "pinyin": [
+      "zé"
+    ],
+    "strokeCount": 6,
+    "level": 5,
+    "frequencyRank": 966,
+    "components": [],
+    "lessonOrder": 358
+  },
+  {
+    "char": "方",
+    "meanings": [
+      "square",
+      "rectangle; side; region; flag"
+    ],
+    "pinyin": [
+      "fāng"
+    ],
+    "strokeCount": 4,
+    "level": 5,
+    "frequencyRank": 1012,
+    "components": [],
+    "lessonOrder": 359
+  },
+  {
+    "char": "放",
+    "meanings": [
+      "to release",
+      "to liberate",
+      "to free"
+    ],
+    "pinyin": [
+      "fàng"
+    ],
+    "strokeCount": 8,
+    "level": 3,
+    "frequencyRank": 280,
+    "components": [
+      "方"
+    ],
+    "lessonOrder": 360
+  },
+  {
+    "char": "秒",
+    "meanings": [
+      "a second; a corn kernel; measure word for time"
+    ],
+    "pinyin": [
+      "miǎo"
+    ],
+    "strokeCount": 9,
+    "level": 5,
+    "frequencyRank": 1034,
+    "components": [
+      "少"
+    ],
+    "lessonOrder": 361
+  },
+  {
+    "char": "夜",
+    "meanings": [
+      "night",
+      "dark; under cover of night"
+    ],
+    "pinyin": [
+      "yè"
+    ],
+    "strokeCount": 8,
+    "level": 5,
+    "frequencyRank": 1082,
+    "components": [],
+    "lessonOrder": 362
+  },
+  {
+    "char": "类",
+    "meanings": [
+      "category",
+      "class",
+      "group",
+      "kind; similar to; to resemble"
+    ],
+    "pinyin": [
+      "lèi"
+    ],
+    "strokeCount": 9,
+    "level": 5,
+    "frequencyRank": 1096,
+    "components": [
+      "米",
+      "大"
+    ],
+    "lessonOrder": 363
+  },
+  {
+    "char": "根",
+    "meanings": [
+      "root",
+      "basis",
+      "foundation"
+    ],
+    "pinyin": [
+      "gēn"
+    ],
+    "strokeCount": 10,
+    "level": 5,
+    "frequencyRank": 1181,
+    "components": [],
+    "lessonOrder": 364
+  },
+  {
+    "char": "抢",
+    "meanings": [
+      "urgent",
+      "rushed; to rob",
+      "to plunder"
+    ],
+    "pinyin": [
+      "qiǎng"
+    ],
+    "strokeCount": 7,
+    "level": 5,
+    "frequencyRank": 1191,
+    "components": [],
+    "lessonOrder": 365
+  },
+  {
+    "char": "节",
+    "meanings": [
+      "festival; knot",
+      "joint; segment; to economize",
+      "to save"
+    ],
+    "pinyin": [
+      "jié"
+    ],
+    "strokeCount": 5,
+    "level": 5,
+    "frequencyRank": 1196,
+    "components": [],
+    "lessonOrder": 366
+  },
+  {
+    "char": "傻",
+    "meanings": [
+      "foolish",
+      "silly",
+      "stupid; an imbecile"
+    ],
+    "pinyin": [
+      "shǎ"
+    ],
+    "strokeCount": 13,
+    "level": 5,
+    "frequencyRank": 1197,
+    "components": [
+      "八"
+    ],
+    "lessonOrder": 367
+  },
+  {
+    "char": "救",
+    "meanings": [
+      "aid",
+      "help; to rescue",
+      "to save"
+    ],
+    "pinyin": [
+      "jiù"
+    ],
+    "strokeCount": 11,
+    "level": 5,
+    "frequencyRank": 1217,
+    "components": [],
+    "lessonOrder": 368
+  },
+  {
+    "char": "棒",
+    "meanings": [
+      "stick",
+      "club; strong",
+      "smart; to hit"
+    ],
+    "pinyin": [
+      "bàng"
+    ],
+    "strokeCount": 12,
+    "level": 5,
+    "frequencyRank": 1228,
+    "components": [],
+    "lessonOrder": 369
+  },
+  {
+    "char": "冲",
+    "meanings": [
+      "wash",
+      "rinse",
+      "flush; dash; soar"
+    ],
+    "pinyin": [
+      "chōng"
+    ],
+    "strokeCount": 6,
+    "level": 5,
+    "frequencyRank": 1312,
+    "components": [],
+    "lessonOrder": 370
+  },
+  {
+    "char": "毛",
+    "meanings": [
+      "hair",
+      "fur",
+      "feathers; coarse"
+    ],
+    "pinyin": [
+      "máo"
+    ],
+    "strokeCount": 4,
+    "level": 5,
+    "frequencyRank": 1319,
+    "components": [
+      "一"
+    ],
+    "lessonOrder": 371
+  },
+  {
+    "char": "朝",
+    "meanings": [
+      "to face; direct",
+      "facing; dynasty; morning"
+    ],
+    "pinyin": [
+      "cháo"
+    ],
+    "strokeCount": 12,
+    "level": 5,
+    "frequencyRank": 1321,
+    "components": [
+      "月"
+    ],
+    "lessonOrder": 372
+  },
+  {
+    "char": "颗",
+    "meanings": [
+      "grain",
+      "kernel"
+    ],
+    "pinyin": [
+      "kē"
+    ],
+    "strokeCount": 14,
+    "level": 5,
+    "frequencyRank": 1392,
+    "components": [
+      "页"
+    ],
+    "lessonOrder": 373
+  },
+  {
+    "char": "系",
+    "meanings": [
+      "system; line",
+      "link",
+      "connection"
+    ],
+    "pinyin": [
+      "xì"
+    ],
+    "strokeCount": 7,
+    "level": 5,
+    "frequencyRank": 1415,
+    "components": [],
+    "lessonOrder": 374
+  },
+  {
+    "char": "直",
+    "meanings": [
+      "straight",
+      "vertical; candid",
+      "direct",
+      "frank"
+    ],
+    "pinyin": [
+      "zhí"
+    ],
+    "strokeCount": 8,
+    "level": 5,
+    "frequencyRank": 1420,
+    "components": [
+      "十",
+      "一"
+    ],
+    "lessonOrder": 375
+  },
+  {
+    "char": "枪",
+    "meanings": [
+      "gun",
+      "rife; lance",
+      "spear"
+    ],
+    "pinyin": [
+      "qiāng"
+    ],
+    "strokeCount": 8,
+    "level": 5,
+    "frequencyRank": 1429,
+    "components": [],
+    "lessonOrder": 376
+  },
+  {
+    "char": "呆",
+    "meanings": [
+      "dull",
+      "simple",
+      "stupid"
+    ],
+    "pinyin": [
+      "dāi"
+    ],
+    "strokeCount": 7,
+    "level": 5,
+    "frequencyRank": 1485,
+    "components": [
+      "口"
+    ],
+    "lessonOrder": 377
+  },
+  {
+    "char": "雷",
+    "meanings": [
+      "thunder; surname"
+    ],
+    "pinyin": [
+      "léi"
+    ],
+    "strokeCount": 13,
+    "level": 5,
+    "frequencyRank": 1494,
+    "components": [],
+    "lessonOrder": 378
+  },
+  {
+    "char": "龙",
+    "meanings": [
+      "dragon; symbol of the emperor"
+    ],
+    "pinyin": [
+      "lóng"
+    ],
+    "strokeCount": 5,
+    "level": 5,
+    "frequencyRank": 1547,
+    "components": [],
+    "lessonOrder": 379
+  },
+  {
+    "char": "团",
+    "meanings": [
+      "sphere",
+      "circle",
+      "ball; mass",
+      "lump; group",
+      "regiment; to gather"
+    ],
+    "pinyin": [
+      "tuán"
+    ],
+    "strokeCount": 6,
+    "level": 5,
+    "frequencyRank": 1597,
+    "components": [
+      "才"
+    ],
+    "lessonOrder": 380
+  },
+  {
+    "char": "紧",
+    "meanings": [
+      "tense",
+      "tight",
+      "taut; firm",
+      "secure"
+    ],
+    "pinyin": [
+      "jǐn"
+    ],
+    "strokeCount": 10,
+    "level": 5,
+    "frequencyRank": 1601,
+    "components": [
+      "又"
+    ],
+    "lessonOrder": 381
+  },
+  {
+    "char": "背",
+    "meanings": [
+      "back",
+      "backside; to betray",
+      "to violate"
+    ],
+    "pinyin": [
+      "bèi"
+    ],
+    "strokeCount": 9,
+    "level": 5,
+    "frequencyRank": 1623,
+    "components": [],
+    "lessonOrder": 382
+  },
+  {
+    "char": "幅",
+    "meanings": [
+      "piece",
+      "roll",
+      "strip; breadth",
+      "width; measure word for textiles"
+    ],
+    "pinyin": [
+      "fú"
+    ],
+    "strokeCount": 12,
+    "level": 5,
+    "frequencyRank": 1668,
+    "components": [],
+    "lessonOrder": 383
+  },
+  {
+    "char": "布",
+    "meanings": [
+      "cotton",
+      "linen",
+      "textiles; to announce",
+      "to declare; to spread"
+    ],
+    "pinyin": [
+      "bù"
+    ],
+    "strokeCount": 5,
+    "level": 5,
+    "frequencyRank": 1694,
+    "components": [],
+    "lessonOrder": 384
+  },
+  {
+    "char": "平",
+    "meanings": [
+      "flat",
+      "level",
+      "even; peaceful"
+    ],
+    "pinyin": [
+      "píng"
+    ],
+    "strokeCount": 5,
+    "level": 5,
+    "frequencyRank": 1707,
+    "components": [
+      "干"
+    ],
+    "lessonOrder": 385
+  },
+  {
+    "char": "钟",
+    "meanings": [
+      "clock; bell"
+    ],
+    "pinyin": [
+      "zhōng"
+    ],
+    "strokeCount": 9,
+    "level": 5,
+    "frequencyRank": 1714,
+    "components": [],
+    "lessonOrder": 386
+  },
+  {
+    "char": "恨",
+    "meanings": [
+      "to dislike",
+      "to hate",
+      "to resent"
+    ],
+    "pinyin": [
+      "hèn"
+    ],
+    "strokeCount": 9,
+    "level": 5,
+    "frequencyRank": 1715,
+    "components": [],
+    "lessonOrder": 387
+  },
+  {
+    "char": "切",
+    "meanings": [
+      "to cut",
+      "to mince",
+      "to slice",
+      "to carve; close to; eager"
+    ],
+    "pinyin": [
+      "qiè"
+    ],
+    "strokeCount": 4,
+    "level": 5,
+    "frequencyRank": 1757,
+    "components": [
+      "七",
+      "刀"
+    ],
+    "lessonOrder": 388
+  },
+  {
+    "char": "退",
+    "meanings": [
+      "to retreat",
+      "to step back",
+      "to withdraw"
+    ],
+    "pinyin": [
+      "tuì"
+    ],
+    "strokeCount": 9,
+    "level": 5,
+    "frequencyRank": 1809,
+    "components": [],
+    "lessonOrder": 389
+  },
+  {
+    "char": "腿",
+    "meanings": [
+      "legs",
+      "thighs"
+    ],
+    "pinyin": [
+      "tuǐ"
+    ],
+    "strokeCount": 13,
+    "level": 3,
+    "frequencyRank": 1216,
+    "components": [
+      "退"
+    ],
+    "lessonOrder": 390
+  },
+  {
+    "char": "岛",
+    "meanings": [
+      "island"
+    ],
+    "pinyin": [
+      "dǎo"
+    ],
+    "strokeCount": 7,
+    "level": 5,
+    "frequencyRank": 1816,
+    "components": [
+      "鸟"
+    ],
+    "lessonOrder": 391
+  },
+  {
+    "char": "官",
+    "meanings": [
+      "official",
+      "public servant"
+    ],
+    "pinyin": [
+      "guān"
+    ],
+    "strokeCount": 8,
+    "level": 5,
+    "frequencyRank": 1825,
+    "components": [],
+    "lessonOrder": 392
+  },
+  {
+    "char": "摆",
+    "meanings": [
+      "to arrange",
+      "to display; pendulum",
+      "swing"
+    ],
+    "pinyin": [
+      "bǎi"
+    ],
+    "strokeCount": 13,
+    "level": 5,
+    "frequencyRank": 1854,
+    "components": [],
+    "lessonOrder": 393
+  },
+  {
+    "char": "吓",
+    "meanings": [
+      "to scare",
+      "to frighten; to threaten",
+      "to intimidate"
+    ],
+    "pinyin": [
+      "xià"
+    ],
+    "strokeCount": 6,
+    "level": 5,
+    "frequencyRank": 1856,
+    "components": [
+      "口",
+      "下"
+    ],
+    "lessonOrder": 394
+  },
+  {
+    "char": "升",
+    "meanings": [
+      "to advance; to arise; to hoist",
+      "to raise"
+    ],
+    "pinyin": [
+      "shēng"
+    ],
+    "strokeCount": 4,
+    "level": 5,
+    "frequencyRank": 1863,
+    "components": [
+      "十"
+    ],
+    "lessonOrder": 395
+  },
+  {
+    "char": "吐",
+    "meanings": [
+      "to vomit",
+      "to spew out",
+      "to cough up; to say"
+    ],
+    "pinyin": [
+      "tǔ"
+    ],
+    "strokeCount": 6,
+    "level": 5,
+    "frequencyRank": 1958,
+    "components": [
+      "口"
+    ],
+    "lessonOrder": 396
+  },
+  {
+    "char": "滴",
+    "meanings": [
+      "to drip; a drop of water"
+    ],
+    "pinyin": [
+      "dī"
+    ],
+    "strokeCount": 14,
+    "level": 5,
+    "frequencyRank": 2035,
+    "components": [],
+    "lessonOrder": 397
+  },
+  {
+    "char": "滚",
+    "meanings": [
+      "to boil",
+      "to roll",
+      "to turn"
+    ],
+    "pinyin": [
+      "gǔn"
+    ],
+    "strokeCount": 13,
+    "level": 5,
+    "frequencyRank": 2046,
+    "components": [],
+    "lessonOrder": 398
+  },
+  {
+    "char": "逃",
+    "meanings": [
+      "to abscond",
+      "to dodge",
+      "to escape",
+      "to flee"
+    ],
+    "pinyin": [
+      "táo"
+    ],
+    "strokeCount": 9,
+    "level": 5,
+    "frequencyRank": 2056,
+    "components": [],
+    "lessonOrder": 399
+  },
+  {
+    "char": "喊",
+    "meanings": [
+      "to shout",
+      "to yell",
+      "to call out; to howl; to cry"
+    ],
+    "pinyin": [
+      "hǎn"
+    ],
+    "strokeCount": 12,
+    "level": 5,
+    "frequencyRank": 2060,
+    "components": [
+      "口",
+      "咸"
+    ],
+    "lessonOrder": 400
+  },
+  {
+    "char": "卷",
+    "meanings": [
+      "book",
+      "scroll",
+      "volume; curled up; to curl",
+      "to roll"
+    ],
+    "pinyin": [
+      "juǎn"
+    ],
+    "strokeCount": 8,
+    "level": 5,
+    "frequencyRank": 2089,
+    "components": [],
+    "lessonOrder": 401
+  },
+  {
+    "char": "圈",
+    "meanings": [
+      "circle",
+      "ring",
+      "loop; to encircle"
+    ],
+    "pinyin": [
+      "quān"
+    ],
+    "strokeCount": 11,
+    "level": 5,
+    "frequencyRank": 1517,
+    "components": [
+      "卷"
+    ],
+    "lessonOrder": 402
+  },
+  {
+    "char": "存",
+    "meanings": [
+      "to exist; to survive",
+      "to maintain; to keep",
+      "to store; to deposit"
+    ],
+    "pinyin": [
+      "cún"
+    ],
+    "strokeCount": 6,
+    "level": 5,
+    "frequencyRank": 2114,
+    "components": [
+      "才"
+    ],
+    "lessonOrder": 403
+  },
+  {
+    "char": "欠",
+    "meanings": [
+      "to lack",
+      "to owe; to breathe",
+      "to yawn"
+    ],
+    "pinyin": [
+      "qiàn"
+    ],
+    "strokeCount": 4,
+    "level": 5,
+    "frequencyRank": 2126,
+    "components": [
+      "人"
+    ],
+    "lessonOrder": 404
+  },
+  {
+    "char": "次",
+    "meanings": [
+      "order",
+      "sequence; second",
+      "next; one after the other"
+    ],
+    "pinyin": [
+      "cì"
+    ],
+    "strokeCount": 6,
+    "level": 2,
+    "frequencyRank": 99,
+    "components": [
+      "欠"
+    ],
+    "lessonOrder": 405
+  },
+  {
+    "char": "软",
+    "meanings": [
+      "soft",
+      "pliable",
+      "flexible; weak"
+    ],
+    "pinyin": [
+      "ruǎn"
+    ],
+    "strokeCount": 8,
+    "level": 4,
+    "frequencyRank": 3178,
+    "components": [
+      "欠"
+    ],
+    "lessonOrder": 406
+  },
+  {
+    "char": "吹",
+    "meanings": [
+      "to blow",
+      "to puff; to brag",
+      "to boast"
+    ],
+    "pinyin": [
+      "chuī"
+    ],
+    "strokeCount": 7,
+    "level": 5,
+    "frequencyRank": 1880,
+    "components": [
+      "口",
+      "欠"
+    ],
+    "lessonOrder": 407
+  },
+  {
+    "char": "盖",
+    "meanings": [
+      "to cover",
+      "to hide",
+      "to protect"
+    ],
+    "pinyin": [
+      "gài"
+    ],
+    "strokeCount": 11,
+    "level": 5,
+    "frequencyRank": 2188,
+    "components": [],
+    "lessonOrder": 408
+  },
+  {
+    "char": "炒",
+    "meanings": [
+      "to boil",
+      "to fry",
+      "to roast",
+      "to sauté; to trade stock"
+    ],
+    "pinyin": [
+      "chǎo"
+    ],
+    "strokeCount": 8,
+    "level": 5,
+    "frequencyRank": 2197,
+    "components": [
+      "火",
+      "少"
+    ],
+    "lessonOrder": 409
+  },
+  {
+    "char": "塔",
+    "meanings": [
+      "tower",
+      "spire",
+      "tall building"
+    ],
+    "pinyin": [
+      "tǎ"
+    ],
+    "strokeCount": 12,
+    "level": 5,
+    "frequencyRank": 2198,
+    "components": [],
+    "lessonOrder": 410
+  },
+  {
+    "char": "洞",
+    "meanings": [
+      "cave",
+      "grotto",
+      "hole",
+      "ravine"
+    ],
+    "pinyin": [
+      "dòng"
+    ],
+    "strokeCount": 9,
+    "level": 5,
+    "frequencyRank": 2225,
+    "components": [],
+    "lessonOrder": 411
+  },
+  {
+    "char": "胸",
+    "meanings": [
+      "breast",
+      "bosom; heart",
+      "mind"
+    ],
+    "pinyin": [
+      "xiōng"
+    ],
+    "strokeCount": 10,
+    "level": 5,
+    "frequencyRank": 2291,
+    "components": [],
+    "lessonOrder": 412
+  },
+  {
+    "char": "嫁",
+    "meanings": [
+      "to marry",
+      "to give a daughter in marriage"
+    ],
+    "pinyin": [
+      "jià"
+    ],
+    "strokeCount": 13,
+    "level": 5,
+    "frequencyRank": 2300,
+    "components": [
+      "家"
+    ],
+    "lessonOrder": 413
+  },
+  {
+    "char": "举",
+    "meanings": [
+      "to raise; to recommend; to praise"
+    ],
+    "pinyin": [
+      "jǔ"
+    ],
+    "strokeCount": 9,
+    "level": 5,
+    "frequencyRank": 2311,
+    "components": [],
+    "lessonOrder": 414
+  },
+  {
+    "char": "碎",
+    "meanings": [
+      "to break",
+      "to smash; broken",
+      "busted"
+    ],
+    "pinyin": [
+      "suì"
+    ],
+    "strokeCount": 13,
+    "level": 5,
+    "frequencyRank": 2313,
+    "components": [],
+    "lessonOrder": 415
+  },
+  {
+    "char": "烂",
+    "meanings": [
+      "overcooked",
+      "overripe; rotten",
+      "spoiled"
+    ],
+    "pinyin": [
+      "làn"
+    ],
+    "strokeCount": 9,
+    "level": 5,
+    "frequencyRank": 2387,
+    "components": [
+      "火"
+    ],
+    "lessonOrder": 416
+  },
+  {
+    "char": "批",
+    "meanings": [
+      "comment",
+      "criticism; batch",
+      "lot; wholesale"
+    ],
+    "pinyin": [
+      "pī"
+    ],
+    "strokeCount": 7,
+    "level": 5,
+    "frequencyRank": 2398,
+    "components": [
+      "比"
+    ],
+    "lessonOrder": 417
+  },
+  {
+    "char": "除",
+    "meanings": [
+      "to eliminate",
+      "to remove",
+      "to wipe out"
+    ],
+    "pinyin": [
+      "chú"
+    ],
+    "strokeCount": 9,
+    "level": 5,
+    "frequencyRank": 2398,
+    "components": [],
+    "lessonOrder": 418
+  },
+  {
+    "char": "醉",
+    "meanings": [
+      "intoxicated",
+      "drunk; addicted"
+    ],
+    "pinyin": [
+      "zuì"
+    ],
+    "strokeCount": 15,
+    "level": 5,
+    "frequencyRank": 2402,
+    "components": [],
+    "lessonOrder": 419
+  },
+  {
+    "char": "念",
+    "meanings": [
+      "to think of",
+      "to recall; to study"
+    ],
+    "pinyin": [
+      "niàn"
+    ],
+    "strokeCount": 8,
+    "level": 5,
+    "frequencyRank": 2410,
+    "components": [],
+    "lessonOrder": 420
+  },
+  {
+    "char": "狼",
+    "meanings": [
+      "wolf"
+    ],
+    "pinyin": [
+      "láng"
+    ],
+    "strokeCount": 10,
+    "level": 5,
+    "frequencyRank": 2421,
+    "components": [],
+    "lessonOrder": 421
+  },
+  {
+    "char": "闻",
+    "meanings": [
+      "news; to hear",
+      "to smell; to make known"
+    ],
+    "pinyin": [
+      "wén"
+    ],
+    "strokeCount": 9,
+    "level": 5,
+    "frequencyRank": 2427,
+    "components": [
+      "门"
+    ],
+    "lessonOrder": 422
+  },
+  {
+    "char": "唉",
+    "meanings": [
+      "alas; exclamation of surprise or pain"
+    ],
+    "pinyin": [
+      "āi"
+    ],
+    "strokeCount": 10,
+    "level": 5,
+    "frequencyRank": 2512,
+    "components": [
+      "口"
+    ],
+    "lessonOrder": 423
+  },
+  {
+    "char": "咬",
+    "meanings": [
+      "to bite",
+      "to gnaw"
+    ],
+    "pinyin": [
+      "yǎo"
+    ],
+    "strokeCount": 9,
+    "level": 5,
+    "frequencyRank": 2563,
+    "components": [
+      "口",
+      "交"
+    ],
+    "lessonOrder": 424
+  },
+  {
+    "char": "银",
+    "meanings": [
+      "silver; cash",
+      "money",
+      "wealth"
+    ],
+    "pinyin": [
+      "yín"
+    ],
+    "strokeCount": 11,
+    "level": 5,
+    "frequencyRank": 2564,
+    "components": [],
+    "lessonOrder": 425
+  },
+  {
+    "char": "诗",
+    "meanings": [
+      "poetry; poem",
+      "verse",
+      "ode"
+    ],
+    "pinyin": [
+      "shī"
+    ],
+    "strokeCount": 8,
+    "level": 5,
+    "frequencyRank": 2594,
+    "components": [],
+    "lessonOrder": 426
+  },
+  {
+    "char": "锁",
+    "meanings": [
+      "lock",
+      "padlock; chains",
+      "shackles"
+    ],
+    "pinyin": [
+      "suǒ"
+    ],
+    "strokeCount": 12,
+    "level": 5,
+    "frequencyRank": 2607,
+    "components": [],
+    "lessonOrder": 427
+  },
+  {
+    "char": "骂",
+    "meanings": [
+      "to accuse",
+      "to blame",
+      "to curse",
+      "to scold"
+    ],
+    "pinyin": [
+      "mà"
+    ],
+    "strokeCount": 9,
+    "level": 5,
+    "frequencyRank": 2622,
+    "components": [
+      "口",
+      "口",
+      "马"
+    ],
+    "lessonOrder": 428
+  },
+  {
+    "char": "露",
+    "meanings": [
+      "dew; leak; bare",
+      "exposed; to reveal",
+      "to show"
+    ],
+    "pinyin": [
+      "lù"
+    ],
+    "strokeCount": 21,
+    "level": 5,
+    "frequencyRank": 2700,
+    "components": [
+      "路"
+    ],
+    "lessonOrder": 429
+  },
+  {
+    "char": "摸",
+    "meanings": [
+      "to caress",
+      "to stroke",
+      "to gently touch"
+    ],
+    "pinyin": [
+      "mō"
+    ],
+    "strokeCount": 13,
+    "level": 5,
+    "frequencyRank": 2716,
+    "components": [],
+    "lessonOrder": 430
+  },
+  {
+    "char": "青",
+    "meanings": [
+      "nature's color; blue",
+      "green",
+      "black; young"
+    ],
+    "pinyin": [
+      "qīng"
+    ],
+    "strokeCount": 8,
+    "level": 5,
+    "frequencyRank": 2780,
+    "components": [
+      "月"
+    ],
+    "lessonOrder": 431
+  },
+  {
+    "char": "请",
+    "meanings": [
+      "to ask",
+      "to request; to invite; please"
+    ],
+    "pinyin": [
+      "qǐng"
+    ],
+    "strokeCount": 10,
+    "level": 1,
+    "frequencyRank": 216,
+    "components": [
+      "青"
+    ],
+    "lessonOrder": 432
+  },
+  {
+    "char": "晴",
+    "meanings": [
+      "clear weather",
+      "fine weather"
+    ],
+    "pinyin": [
+      "qíng"
+    ],
+    "strokeCount": 12,
+    "level": 2,
+    "frequencyRank": 9343,
+    "components": [
+      "日",
+      "青"
+    ],
+    "lessonOrder": 433
+  },
+  {
+    "char": "猜",
+    "meanings": [
+      "to guess",
+      "to conjecture",
+      "to suppose; to feel"
+    ],
+    "pinyin": [
+      "cāi"
+    ],
+    "strokeCount": 11,
+    "level": 4,
+    "frequencyRank": 2168,
+    "components": [
+      "青"
+    ],
+    "lessonOrder": 434
+  },
+  {
+    "char": "煮",
+    "meanings": [
+      "to boil",
+      "to cook"
+    ],
+    "pinyin": [
+      "zhǔ"
+    ],
+    "strokeCount": 12,
+    "level": 5,
+    "frequencyRank": 2829,
+    "components": [],
+    "lessonOrder": 435
+  },
+  {
+    "char": "插",
+    "meanings": [
+      "to insert",
+      "to stick in; to pierce; to plant"
+    ],
+    "pinyin": [
+      "chā"
+    ],
+    "strokeCount": 12,
+    "level": 5,
+    "frequencyRank": 2875,
+    "components": [],
+    "lessonOrder": 436
+  },
+  {
+    "char": "灰",
+    "meanings": [
+      "ashes; dust; lime",
+      "mortar"
+    ],
+    "pinyin": [
+      "huī"
+    ],
+    "strokeCount": 6,
+    "level": 5,
+    "frequencyRank": 2914,
+    "components": [
+      "火"
+    ],
+    "lessonOrder": 437
+  },
+  {
+    "char": "堆",
+    "meanings": [
+      "crowd",
+      "heap",
+      "pile",
+      "mass; to pile up; measure word for things in piles or stacks"
+    ],
+    "pinyin": [
+      "duī"
+    ],
+    "strokeCount": 11,
+    "level": 5,
+    "frequencyRank": 2915,
+    "components": [],
+    "lessonOrder": 438
+  },
+  {
+    "char": "弱",
+    "meanings": [
+      "weak",
+      "fragile",
+      "delicate"
+    ],
+    "pinyin": [
+      "ruò"
+    ],
+    "strokeCount": 10,
+    "level": 5,
+    "frequencyRank": 2968,
+    "components": [],
+    "lessonOrder": 439
+  },
+  {
+    "char": "乘",
+    "meanings": [
+      "ride",
+      "mount; to make use of; to ascend; to multiply"
+    ],
+    "pinyin": [
+      "chéng"
+    ],
+    "strokeCount": 10,
+    "level": 5,
+    "frequencyRank": 2982,
+    "components": [],
+    "lessonOrder": 440
+  },
+  {
+    "char": "剩",
+    "meanings": [
+      "leftovers",
+      "residue",
+      "remains"
+    ],
+    "pinyin": [
+      "shèng"
+    ],
+    "strokeCount": 12,
+    "level": 4,
+    "frequencyRank": 2453,
+    "components": [
+      "乘"
+    ],
+    "lessonOrder": 441
+  },
+  {
+    "char": "晕",
+    "meanings": [
+      "dizzy",
+      "faint",
+      "foggy; to see stars"
+    ],
+    "pinyin": [
+      "yūn"
+    ],
+    "strokeCount": 10,
+    "level": 5,
+    "frequencyRank": 2983,
+    "components": [
+      "日"
+    ],
+    "lessonOrder": 442
+  },
+  {
+    "char": "甲",
+    "meanings": [
+      "armor",
+      "shell; fingernails; 1st heavenly stem"
+    ],
+    "pinyin": [
+      "jiǎ"
+    ],
+    "strokeCount": 5,
+    "level": 5,
+    "frequencyRank": 2984,
+    "components": [],
+    "lessonOrder": 443
+  },
+  {
+    "char": "瞧",
+    "meanings": [
+      "to glance at",
+      "to look at",
+      "to see"
+    ],
+    "pinyin": [
+      "qiáo"
+    ],
+    "strokeCount": 17,
+    "level": 5,
+    "frequencyRank": 3046,
+    "components": [],
+    "lessonOrder": 444
+  },
+  {
+    "char": "胃",
+    "meanings": [
+      "stomach"
+    ],
+    "pinyin": [
+      "wèi"
+    ],
+    "strokeCount": 9,
+    "level": 5,
+    "frequencyRank": 3072,
+    "components": [],
+    "lessonOrder": 445
+  },
+  {
+    "char": "踩",
+    "meanings": [
+      "to step on; to stamp"
+    ],
+    "pinyin": [
+      "cǎi"
+    ],
+    "strokeCount": 15,
+    "level": 5,
+    "frequencyRank": 3087,
+    "components": [],
+    "lessonOrder": 446
+  },
+  {
+    "char": "摇",
+    "meanings": [
+      "to rock",
+      "to shake; to swing",
+      "to wave"
+    ],
+    "pinyin": [
+      "yáo"
+    ],
+    "strokeCount": 13,
+    "level": 5,
+    "frequencyRank": 3118,
+    "components": [],
+    "lessonOrder": 447
+  },
+  {
+    "char": "丁",
+    "meanings": [
+      "male adult; robust",
+      "vigorous; 4th heavenly stem"
+    ],
+    "pinyin": [
+      "dīng"
+    ],
+    "strokeCount": 2,
+    "level": 5,
+    "frequencyRank": 3211,
+    "components": [
+      "一"
+    ],
+    "lessonOrder": 448
+  },
+  {
+    "char": "灯",
+    "meanings": [
+      "lamp",
+      "lantern",
+      "light"
+    ],
+    "pinyin": [
+      "dēng"
+    ],
+    "strokeCount": 6,
+    "level": 3,
+    "frequencyRank": 2001,
+    "components": [
+      "火",
+      "丁"
+    ],
+    "lessonOrder": 449
+  },
+  {
+    "char": "顶",
+    "meanings": [
+      "top",
+      "summit",
+      "peak; to carry on the head"
+    ],
+    "pinyin": [
+      "dǐng"
+    ],
+    "strokeCount": 8,
+    "level": 5,
+    "frequencyRank": 1623,
+    "components": [
+      "丁",
+      "页"
+    ],
+    "lessonOrder": 450
+  },
+  {
+    "char": "届",
+    "meanings": [
+      "deadline; period; measure word for elections",
+      "meetings",
+      "and other events"
+    ],
+    "pinyin": [
+      "jiè"
+    ],
+    "strokeCount": 8,
+    "level": 5,
+    "frequencyRank": 3211,
+    "components": [
+      "由"
+    ],
+    "lessonOrder": 451
+  },
+  {
+    "char": "挡",
+    "meanings": [
+      "to block",
+      "to obstruct; to get in the way; cover",
+      "guard"
+    ],
+    "pinyin": [
+      "dǎng"
+    ],
+    "strokeCount": 9,
+    "level": 5,
+    "frequencyRank": 3211,
+    "components": [
+      "当"
+    ],
+    "lessonOrder": 452
+  },
+  {
+    "char": "摔",
+    "meanings": [
+      "to fall",
+      "to stumble",
+      "to trip"
+    ],
+    "pinyin": [
+      "shuāi"
+    ],
+    "strokeCount": 14,
+    "level": 5,
+    "frequencyRank": 3263,
+    "components": [],
+    "lessonOrder": 453
+  },
+  {
+    "char": "绕",
+    "meanings": [
+      "to entwine",
+      "to wind around; to orbit",
+      "to revolve"
+    ],
+    "pinyin": [
+      "rào"
+    ],
+    "strokeCount": 9,
+    "level": 5,
+    "frequencyRank": 3312,
+    "components": [],
+    "lessonOrder": 454
+  },
+  {
+    "char": "腰",
+    "meanings": [
+      "waist",
+      "lower back; middle; pocket"
+    ],
+    "pinyin": [
+      "yāo"
+    ],
+    "strokeCount": 13,
+    "level": 5,
+    "frequencyRank": 3323,
+    "components": [
+      "要"
+    ],
+    "lessonOrder": 455
+  },
+  {
+    "char": "肺",
+    "meanings": [
+      "lungs"
+    ],
+    "pinyin": [
+      "fèi"
+    ],
+    "strokeCount": 8,
+    "level": 5,
+    "frequencyRank": 3353,
+    "components": [],
+    "lessonOrder": 456
+  },
+  {
+    "char": "砍",
+    "meanings": [
+      "to hack",
+      "to chop",
+      "to cut",
+      "to fell"
+    ],
+    "pinyin": [
+      "kǎn"
+    ],
+    "strokeCount": 9,
+    "level": 5,
+    "frequencyRank": 3423,
+    "components": [
+      "欠"
+    ],
+    "lessonOrder": 457
+  },
+  {
+    "char": "拆",
+    "meanings": [
+      "to break open",
+      "to split up",
+      "to tear apart"
+    ],
+    "pinyin": [
+      "chāi"
+    ],
+    "strokeCount": 8,
+    "level": 5,
+    "frequencyRank": 3439,
+    "components": [],
+    "lessonOrder": 458
+  },
+  {
+    "char": "蛇",
+    "meanings": [
+      "snake"
+    ],
+    "pinyin": [
+      "shé"
+    ],
+    "strokeCount": 11,
+    "level": 5,
+    "frequencyRank": 3448,
+    "components": [
+      "它"
+    ],
+    "lessonOrder": 459
+  },
+  {
+    "char": "县",
+    "meanings": [
+      "county",
+      "district",
+      "subdivision"
+    ],
+    "pinyin": [
+      "xiàn"
+    ],
+    "strokeCount": 7,
+    "level": 5,
+    "frequencyRank": 3513,
+    "components": [],
+    "lessonOrder": 460
+  },
+  {
+    "char": "税",
+    "meanings": [
+      "taxes"
+    ],
+    "pinyin": [
+      "shuì"
+    ],
+    "strokeCount": 12,
+    "level": 5,
+    "frequencyRank": 3627,
+    "components": [],
+    "lessonOrder": 461
+  },
+  {
+    "char": "甩",
+    "meanings": [
+      "to throw away",
+      "to fling",
+      "to discard"
+    ],
+    "pinyin": [
+      "shuǎi"
+    ],
+    "strokeCount": 5,
+    "level": 5,
+    "frequencyRank": 3672,
+    "components": [
+      "月"
+    ],
+    "lessonOrder": 462
+  },
+  {
+    "char": "晒",
+    "meanings": [
+      "to dry in the sun; to expose to the sun"
+    ],
+    "pinyin": [
+      "shài"
+    ],
+    "strokeCount": 10,
+    "level": 5,
+    "frequencyRank": 3679,
+    "components": [
+      "日",
+      "西"
+    ],
+    "lessonOrder": 463
+  },
+  {
+    "char": "乖",
+    "meanings": [
+      "obedient",
+      "well-behaved; clever"
+    ],
+    "pinyin": [
+      "guāi"
+    ],
+    "strokeCount": 8,
+    "level": 5,
+    "frequencyRank": 3704,
+    "components": [
+      "千"
+    ],
+    "lessonOrder": 464
+  },
+  {
+    "char": "劝",
+    "meanings": [
+      "to recommend",
+      "to advise; to urge",
+      "to exhort"
+    ],
+    "pinyin": [
+      "quàn"
+    ],
+    "strokeCount": 4,
+    "level": 5,
+    "frequencyRank": 3745,
+    "components": [
+      "又"
+    ],
+    "lessonOrder": 465
+  },
+  {
+    "char": "娶",
+    "meanings": [
+      "to marry",
+      "to take a wife"
+    ],
+    "pinyin": [
+      "qǔ"
+    ],
+    "strokeCount": 11,
+    "level": 5,
+    "frequencyRank": 3752,
+    "components": [
+      "取"
+    ],
+    "lessonOrder": 466
+  },
+  {
+    "char": "匹",
+    "meanings": [
+      "bolt of cloth; mate",
+      "one of a pair; measure word for horses"
+    ],
+    "pinyin": [
+      "pǐ"
+    ],
+    "strokeCount": 4,
+    "level": 5,
+    "frequencyRank": 3794,
+    "components": [],
+    "lessonOrder": 467
+  },
+  {
+    "char": "锅",
+    "meanings": [
+      "cooking-pot",
+      "saucepan"
+    ],
+    "pinyin": [
+      "guō"
+    ],
+    "strokeCount": 12,
+    "level": 5,
+    "frequencyRank": 3812,
+    "components": [],
+    "lessonOrder": 468
+  },
+  {
+    "char": "蹲",
+    "meanings": [
+      "to squat",
+      "to crouch"
+    ],
+    "pinyin": [
+      "dūn"
+    ],
+    "strokeCount": 19,
+    "level": 5,
+    "frequencyRank": 3836,
+    "components": [],
+    "lessonOrder": 469
+  },
+  {
+    "char": "丑",
+    "meanings": [
+      "ugly; shameful; comedian",
+      "clown"
+    ],
+    "pinyin": [
+      "chǒu"
+    ],
+    "strokeCount": 4,
+    "level": 5,
+    "frequencyRank": 3841,
+    "components": [
+      "刀",
+      "二"
+    ],
+    "lessonOrder": 470
+  },
+  {
+    "char": "牵",
+    "meanings": [
+      "to drag",
+      "to pull",
+      "to lead by the hand"
+    ],
+    "pinyin": [
+      "qiān"
+    ],
+    "strokeCount": 9,
+    "level": 5,
+    "frequencyRank": 3847,
+    "components": [
+      "大"
+    ],
+    "lessonOrder": 471
+  },
+  {
+    "char": "冻",
+    "meanings": [
+      "cold; to freeze",
+      "to congeal; jelly"
+    ],
+    "pinyin": [
+      "dòng"
+    ],
+    "strokeCount": 7,
+    "level": 5,
+    "frequencyRank": 3883,
+    "components": [
+      "东"
+    ],
+    "lessonOrder": 472
+  },
+  {
+    "char": "阵",
+    "meanings": [
+      "row",
+      "column; ranks",
+      "troop formation"
+    ],
+    "pinyin": [
+      "zhèn"
+    ],
+    "strokeCount": 6,
+    "level": 5,
+    "frequencyRank": 3920,
+    "components": [],
+    "lessonOrder": 473
+  },
+  {
+    "char": "瞎",
+    "meanings": [
+      "blind",
+      "reckless; rash"
+    ],
+    "pinyin": [
+      "xiā"
+    ],
+    "strokeCount": 15,
+    "level": 5,
+    "frequencyRank": 3932,
+    "components": [],
+    "lessonOrder": 474
+  },
+  {
+    "char": "挥",
+    "meanings": [
+      "to direct; to squander; to wave; to wipe away"
+    ],
+    "pinyin": [
+      "huī"
+    ],
+    "strokeCount": 9,
+    "level": 5,
+    "frequencyRank": 3969,
+    "components": [],
+    "lessonOrder": 475
+  },
+  {
+    "char": "涨",
+    "meanings": [
+      "flood tide; to rise in price"
+    ],
+    "pinyin": [
+      "zhǎng"
+    ],
+    "strokeCount": 10,
+    "level": 5,
+    "frequencyRank": 4020,
+    "components": [
+      "张"
+    ],
+    "lessonOrder": 476
+  },
+  {
+    "char": "吨",
+    "meanings": [
+      "a metric ton"
+    ],
+    "pinyin": [
+      "dūn"
+    ],
+    "strokeCount": 7,
+    "level": 5,
+    "frequencyRank": 4023,
+    "components": [
+      "口"
+    ],
+    "lessonOrder": 477
+  },
+  {
+    "char": "趁",
+    "meanings": [
+      "to take advantage of",
+      "to seize an opportunity"
+    ],
+    "pinyin": [
+      "chèn"
+    ],
+    "strokeCount": 12,
+    "level": 5,
+    "frequencyRank": 4043,
+    "components": [
+      "走"
+    ],
+    "lessonOrder": 478
+  },
+  {
+    "char": "捡",
+    "meanings": [
+      "to pick up",
+      "to gather",
+      "to collect"
+    ],
+    "pinyin": [
+      "jiǎn"
+    ],
+    "strokeCount": 10,
+    "level": 5,
+    "frequencyRank": 4100,
+    "components": [],
+    "lessonOrder": 479
+  },
+  {
+    "char": "薄",
+    "meanings": [
+      "thin",
+      "slight; meager",
+      "weak; poor",
+      "stingy"
+    ],
+    "pinyin": [
+      "báo"
+    ],
+    "strokeCount": 16,
+    "level": 5,
+    "frequencyRank": 4129,
+    "components": [],
+    "lessonOrder": 480
+  },
+  {
+    "char": "漏",
+    "meanings": [
+      "to leak",
+      "to drip; hour glass; funnel"
+    ],
+    "pinyin": [
+      "lòu"
+    ],
+    "strokeCount": 14,
+    "level": 5,
+    "frequencyRank": 4288,
+    "components": [],
+    "lessonOrder": 481
+  },
+  {
+    "char": "雾",
+    "meanings": [
+      "fog",
+      "mist",
+      "vapor",
+      "fine spray"
+    ],
+    "pinyin": [
+      "wù"
+    ],
+    "strokeCount": 13,
+    "level": 5,
+    "frequencyRank": 4332,
+    "components": [],
+    "lessonOrder": 482
+  },
+  {
+    "char": "伸",
+    "meanings": [
+      "to extend",
+      "to stretch out",
+      "to open up; to trust"
+    ],
+    "pinyin": [
+      "shēn"
+    ],
+    "strokeCount": 7,
+    "level": 5,
+    "frequencyRank": 4337,
+    "components": [],
+    "lessonOrder": 483
+  },
+  {
+    "char": "扶",
+    "meanings": [
+      "to support",
+      "to protect",
+      "to help"
+    ],
+    "pinyin": [
+      "fú"
+    ],
+    "strokeCount": 7,
+    "level": 5,
+    "frequencyRank": 4500,
+    "components": [],
+    "lessonOrder": 484
+  },
+  {
+    "char": "催",
+    "meanings": [
+      "to press",
+      "to urge"
+    ],
+    "pinyin": [
+      "cuī"
+    ],
+    "strokeCount": 13,
+    "level": 5,
+    "frequencyRank": 4565,
+    "components": [],
+    "lessonOrder": 485
+  },
+  {
+    "char": "捐",
+    "meanings": [
+      "to give",
+      "to donate; to give up",
+      "to renounce"
+    ],
+    "pinyin": [
+      "juān"
+    ],
+    "strokeCount": 10,
+    "level": 5,
+    "frequencyRank": 4602,
+    "components": [],
+    "lessonOrder": 486
+  },
+  {
+    "char": "烫",
+    "meanings": [
+      "to scald; to iron clothes or hair"
+    ],
+    "pinyin": [
+      "tàng"
+    ],
+    "strokeCount": 10,
+    "level": 5,
+    "frequencyRank": 4676,
+    "components": [
+      "汤",
+      "火"
+    ],
+    "lessonOrder": 487
+  },
+  {
+    "char": "闯",
+    "meanings": [
+      "to rush in",
+      "to charge in",
+      "to burst in"
+    ],
+    "pinyin": [
+      "chuǎng"
+    ],
+    "strokeCount": 6,
+    "level": 5,
+    "frequencyRank": 4698,
+    "components": [
+      "门",
+      "马"
+    ],
+    "lessonOrder": 488
+  },
+  {
+    "char": "粒",
+    "meanings": [
+      "grain",
+      "granule; bullet",
+      "pellet"
+    ],
+    "pinyin": [
+      "lì"
+    ],
+    "strokeCount": 11,
+    "level": 5,
+    "frequencyRank": 4781,
+    "components": [
+      "米"
+    ],
+    "lessonOrder": 489
+  },
+  {
+    "char": "淡",
+    "meanings": [
+      "watery",
+      "dilute; insipid",
+      "tasteless"
+    ],
+    "pinyin": [
+      "dàn"
+    ],
+    "strokeCount": 11,
+    "level": 5,
+    "frequencyRank": 4795,
+    "components": [],
+    "lessonOrder": 490
+  },
+  {
+    "char": "逗",
+    "meanings": [
+      "to entice",
+      "to tempt; to arouse",
+      "to stir"
+    ],
+    "pinyin": [
+      "dòu"
+    ],
+    "strokeCount": 10,
+    "level": 5,
+    "frequencyRank": 4825,
+    "components": [],
+    "lessonOrder": 491
+  },
+  {
+    "char": "飘",
+    "meanings": [
+      "to drift",
+      "to float",
+      "to flutter"
+    ],
+    "pinyin": [
+      "piāo"
+    ],
+    "strokeCount": 15,
+    "level": 5,
+    "frequencyRank": 4833,
+    "components": [
+      "票"
+    ],
+    "lessonOrder": 492
+  },
+  {
+    "char": "铜",
+    "meanings": [
+      "copper",
+      "bronze"
+    ],
+    "pinyin": [
+      "tóng"
+    ],
+    "strokeCount": 11,
+    "level": 5,
+    "frequencyRank": 4916,
+    "components": [],
+    "lessonOrder": 493
+  },
+  {
+    "char": "浓",
+    "meanings": [
+      "concentrated",
+      "dense",
+      "strong",
+      "thick"
+    ],
+    "pinyin": [
+      "nóng"
+    ],
+    "strokeCount": 9,
+    "level": 5,
+    "frequencyRank": 4948,
+    "components": [],
+    "lessonOrder": 494
+  },
+  {
+    "char": "横",
+    "meanings": [
+      "horizontal",
+      "across; unreasonable",
+      "harsh"
+    ],
+    "pinyin": [
+      "héng"
+    ],
+    "strokeCount": 15,
+    "level": 5,
+    "frequencyRank": 5014,
+    "components": [
+      "黄"
+    ],
+    "lessonOrder": 495
+  },
+  {
+    "char": "浅",
+    "meanings": [
+      "shallow",
+      "superficial"
+    ],
+    "pinyin": [
+      "qiǎn"
+    ],
+    "strokeCount": 8,
+    "level": 5,
+    "frequencyRank": 5099,
+    "components": [],
+    "lessonOrder": 496
+  },
+  {
+    "char": "摘",
+    "meanings": [
+      "to pick",
+      "to pluck",
+      "to select",
+      "to take"
+    ],
+    "pinyin": [
+      "zhāi"
+    ],
+    "strokeCount": 14,
+    "level": 5,
+    "frequencyRank": 5217,
+    "components": [],
+    "lessonOrder": 497
+  },
+  {
+    "char": "歪",
+    "meanings": [
+      "slanted",
+      "askew",
+      "awry"
+    ],
+    "pinyin": [
+      "wāi"
+    ],
+    "strokeCount": 9,
+    "level": 5,
+    "frequencyRank": 5307,
+    "components": [
+      "不",
+      "正"
+    ],
+    "lessonOrder": 498
+  },
+  {
+    "char": "睁",
+    "meanings": [
+      "to open one's eyes; to stare"
+    ],
+    "pinyin": [
+      "zhēng"
+    ],
+    "strokeCount": 11,
+    "level": 5,
+    "frequencyRank": 5578,
+    "components": [],
+    "lessonOrder": 499
+  },
+  {
+    "char": "拦",
+    "meanings": [
+      "to block",
+      "to hinder",
+      "to obstruct"
+    ],
+    "pinyin": [
+      "lán"
+    ],
+    "strokeCount": 8,
+    "level": 5,
+    "frequencyRank": 5693,
+    "components": [],
+    "lessonOrder": 500
+  },
+  {
+    "char": "撕",
+    "meanings": [
+      "to rip",
+      "to tear; to buy cloth"
+    ],
+    "pinyin": [
+      "sī"
+    ],
+    "strokeCount": 15,
+    "level": 5,
+    "frequencyRank": 5814,
+    "components": [],
+    "lessonOrder": 501
+  },
+  {
+    "char": "披",
+    "meanings": [
+      "to wear; to split",
+      "to crack"
+    ],
+    "pinyin": [
+      "pī"
+    ],
+    "strokeCount": 8,
+    "level": 5,
+    "frequencyRank": 5845,
+    "components": [],
+    "lessonOrder": 502
+  },
+  {
+    "char": "煎",
+    "meanings": [
+      "to fry in fat or oil; to boil in water"
+    ],
+    "pinyin": [
+      "jiān"
+    ],
+    "strokeCount": 13,
+    "level": 5,
+    "frequencyRank": 5908,
+    "components": [],
+    "lessonOrder": 503
+  },
+  {
+    "char": "盆",
+    "meanings": [
+      "basin",
+      "bowl",
+      "pot",
+      "tub"
+    ],
+    "pinyin": [
+      "pén"
+    ],
+    "strokeCount": 9,
+    "level": 5,
+    "frequencyRank": 6022,
+    "components": [
+      "分"
+    ],
+    "lessonOrder": 504
+  },
+  {
+    "char": "紫",
+    "meanings": [
+      "purple",
+      "violet; amethyst; surname"
+    ],
+    "pinyin": [
+      "zǐ"
+    ],
+    "strokeCount": 12,
+    "level": 5,
+    "frequencyRank": 6061,
+    "components": [],
+    "lessonOrder": 505
+  },
+  {
+    "char": "铃",
+    "meanings": [
+      "small bell"
+    ],
+    "pinyin": [
+      "líng"
+    ],
+    "strokeCount": 10,
+    "level": 5,
+    "frequencyRank": 6132,
+    "components": [],
+    "lessonOrder": 506
+  },
+  {
+    "char": "洒",
+    "meanings": [
+      "to pour",
+      "to spill; to scatter",
+      "to shed; to wipe away"
+    ],
+    "pinyin": [
+      "sǎ"
+    ],
+    "strokeCount": 9,
+    "level": 5,
+    "frequencyRank": 6215,
+    "components": [
+      "西"
+    ],
+    "lessonOrder": 507
+  },
+  {
+    "char": "桃",
+    "meanings": [
+      "peach; marriage; surname"
+    ],
+    "pinyin": [
+      "táo"
+    ],
+    "strokeCount": 10,
+    "level": 5,
+    "frequencyRank": 6265,
+    "components": [],
+    "lessonOrder": 508
+  },
+  {
+    "char": "嫩",
+    "meanings": [
+      "soft",
+      "delicate; young",
+      "tender"
+    ],
+    "pinyin": [
+      "nèn"
+    ],
+    "strokeCount": 14,
+    "level": 5,
+    "frequencyRank": 6514,
+    "components": [],
+    "lessonOrder": 509
+  },
+  {
+    "char": "抄",
+    "meanings": [
+      "copy",
+      "plagiarism; to confiscate",
+      "to seize"
+    ],
+    "pinyin": [
+      "chāo"
+    ],
+    "strokeCount": 7,
+    "level": 5,
+    "frequencyRank": 6726,
+    "components": [
+      "少"
+    ],
+    "lessonOrder": 510
+  },
+  {
+    "char": "岸",
+    "meanings": [
+      "beach",
+      "coast",
+      "shore"
+    ],
+    "pinyin": [
+      "àn"
+    ],
+    "strokeCount": 8,
+    "level": 5,
+    "frequencyRank": 6867,
+    "components": [
+      "干"
+    ],
+    "lessonOrder": 511
+  },
+  {
+    "char": "歇",
+    "meanings": [
+      "to stop",
+      "to rest",
+      "to lodge"
+    ],
+    "pinyin": [
+      "xiē"
+    ],
+    "strokeCount": 13,
+    "level": 5,
+    "frequencyRank": 6962,
+    "components": [
+      "欠"
+    ],
+    "lessonOrder": 512
+  },
+  {
+    "char": "递",
+    "meanings": [
+      "to deliver",
+      "to hand over; substitute"
+    ],
+    "pinyin": [
+      "dì"
+    ],
+    "strokeCount": 10,
+    "level": 5,
+    "frequencyRank": 7319,
+    "components": [],
+    "lessonOrder": 513
+  },
+  {
+    "char": "痒",
+    "meanings": [
+      "to itch; to tickle"
+    ],
+    "pinyin": [
+      "yǎng"
+    ],
+    "strokeCount": 11,
+    "level": 5,
+    "frequencyRank": 7367,
+    "components": [],
+    "lessonOrder": 514
+  },
+  {
+    "char": "钓",
+    "meanings": [
+      "fishhook; to fish",
+      "to lure"
+    ],
+    "pinyin": [
+      "diào"
+    ],
+    "strokeCount": 8,
+    "level": 5,
+    "frequencyRank": 7545,
+    "components": [],
+    "lessonOrder": 515
+  },
+  {
+    "char": "斜",
+    "meanings": [
+      "slanting",
+      "sloping",
+      "inclined"
+    ],
+    "pinyin": [
+      "xié"
+    ],
+    "strokeCount": 11,
+    "level": 5,
+    "frequencyRank": 7766,
+    "components": [],
+    "lessonOrder": 516
+  },
+  {
+    "char": "壶",
+    "meanings": [
+      "jar",
+      "pot",
+      "jug",
+      "vase; surname"
+    ],
+    "pinyin": [
+      "hú"
+    ],
+    "strokeCount": 10,
+    "level": 5,
+    "frequencyRank": 7796,
+    "components": [],
+    "lessonOrder": 517
+  },
+  {
+    "char": "浇",
+    "meanings": [
+      "to spray",
+      "to sprinkle",
+      "to water"
+    ],
+    "pinyin": [
+      "jiāo"
+    ],
+    "strokeCount": 9,
+    "level": 5,
+    "frequencyRank": 7803,
+    "components": [],
+    "lessonOrder": 518
+  },
+  {
+    "char": "乙",
+    "meanings": [
+      "second; 2nd heavenly stem"
+    ],
+    "pinyin": [
+      "yǐ"
+    ],
+    "strokeCount": 1,
+    "level": 5,
+    "frequencyRank": 7820,
+    "components": [],
+    "lessonOrder": 519
+  },
+  {
+    "char": "几",
+    "meanings": [
+      "small table; how many; a few",
+      "some"
+    ],
+    "pinyin": [
+      "jǐ"
+    ],
+    "strokeCount": 2,
+    "level": 1,
+    "frequencyRank": 178,
+    "components": [
+      "乙"
+    ],
+    "lessonOrder": 520
+  },
+  {
+    "char": "九",
+    "meanings": [
+      "nine"
+    ],
+    "pinyin": [
+      "jiǔ"
+    ],
+    "strokeCount": 2,
+    "level": 1,
+    "frequencyRank": 2040,
+    "components": [
+      "乙"
+    ],
+    "lessonOrder": 521
+  },
+  {
+    "char": "真",
+    "meanings": [
+      "real",
+      "actual",
+      "true",
+      "genuine"
+    ],
+    "pinyin": [
+      "zhēn"
+    ],
+    "strokeCount": 10,
+    "level": 2,
+    "frequencyRank": 76,
+    "components": [
+      "直",
+      "几"
+    ],
+    "lessonOrder": 522
+  },
+  {
+    "char": "亮",
+    "meanings": [
+      "bright",
+      "brilliant",
+      "radiant",
+      "light"
+    ],
+    "pinyin": [
+      "liàng"
+    ],
+    "strokeCount": 9,
+    "level": 4,
+    "frequencyRank": 1691,
+    "components": [
+      "口",
+      "几"
+    ],
+    "lessonOrder": 523
+  },
+  {
+    "char": "亿",
+    "meanings": [
+      "hundred million; many"
+    ],
+    "pinyin": [
+      "yì"
+    ],
+    "strokeCount": 3,
+    "level": 4,
+    "frequencyRank": 3215,
+    "components": [
+      "乙"
+    ],
+    "lessonOrder": 524
+  },
+  {
+    "char": "朵",
+    "meanings": [
+      "cluster of flowers; earlobe; an item on both sides"
+    ],
+    "pinyin": [
+      "duǒ"
+    ],
+    "strokeCount": 6,
+    "level": 4,
+    "frequencyRank": 4920,
+    "components": [
+      "几"
+    ],
+    "lessonOrder": 525
+  },
+  {
+    "char": "凭",
+    "meanings": [
+      "to lean on; to rely on"
+    ],
+    "pinyin": [
+      "píng"
+    ],
+    "strokeCount": 8,
+    "level": 5,
+    "frequencyRank": 2277,
+    "components": [
+      "几"
+    ],
+    "lessonOrder": 526
+  },
+  {
+    "char": "梨",
+    "meanings": [
+      "pear; opera"
+    ],
+    "pinyin": [
+      "lí"
+    ],
+    "strokeCount": 11,
+    "level": 5,
+    "frequencyRank": 7831,
+    "components": [],
+    "lessonOrder": 527
+  },
+  {
+    "char": "醋",
+    "meanings": [
+      "vinegar; jealousy",
+      "envy"
+    ],
+    "pinyin": [
+      "cù"
+    ],
+    "strokeCount": 15,
+    "level": 5,
+    "frequencyRank": 8000,
+    "components": [],
+    "lessonOrder": 528
+  },
+  {
+    "char": "夸",
+    "meanings": [
+      "extravagant",
+      "luxurious; handsome"
+    ],
+    "pinyin": [
+      "kuā"
+    ],
+    "strokeCount": 6,
+    "level": 5,
+    "frequencyRank": 8011,
+    "components": [
+      "大"
+    ],
+    "lessonOrder": 529
+  },
+  {
+    "char": "册",
+    "meanings": [
+      "book",
+      "volume",
+      "register",
+      "list"
+    ],
+    "pinyin": [
+      "cè"
+    ],
+    "strokeCount": 5,
+    "level": 5,
+    "frequencyRank": 8165,
+    "components": [
+      "一"
+    ],
+    "lessonOrder": 530
+  },
+  {
+    "char": "丙",
+    "meanings": [
+      "third; 3rd heavenly stem"
+    ],
+    "pinyin": [
+      "bǐng"
+    ],
+    "strokeCount": 5,
+    "level": 5,
+    "frequencyRank": 9842,
+    "components": [
+      "一",
+      "内"
+    ],
+    "lessonOrder": 531
+  },
+  {
+    "char": "嚷",
+    "meanings": [
+      "to shout",
+      "to roar",
+      "to cry; to brawl"
+    ],
+    "pinyin": [
+      "rǎng"
+    ],
+    "strokeCount": 20,
+    "level": 5,
+    "frequencyRank": 13472,
+    "components": [
+      "口"
+    ],
+    "lessonOrder": 532
+  },
+  {
+    "char": "哦",
+    "meanings": [
+      "oh? really? is that so?"
+    ],
+    "pinyin": [
+      "ó"
+    ],
+    "strokeCount": 10,
+    "level": 6,
+    "frequencyRank": 186,
+    "components": [
+      "口",
+      "我"
+    ],
+    "lessonOrder": 533
+  },
+  {
+    "char": "啦",
+    "meanings": [
+      "final particle of an assertion"
+    ],
+    "pinyin": [
+      "la"
+    ],
+    "strokeCount": 11,
+    "level": 6,
+    "frequencyRank": 246,
+    "components": [
+      "口",
+      "拉"
+    ],
+    "lessonOrder": 534
+  },
+  {
+    "char": "组",
+    "meanings": [
+      "to form",
+      "to assemble; section",
+      "department"
+    ],
+    "pinyin": [
+      "zǔ"
+    ],
+    "strokeCount": 8,
+    "level": 6,
+    "frequencyRank": 578,
+    "components": [],
+    "lessonOrder": 535
+  },
+  {
+    "char": "嘛",
+    "meanings": [
+      "final exclamatory particle"
+    ],
+    "pinyin": [
+      "ma"
+    ],
+    "strokeCount": 14,
+    "level": 6,
+    "frequencyRank": 614,
+    "components": [
+      "口"
+    ],
+    "lessonOrder": 536
+  },
+  {
+    "char": "哇",
+    "meanings": [
+      "to vomit; an infant's cry"
+    ],
+    "pinyin": [
+      "wa"
+    ],
+    "strokeCount": 9,
+    "level": 6,
+    "frequencyRank": 762,
+    "components": [
+      "口"
+    ],
+    "lessonOrder": 537
+  },
+  {
+    "char": "数",
+    "meanings": [
+      "count",
+      "number",
+      "several"
+    ],
+    "pinyin": [
+      "shù"
+    ],
+    "strokeCount": 13,
+    "level": 6,
+    "frequencyRank": 852,
+    "components": [],
+    "lessonOrder": 538
+  },
+  {
+    "char": "啥",
+    "meanings": [
+      "what?"
+    ],
+    "pinyin": [
+      "shà"
+    ],
+    "strokeCount": 11,
+    "level": 6,
+    "frequencyRank": 990,
+    "components": [
+      "口"
+    ],
+    "lessonOrder": 539
+  },
+  {
+    "char": "副",
+    "meanings": [
+      "to assist",
+      "to supplement; assistant; secondary; auxiliary"
+    ],
+    "pinyin": [
+      "fù"
+    ],
+    "strokeCount": 11,
+    "level": 6,
+    "frequencyRank": 1325,
+    "components": [],
+    "lessonOrder": 540
+  },
+  {
+    "char": "嗯",
+    "meanings": [
+      "interjection indicating agreement or appreciation"
+    ],
+    "pinyin": [
+      "en"
+    ],
+    "strokeCount": 13,
+    "level": 6,
+    "frequencyRank": 1390,
+    "components": [
+      "口"
+    ],
+    "lessonOrder": 541
+  },
+  {
+    "char": "州",
+    "meanings": [
+      "state",
+      "province",
+      "prefecture"
+    ],
+    "pinyin": [
+      "zhōu"
+    ],
+    "strokeCount": 6,
+    "level": 6,
+    "frequencyRank": 1970,
+    "components": [],
+    "lessonOrder": 542
+  },
+  {
+    "char": "砸",
+    "meanings": [
+      "to smash",
+      "to pound",
+      "to crush",
+      "to break"
+    ],
+    "pinyin": [
+      "zá"
+    ],
+    "strokeCount": 10,
+    "level": 6,
+    "frequencyRank": 2037,
+    "components": [],
+    "lessonOrder": 543
+  },
+  {
+    "char": "党",
+    "meanings": [
+      "political party",
+      "gang",
+      "faction"
+    ],
+    "pinyin": [
+      "dǎng"
+    ],
+    "strokeCount": 10,
+    "level": 6,
+    "frequencyRank": 2047,
+    "components": [],
+    "lessonOrder": 544
+  },
+  {
+    "char": "搭",
+    "meanings": [
+      "to attach",
+      "to build",
+      "to join"
+    ],
+    "pinyin": [
+      "dā"
+    ],
+    "strokeCount": 12,
+    "level": 6,
+    "frequencyRank": 2220,
+    "components": [],
+    "lessonOrder": 545
+  },
+  {
+    "char": "端",
+    "meanings": [
+      "end",
+      "extreme; head; beginning"
+    ],
+    "pinyin": [
+      "duān"
+    ],
+    "strokeCount": 14,
+    "level": 6,
+    "frequencyRank": 2412,
+    "components": [],
+    "lessonOrder": 546
+  },
+  {
+    "char": "盯",
+    "meanings": [
+      "to rivet one's gaze upon; to keep eyes on"
+    ],
+    "pinyin": [
+      "dīng"
+    ],
+    "strokeCount": 7,
+    "level": 6,
+    "frequencyRank": 2464,
+    "components": [
+      "丁"
+    ],
+    "lessonOrder": 547
+  },
+  {
+    "char": "刺",
+    "meanings": [
+      "to stab; to prick",
+      "to irritate; to prod"
+    ],
+    "pinyin": [
+      "cì"
+    ],
+    "strokeCount": 8,
+    "level": 6,
+    "frequencyRank": 2566,
+    "components": [],
+    "lessonOrder": 548
+  },
+  {
+    "char": "枚",
+    "meanings": [
+      "the stalk of a shrub",
+      "the trunk of a tree"
+    ],
+    "pinyin": [
+      "méi"
+    ],
+    "strokeCount": 8,
+    "level": 6,
+    "frequencyRank": 2591,
+    "components": [],
+    "lessonOrder": 549
+  },
+  {
+    "char": "嗨",
+    "meanings": [
+      "an exclamation"
+    ],
+    "pinyin": [
+      "hāi"
+    ],
+    "strokeCount": 13,
+    "level": 6,
+    "frequencyRank": 2664,
+    "components": [
+      "口"
+    ],
+    "lessonOrder": 550
+  },
+  {
+    "char": "嘿",
+    "meanings": [
+      "quiet",
+      "silent"
+    ],
+    "pinyin": [
+      "hēi"
+    ],
+    "strokeCount": 15,
+    "level": 6,
+    "frequencyRank": 2729,
+    "components": [
+      "口",
+      "黑"
+    ],
+    "lessonOrder": 551
+  },
+  {
+    "char": "哼",
+    "meanings": [
+      "to hum; to sing softly; to moan",
+      "to groan"
+    ],
+    "pinyin": [
+      "hēng"
+    ],
+    "strokeCount": 10,
+    "level": 6,
+    "frequencyRank": 2732,
+    "components": [
+      "口"
+    ],
+    "lessonOrder": 552
+  },
+  {
+    "char": "蒙",
+    "meanings": [
+      "to cover; to deceive; Mongolia"
+    ],
+    "pinyin": [
+      "méng"
+    ],
+    "strokeCount": 13,
+    "level": 6,
+    "frequencyRank": 2993,
+    "components": [],
+    "lessonOrder": 553
+  },
+  {
+    "char": "耍",
+    "meanings": [
+      "to play",
+      "to frolic",
+      "to amuse"
+    ],
+    "pinyin": [
+      "shuǎ"
+    ],
+    "strokeCount": 9,
+    "level": 6,
+    "frequencyRank": 3070,
+    "components": [
+      "而"
+    ],
+    "lessonOrder": 554
+  },
+  {
+    "char": "栋",
+    "meanings": [
+      "ridge-beam; the main support of a house"
+    ],
+    "pinyin": [
+      "dòng"
+    ],
+    "strokeCount": 9,
+    "level": 6,
+    "frequencyRank": 3370,
+    "components": [
+      "东"
+    ],
+    "lessonOrder": 555
+  },
+  {
+    "char": "折",
+    "meanings": [
+      "to break",
+      "to snap; to fold",
+      "to bend; to bow; humble"
+    ],
+    "pinyin": [
+      "zhé"
+    ],
+    "strokeCount": 7,
+    "level": 6,
+    "frequencyRank": 3422,
+    "components": [],
+    "lessonOrder": 556
+  },
+  {
+    "char": "扎",
+    "meanings": [
+      "to bind",
+      "to wrap; to pierce; to stop"
+    ],
+    "pinyin": [
+      "zhā"
+    ],
+    "strokeCount": 4,
+    "level": 6,
+    "frequencyRank": 3490,
+    "components": [],
+    "lessonOrder": 557
+  },
+  {
+    "char": "皆",
+    "meanings": [
+      "all",
+      "every",
+      "everybody"
+    ],
+    "pinyin": [
+      "jiē"
+    ],
+    "strokeCount": 9,
+    "level": 6,
+    "frequencyRank": 3500,
+    "components": [
+      "比",
+      "白"
+    ],
+    "lessonOrder": 558
+  },
+  {
+    "char": "井",
+    "meanings": [
+      "well",
+      "mine shaft",
+      "pit"
+    ],
+    "pinyin": [
+      "jǐng"
+    ],
+    "strokeCount": 4,
+    "level": 6,
+    "frequencyRank": 3630,
+    "components": [
+      "二"
+    ],
+    "lessonOrder": 559
+  },
+  {
+    "char": "进",
+    "meanings": [
+      "to advance",
+      "to make progress; to come in",
+      "to enter"
+    ],
+    "pinyin": [
+      "jìn"
+    ],
+    "strokeCount": 7,
+    "level": 2,
+    "frequencyRank": 338,
+    "components": [
+      "井"
+    ],
+    "lessonOrder": 560
+  },
+  {
+    "char": "讲",
+    "meanings": [
+      "talk",
+      "speech",
+      "lecture; to speak",
+      "to explain"
+    ],
+    "pinyin": [
+      "jiǎng"
+    ],
+    "strokeCount": 6,
+    "level": 3,
+    "frequencyRank": 555,
+    "components": [
+      "井"
+    ],
+    "lessonOrder": 561
+  },
+  {
+    "char": "贼",
+    "meanings": [
+      "thief",
+      "traitor; cunning",
+      "sly"
+    ],
+    "pinyin": [
+      "zéi"
+    ],
+    "strokeCount": 10,
+    "level": 6,
+    "frequencyRank": 3807,
+    "components": [],
+    "lessonOrder": 562
+  },
+  {
+    "char": "坑",
+    "meanings": [
+      "pit",
+      "hole; to trap",
+      "to bury; to harry"
+    ],
+    "pinyin": [
+      "kēng"
+    ],
+    "strokeCount": 7,
+    "level": 6,
+    "frequencyRank": 3953,
+    "components": [],
+    "lessonOrder": 563
+  },
+  {
+    "char": "亦",
+    "meanings": [
+      "also",
+      "too; likewise"
+    ],
+    "pinyin": [
+      "yì"
+    ],
+    "strokeCount": 6,
+    "level": 6,
+    "frequencyRank": 3970,
+    "components": [],
+    "lessonOrder": 564
+  },
+  {
+    "char": "弯",
+    "meanings": [
+      "bend",
+      "curve",
+      "turn"
+    ],
+    "pinyin": [
+      "wān"
+    ],
+    "strokeCount": 9,
+    "level": 5,
+    "frequencyRank": 5007,
+    "components": [
+      "亦"
+    ],
+    "lessonOrder": 565
+  },
+  {
+    "char": "犬",
+    "meanings": [
+      "dog"
+    ],
+    "pinyin": [
+      "quǎn"
+    ],
+    "strokeCount": 4,
+    "level": 6,
+    "frequencyRank": 4105,
+    "components": [
+      "大"
+    ],
+    "lessonOrder": 566
+  },
+  {
+    "char": "哭",
+    "meanings": [
+      "to weep",
+      "to cry",
+      "to wail"
+    ],
+    "pinyin": [
+      "kū"
+    ],
+    "strokeCount": 10,
+    "level": 3,
+    "frequencyRank": 898,
+    "components": [
+      "口",
+      "口",
+      "犬"
+    ],
+    "lessonOrder": 567
+  },
+  {
+    "char": "臭",
+    "meanings": [
+      "to reek",
+      "to smell",
+      "to stink"
+    ],
+    "pinyin": [
+      "chòu"
+    ],
+    "strokeCount": 10,
+    "level": 5,
+    "frequencyRank": 2909,
+    "components": [
+      "犬"
+    ],
+    "lessonOrder": 568
+  },
+  {
+    "char": "染",
+    "meanings": [
+      "dye; to catch; to infect; to be contagious"
+    ],
+    "pinyin": [
+      "rǎn"
+    ],
+    "strokeCount": 9,
+    "level": 6,
+    "frequencyRank": 4175,
+    "components": [],
+    "lessonOrder": 569
+  },
+  {
+    "char": "咋",
+    "meanings": [
+      "question-forming particle: why? what? how?; to bite; loud"
+    ],
+    "pinyin": [
+      "zǎ"
+    ],
+    "strokeCount": 8,
+    "level": 6,
+    "frequencyRank": 4187,
+    "components": [
+      "口"
+    ],
+    "lessonOrder": 570
+  },
+  {
+    "char": "铺",
+    "meanings": [
+      "shop",
+      "store; bed",
+      "mattress"
+    ],
+    "pinyin": [
+      "pù"
+    ],
+    "strokeCount": 12,
+    "level": 6,
+    "frequencyRank": 4209,
+    "components": [],
+    "lessonOrder": 571
+  },
+  {
+    "char": "膜",
+    "meanings": [
+      "membrane",
+      "film; to kneel and worship"
+    ],
+    "pinyin": [
+      "mó"
+    ],
+    "strokeCount": 14,
+    "level": 6,
+    "frequencyRank": 4209,
+    "components": [],
+    "lessonOrder": 572
+  },
+  {
+    "char": "跨",
+    "meanings": [
+      "to straddle",
+      "to ride; to span",
+      "to stretch across"
+    ],
+    "pinyin": [
+      "kuà"
+    ],
+    "strokeCount": 13,
+    "level": 6,
+    "frequencyRank": 4234,
+    "components": [
+      "夸"
+    ],
+    "lessonOrder": 573
+  },
+  {
+    "char": "跌",
+    "meanings": [
+      "to stumble",
+      "to slip",
+      "to fall"
+    ],
+    "pinyin": [
+      "diē"
+    ],
+    "strokeCount": 12,
+    "level": 6,
+    "frequencyRank": 4284,
+    "components": [],
+    "lessonOrder": 574
+  },
+  {
+    "char": "熬",
+    "meanings": [
+      "to boil",
+      "to simmer; to endure pain"
+    ],
+    "pinyin": [
+      "áo"
+    ],
+    "strokeCount": 14,
+    "level": 6,
+    "frequencyRank": 4418,
+    "components": [],
+    "lessonOrder": 575
+  },
+  {
+    "char": "窝",
+    "meanings": [
+      "cave",
+      "den",
+      "nest; hiding place; measure word for small animals"
+    ],
+    "pinyin": [
+      "wō"
+    ],
+    "strokeCount": 12,
+    "level": 6,
+    "frequencyRank": 4511,
+    "components": [],
+    "lessonOrder": 576
+  },
+  {
+    "char": "扑",
+    "meanings": [
+      "to attack",
+      "to beat",
+      "to hit",
+      "to strike"
+    ],
+    "pinyin": [
+      "pū"
+    ],
+    "strokeCount": 5,
+    "level": 6,
+    "frequencyRank": 4563,
+    "components": [],
+    "lessonOrder": 577
+  },
+  {
+    "char": "割",
+    "meanings": [
+      "to cut",
+      "to divide",
+      "to partition; to cede"
+    ],
+    "pinyin": [
+      "gē"
+    ],
+    "strokeCount": 12,
+    "level": 6,
+    "frequencyRank": 4717,
+    "components": [],
+    "lessonOrder": 578
+  },
+  {
+    "char": "渣",
+    "meanings": [
+      "dregs",
+      "sediment; refuse",
+      "slag"
+    ],
+    "pinyin": [
+      "zhā"
+    ],
+    "strokeCount": 12,
+    "level": 6,
+    "frequencyRank": 4720,
+    "components": [],
+    "lessonOrder": 579
+  },
+  {
+    "char": "吊",
+    "meanings": [
+      "to condole",
+      "to mourn",
+      "to pity; to hang"
+    ],
+    "pinyin": [
+      "diào"
+    ],
+    "strokeCount": 6,
+    "level": 6,
+    "frequencyRank": 4734,
+    "components": [
+      "口"
+    ],
+    "lessonOrder": 580
+  },
+  {
+    "char": "捏",
+    "meanings": [
+      "to knead",
+      "to mold",
+      "to pinch"
+    ],
+    "pinyin": [
+      "niē"
+    ],
+    "strokeCount": 10,
+    "level": 6,
+    "frequencyRank": 4857,
+    "components": [],
+    "lessonOrder": 581
+  },
+  {
+    "char": "罐",
+    "meanings": [
+      "jar",
+      "jug",
+      "pitcher",
+      "pot"
+    ],
+    "pinyin": [
+      "guàn"
+    ],
+    "strokeCount": 23,
+    "level": 6,
+    "frequencyRank": 4885,
+    "components": [],
+    "lessonOrder": 582
+  },
+  {
+    "char": "串",
+    "meanings": [
+      "string; relatives; to conspire"
+    ],
+    "pinyin": [
+      "chuàn"
+    ],
+    "strokeCount": 7,
+    "level": 6,
+    "frequencyRank": 5008,
+    "components": [
+      "口",
+      "口"
+    ],
+    "lessonOrder": 583
+  },
+  {
+    "char": "磅",
+    "meanings": [
+      "pound; to weigh"
+    ],
+    "pinyin": [
+      "bàng"
+    ],
+    "strokeCount": 15,
+    "level": 6,
+    "frequencyRank": 5014,
+    "components": [],
+    "lessonOrder": 584
+  },
+  {
+    "char": "掏",
+    "meanings": [
+      "to take out; to pull out; to clean out"
+    ],
+    "pinyin": [
+      "tāo"
+    ],
+    "strokeCount": 11,
+    "level": 6,
+    "frequencyRank": 5068,
+    "components": [],
+    "lessonOrder": 585
+  },
+  {
+    "char": "趴",
+    "meanings": [
+      "prone",
+      "lying down",
+      "leaning over"
+    ],
+    "pinyin": [
+      "pā"
+    ],
+    "strokeCount": 9,
+    "level": 6,
+    "frequencyRank": 5070,
+    "components": [
+      "八"
+    ],
+    "lessonOrder": 586
+  },
+  {
+    "char": "扁",
+    "meanings": [
+      "flat; board",
+      "sign",
+      "tablet"
+    ],
+    "pinyin": [
+      "biǎn"
+    ],
+    "strokeCount": 9,
+    "level": 6,
+    "frequencyRank": 5218,
+    "components": [],
+    "lessonOrder": 587
+  },
+  {
+    "char": "遍",
+    "meanings": [
+      "everywhere",
+      "all over",
+      "throughout"
+    ],
+    "pinyin": [
+      "biàn"
+    ],
+    "strokeCount": 12,
+    "level": 4,
+    "frequencyRank": 1358,
+    "components": [
+      "扁"
+    ],
+    "lessonOrder": 588
+  },
+  {
+    "char": "篇",
+    "meanings": [
+      "chapter",
+      "section; article",
+      "essay"
+    ],
+    "pinyin": [
+      "piān"
+    ],
+    "strokeCount": 15,
+    "level": 4,
+    "frequencyRank": 1691,
+    "components": [
+      "扁"
+    ],
+    "lessonOrder": 589
+  },
+  {
+    "char": "骗",
+    "meanings": [
+      "to cheat",
+      "to defraud",
+      "to swindle"
+    ],
+    "pinyin": [
+      "piàn"
+    ],
+    "strokeCount": 12,
+    "level": 4,
+    "frequencyRank": 1935,
+    "components": [
+      "马",
+      "扁"
+    ],
+    "lessonOrder": 590
+  },
+  {
+    "char": "呵",
+    "meanings": [
+      "to scold; to yawn; the sound of someone laughing (when repeated)"
+    ],
+    "pinyin": [
+      "hē"
+    ],
+    "strokeCount": 8,
+    "level": 6,
+    "frequencyRank": 5230,
+    "components": [
+      "口"
+    ],
+    "lessonOrder": 591
+  },
+  {
+    "char": "跪",
+    "meanings": [
+      "to kneel"
+    ],
+    "pinyin": [
+      "guì"
+    ],
+    "strokeCount": 13,
+    "level": 6,
+    "frequencyRank": 5311,
+    "components": [],
+    "lessonOrder": 592
+  },
+  {
+    "char": "幢",
+    "meanings": [
+      "carriage curtain; sun screen; tent; measure word for buildings"
+    ],
+    "pinyin": [
+      "chuáng"
+    ],
+    "strokeCount": 15,
+    "level": 6,
+    "frequencyRank": 5366,
+    "components": [],
+    "lessonOrder": 593
+  },
+  {
+    "char": "翘",
+    "meanings": [
+      "outstanding; to elevate",
+      "to lift",
+      "to raise"
+    ],
+    "pinyin": [
+      "qiào"
+    ],
+    "strokeCount": 12,
+    "level": 6,
+    "frequencyRank": 5400,
+    "components": [],
+    "lessonOrder": 594
+  },
+  {
+    "char": "孔",
+    "meanings": [
+      "opening",
+      "hole",
+      "orifice; great"
+    ],
+    "pinyin": [
+      "kǒng"
+    ],
+    "strokeCount": 4,
+    "level": 6,
+    "frequencyRank": 5446,
+    "components": [],
+    "lessonOrder": 595
+  },
+  {
+    "char": "吼",
+    "meanings": [
+      "to roar",
+      "to shout; to bark",
+      "to howl"
+    ],
+    "pinyin": [
+      "hǒu"
+    ],
+    "strokeCount": 7,
+    "level": 6,
+    "frequencyRank": 3491,
+    "components": [
+      "口",
+      "孔"
+    ],
+    "lessonOrder": 596
+  },
+  {
+    "char": "宰",
+    "meanings": [
+      "to slaughter",
+      "to butcher; to govern",
+      "to rule"
+    ],
+    "pinyin": [
+      "zǎi"
+    ],
+    "strokeCount": 10,
+    "level": 6,
+    "frequencyRank": 5527,
+    "components": [],
+    "lessonOrder": 597
+  },
+  {
+    "char": "捞",
+    "meanings": [
+      "to dredge up; to fish for; to scoop out of the water"
+    ],
+    "pinyin": [
+      "lāo"
+    ],
+    "strokeCount": 10,
+    "level": 6,
+    "frequencyRank": 5566,
+    "components": [],
+    "lessonOrder": 598
+  },
+  {
+    "char": "颇",
+    "meanings": [
+      "rather",
+      "quite; partial",
+      "biased"
+    ],
+    "pinyin": [
+      "pō"
+    ],
+    "strokeCount": 11,
+    "level": 6,
+    "frequencyRank": 5653,
+    "components": [
+      "页"
+    ],
+    "lessonOrder": 599
+  },
+  {
+    "char": "溜",
+    "meanings": [
+      "to slip",
+      "to slide",
+      "to glide; slippery"
+    ],
+    "pinyin": [
+      "liū"
+    ],
+    "strokeCount": 13,
+    "level": 6,
+    "frequencyRank": 5659,
+    "components": [
+      "留"
+    ],
+    "lessonOrder": 600
+  },
+  {
+    "char": "番",
+    "meanings": [
+      "to take turns",
+      "to repeat; to sow; a turn"
+    ],
+    "pinyin": [
+      "fān"
+    ],
+    "strokeCount": 12,
+    "level": 6,
+    "frequencyRank": 5706,
+    "components": [
+      "米"
+    ],
+    "lessonOrder": 601
+  },
+  {
+    "char": "翻",
+    "meanings": [
+      "to upset",
+      "to capsize",
+      "to flip over"
+    ],
+    "pinyin": [
+      "fān"
+    ],
+    "strokeCount": 18,
+    "level": 5,
+    "frequencyRank": 1378,
+    "components": [
+      "番"
+    ],
+    "lessonOrder": 602
+  },
+  {
+    "char": "挨",
+    "meanings": [
+      "close by",
+      "near",
+      "next to",
+      "towards",
+      "against; to lean on; to wait"
+    ],
+    "pinyin": [
+      "āi"
+    ],
+    "strokeCount": 10,
+    "level": 6,
+    "frequencyRank": 5720,
+    "components": [],
+    "lessonOrder": 603
+  },
+  {
+    "char": "迈",
+    "meanings": [
+      "old; to pass by",
+      "to take a stride"
+    ],
+    "pinyin": [
+      "mài"
+    ],
+    "strokeCount": 6,
+    "level": 6,
+    "frequencyRank": 5964,
+    "components": [
+      "万"
+    ],
+    "lessonOrder": 604
+  },
+  {
+    "char": "垫",
+    "meanings": [
+      "cushion",
+      "mat",
+      "pad; to advance money",
+      "to pay for another"
+    ],
+    "pinyin": [
+      "diàn"
+    ],
+    "strokeCount": 9,
+    "level": 6,
+    "frequencyRank": 5968,
+    "components": [],
+    "lessonOrder": 605
+  },
+  {
+    "char": "嫌",
+    "meanings": [
+      "to hate",
+      "to detest; to criticize; to suspect"
+    ],
+    "pinyin": [
+      "xián"
+    ],
+    "strokeCount": 13,
+    "level": 6,
+    "frequencyRank": 5973,
+    "components": [],
+    "lessonOrder": 606
+  },
+  {
+    "char": "捧",
+    "meanings": [
+      "to hold or offer with both hands"
+    ],
+    "pinyin": [
+      "pěng"
+    ],
+    "strokeCount": 11,
+    "level": 6,
+    "frequencyRank": 6144,
+    "components": [],
+    "lessonOrder": 607
+  },
+  {
+    "char": "揍",
+    "meanings": [
+      "to hit",
+      "to beat; to smash",
+      "to break"
+    ],
+    "pinyin": [
+      "zòu"
+    ],
+    "strokeCount": 12,
+    "level": 6,
+    "frequencyRank": 6384,
+    "components": [],
+    "lessonOrder": 608
+  },
+  {
+    "char": "拽",
+    "meanings": [
+      "to drag",
+      "to tow; to throw; to twist"
+    ],
+    "pinyin": [
+      "zhuāi"
+    ],
+    "strokeCount": 9,
+    "level": 6,
+    "frequencyRank": 6459,
+    "components": [],
+    "lessonOrder": 609
+  },
+  {
+    "char": "束",
+    "meanings": [
+      "to bind",
+      "to control",
+      "to restrain; bale"
+    ],
+    "pinyin": [
+      "shù"
+    ],
+    "strokeCount": 7,
+    "level": 6,
+    "frequencyRank": 6473,
+    "components": [
+      "口"
+    ],
+    "lessonOrder": 610
+  },
+  {
+    "char": "辣",
+    "meanings": [
+      "pepper; hot",
+      "spicy; cruel"
+    ],
+    "pinyin": [
+      "là"
+    ],
+    "strokeCount": 14,
+    "level": 4,
+    "frequencyRank": 2791,
+    "components": [
+      "束"
+    ],
+    "lessonOrder": 611
+  },
+  {
+    "char": "憋",
+    "meanings": [
+      "to stifle",
+      "to restrain",
+      "to choke; to suppress one's inner feelings"
+    ],
+    "pinyin": [
+      "biē"
+    ],
+    "strokeCount": 15,
+    "level": 6,
+    "frequencyRank": 6662,
+    "components": [],
+    "lessonOrder": 612
+  },
+  {
+    "char": "丸",
+    "meanings": [
+      "ball",
+      "pebble",
+      "pellet",
+      "pill"
+    ],
+    "pinyin": [
+      "wán"
+    ],
+    "strokeCount": 3,
+    "level": 6,
+    "frequencyRank": 6699,
+    "components": [
+      "九"
+    ],
+    "lessonOrder": 613
+  },
+  {
+    "char": "兜",
+    "meanings": [
+      "pouch"
+    ],
+    "pinyin": [
+      "dōu"
+    ],
+    "strokeCount": 11,
+    "level": 6,
+    "frequencyRank": 6727,
+    "components": [
+      "白"
+    ],
+    "lessonOrder": 614
+  },
+  {
+    "char": "哄",
+    "meanings": [
+      "to coax; to beguile",
+      "to cheat",
+      "to deceive; tumult",
+      "uproar"
+    ],
+    "pinyin": [
+      "hōng"
+    ],
+    "strokeCount": 9,
+    "level": 6,
+    "frequencyRank": 6776,
+    "components": [
+      "口"
+    ],
+    "lessonOrder": 615
+  },
+  {
+    "char": "愈",
+    "meanings": [
+      "to recover",
+      "to heal; more and more"
+    ],
+    "pinyin": [
+      "yù"
+    ],
+    "strokeCount": 13,
+    "level": 6,
+    "frequencyRank": 6850,
+    "components": [],
+    "lessonOrder": 616
+  },
+  {
+    "char": "粥",
+    "meanings": [
+      "porridge",
+      "gruel",
+      "congee"
+    ],
+    "pinyin": [
+      "zhōu"
+    ],
+    "strokeCount": 12,
+    "level": 6,
+    "frequencyRank": 6967,
+    "components": [
+      "米"
+    ],
+    "lessonOrder": 617
+  },
+  {
+    "char": "翼",
+    "meanings": [
+      "wings",
+      "fins; shelter"
+    ],
+    "pinyin": [
+      "yì"
+    ],
+    "strokeCount": 17,
+    "level": 6,
+    "frequencyRank": 6996,
+    "components": [],
+    "lessonOrder": 618
+  },
+  {
+    "char": "勿",
+    "meanings": [
+      "must not",
+      "do not; without",
+      "never"
+    ],
+    "pinyin": [
+      "wù"
+    ],
+    "strokeCount": 4,
+    "level": 6,
+    "frequencyRank": 6999,
+    "components": [],
+    "lessonOrder": 619
+  },
+  {
+    "char": "场",
+    "meanings": [
+      "field",
+      "open space; market",
+      "square; stage"
+    ],
+    "pinyin": [
+      "chǎng"
+    ],
+    "strokeCount": 6,
+    "level": 4,
+    "frequencyRank": 286,
+    "components": [
+      "勿"
+    ],
+    "lessonOrder": 620
+  },
+  {
+    "char": "吻",
+    "meanings": [
+      "to kiss; lips; coinciding"
+    ],
+    "pinyin": [
+      "wěn"
+    ],
+    "strokeCount": 7,
+    "level": 5,
+    "frequencyRank": 2797,
+    "components": [
+      "口",
+      "勿"
+    ],
+    "lessonOrder": 621
+  },
+  {
+    "char": "盛",
+    "meanings": [
+      "abundant",
+      "flourishing; to contain; to fill"
+    ],
+    "pinyin": [
+      "shèng"
+    ],
+    "strokeCount": 11,
+    "level": 6,
+    "frequencyRank": 7003,
+    "components": [],
+    "lessonOrder": 622
+  },
+  {
+    "char": "蹦",
+    "meanings": [
+      "to jump",
+      "to bounce on; bright"
+    ],
+    "pinyin": [
+      "bèng"
+    ],
+    "strokeCount": 18,
+    "level": 6,
+    "frequencyRank": 7023,
+    "components": [],
+    "lessonOrder": 623
+  },
+  {
+    "char": "瞪",
+    "meanings": [
+      "to stare at"
+    ],
+    "pinyin": [
+      "dèng"
+    ],
+    "strokeCount": 17,
+    "level": 6,
+    "frequencyRank": 7103,
+    "components": [],
+    "lessonOrder": 624
+  },
+  {
+    "char": "臂",
+    "meanings": [
+      "arm"
+    ],
+    "pinyin": [
+      "bì"
+    ],
+    "strokeCount": 17,
+    "level": 6,
+    "frequencyRank": 7284,
+    "components": [],
+    "lessonOrder": 625
+  },
+  {
+    "char": "掐",
+    "meanings": [
+      "to hold",
+      "to choke; to gather in one hand"
+    ],
+    "pinyin": [
+      "qiā"
+    ],
+    "strokeCount": 11,
+    "level": 6,
+    "frequencyRank": 7287,
+    "components": [],
+    "lessonOrder": 626
+  },
+  {
+    "char": "舔",
+    "meanings": [
+      "to lick",
+      "to taste"
+    ],
+    "pinyin": [
+      "tiǎn"
+    ],
+    "strokeCount": 14,
+    "level": 6,
+    "frequencyRank": 7383,
+    "components": [],
+    "lessonOrder": 627
+  },
+  {
+    "char": "拾",
+    "meanings": [
+      "to collect",
+      "to pick up",
+      "to tidy up; ten (bankers' anti-fraud numeral)"
+    ],
+    "pinyin": [
+      "shí"
+    ],
+    "strokeCount": 9,
+    "level": 6,
+    "frequencyRank": 7430,
+    "components": [],
+    "lessonOrder": 628
+  },
+  {
+    "char": "淋",
+    "meanings": [
+      "to drench",
+      "to drip",
+      "to soak; perfectly"
+    ],
+    "pinyin": [
+      "lín"
+    ],
+    "strokeCount": 11,
+    "level": 6,
+    "frequencyRank": 7448,
+    "components": [],
+    "lessonOrder": 629
+  },
+  {
+    "char": "枝",
+    "meanings": [
+      "branches",
+      "limbs; to branch off"
+    ],
+    "pinyin": [
+      "zhī"
+    ],
+    "strokeCount": 8,
+    "level": 6,
+    "frequencyRank": 7489,
+    "components": [
+      "支"
+    ],
+    "lessonOrder": 630
+  },
+  {
+    "char": "拧",
+    "meanings": [
+      "screw",
+      "wrench; to pinch",
+      "to twist",
+      "to wring"
+    ],
+    "pinyin": [
+      "níng"
+    ],
+    "strokeCount": 8,
+    "level": 6,
+    "frequencyRank": 7556,
+    "components": [],
+    "lessonOrder": 631
+  },
+  {
+    "char": "溪",
+    "meanings": [
+      "brook",
+      "creek",
+      "stream"
+    ],
+    "pinyin": [
+      "xī"
+    ],
+    "strokeCount": 13,
+    "level": 6,
+    "frequencyRank": 7590,
+    "components": [],
+    "lessonOrder": 632
+  },
+  {
+    "char": "扛",
+    "meanings": [
+      "to lift; to carry on one's shoulders"
+    ],
+    "pinyin": [
+      "káng"
+    ],
+    "strokeCount": 6,
+    "level": 6,
+    "frequencyRank": 7902,
+    "components": [],
+    "lessonOrder": 633
+  },
+  {
+    "char": "啃",
+    "meanings": [
+      "to gnaw",
+      "to chew",
+      "to bite"
+    ],
+    "pinyin": [
+      "kěn"
+    ],
+    "strokeCount": 11,
+    "level": 6,
+    "frequencyRank": 7933,
+    "components": [
+      "口"
+    ],
+    "lessonOrder": 634
+  },
+  {
+    "char": "挪",
+    "meanings": [
+      "to shift",
+      "to move"
+    ],
+    "pinyin": [
+      "nuó"
+    ],
+    "strokeCount": 9,
+    "level": 6,
+    "frequencyRank": 8064,
+    "components": [
+      "那"
+    ],
+    "lessonOrder": 635
+  },
+  {
+    "char": "坡",
+    "meanings": [
+      "slope",
+      "hillside",
+      "embankment"
+    ],
+    "pinyin": [
+      "pō"
+    ],
+    "strokeCount": 8,
+    "level": 6,
+    "frequencyRank": 8092,
+    "components": [],
+    "lessonOrder": 636
+  },
+  {
+    "char": "劈",
+    "meanings": [
+      "to chop",
+      "to cut apart; to split"
+    ],
+    "pinyin": [
+      "pī"
+    ],
+    "strokeCount": 15,
+    "level": 6,
+    "frequencyRank": 8142,
+    "components": [
+      "刀"
+    ],
+    "lessonOrder": 637
+  },
+  {
+    "char": "塌",
+    "meanings": [
+      "to collapse",
+      "to fall into ruin"
+    ],
+    "pinyin": [
+      "tā"
+    ],
+    "strokeCount": 13,
+    "level": 6,
+    "frequencyRank": 8276,
+    "components": [
+      "日"
+    ],
+    "lessonOrder": 638
+  },
+  {
+    "char": "泼",
+    "meanings": [
+      "to pour",
+      "to splash",
+      "to sprinkle",
+      "to water"
+    ],
+    "pinyin": [
+      "pō"
+    ],
+    "strokeCount": 8,
+    "level": 6,
+    "frequencyRank": 8438,
+    "components": [
+      "发"
+    ],
+    "lessonOrder": 639
+  },
+  {
+    "char": "扒",
+    "meanings": [
+      "to scratch",
+      "to dig up; to crouch",
+      "to crawl"
+    ],
+    "pinyin": [
+      "bā"
+    ],
+    "strokeCount": 5,
+    "level": 6,
+    "frequencyRank": 8554,
+    "components": [
+      "八"
+    ],
+    "lessonOrder": 640
+  },
+  {
+    "char": "弦",
+    "meanings": [
+      "bow string; string instrument; hypotenuse"
+    ],
+    "pinyin": [
+      "xián"
+    ],
+    "strokeCount": 8,
+    "level": 6,
+    "frequencyRank": 8692,
+    "components": [],
+    "lessonOrder": 641
+  },
+  {
+    "char": "窜",
+    "meanings": [
+      "to run away; to expel; to revise",
+      "to edit"
+    ],
+    "pinyin": [
+      "cuàn"
+    ],
+    "strokeCount": 12,
+    "level": 6,
+    "frequencyRank": 8750,
+    "components": [
+      "串"
+    ],
+    "lessonOrder": 642
+  },
+  {
+    "char": "株",
+    "meanings": [
+      "root",
+      "stump; measure word for trees"
+    ],
+    "pinyin": [
+      "zhū"
+    ],
+    "strokeCount": 10,
+    "level": 6,
+    "frequencyRank": 8828,
+    "components": [],
+    "lessonOrder": 643
+  },
+  {
+    "char": "揉",
+    "meanings": [
+      "to massage",
+      "to knead; to crush by hand"
+    ],
+    "pinyin": [
+      "róu"
+    ],
+    "strokeCount": 12,
+    "level": 6,
+    "frequencyRank": 8985,
+    "components": [],
+    "lessonOrder": 644
+  },
+  {
+    "char": "巷",
+    "meanings": [
+      "alley",
+      "lane"
+    ],
+    "pinyin": [
+      "xiàng"
+    ],
+    "strokeCount": 9,
+    "level": 6,
+    "frequencyRank": 9123,
+    "components": [],
+    "lessonOrder": 645
+  },
+  {
+    "char": "竖",
+    "meanings": [
+      "perpendicular",
+      "vertical; to erect"
+    ],
+    "pinyin": [
+      "shù"
+    ],
+    "strokeCount": 9,
+    "level": 6,
+    "frequencyRank": 9191,
+    "components": [
+      "又"
+    ],
+    "lessonOrder": 646
+  },
+  {
+    "char": "搂",
+    "meanings": [
+      "to embrace",
+      "to hug; to drag",
+      "to pull"
+    ],
+    "pinyin": [
+      "lǒu"
+    ],
+    "strokeCount": 12,
+    "level": 6,
+    "frequencyRank": 9281,
+    "components": [],
+    "lessonOrder": 647
+  },
+  {
+    "char": "逢",
+    "meanings": [
+      "to happen to meet; chance meeting",
+      "coincidence"
+    ],
+    "pinyin": [
+      "féng"
+    ],
+    "strokeCount": 10,
+    "level": 6,
+    "frequencyRank": 9707,
+    "components": [],
+    "lessonOrder": 648
+  },
+  {
+    "char": "溅",
+    "meanings": [
+      "to sprinkle",
+      "to spray",
+      "to splash",
+      "to spill"
+    ],
+    "pinyin": [
+      "jiàn"
+    ],
+    "strokeCount": 12,
+    "level": 6,
+    "frequencyRank": 9742,
+    "components": [],
+    "lessonOrder": 649
+  },
+  {
+    "char": "疤",
+    "meanings": [
+      "scar",
+      "cicatrix; birthmark"
+    ],
+    "pinyin": [
+      "bā"
+    ],
+    "strokeCount": 9,
+    "level": 6,
+    "frequencyRank": 9775,
+    "components": [],
+    "lessonOrder": 650
+  },
+  {
+    "char": "叼",
+    "meanings": [
+      "to hold in the mouth"
+    ],
+    "pinyin": [
+      "diāo"
+    ],
+    "strokeCount": 5,
+    "level": 6,
+    "frequencyRank": 9777,
+    "components": [
+      "口"
+    ],
+    "lessonOrder": 651
+  },
+  {
+    "char": "磕",
+    "meanings": [
+      "to collide",
+      "to hit",
+      "to knock",
+      "to tap"
+    ],
+    "pinyin": [
+      "kē"
+    ],
+    "strokeCount": 15,
+    "level": 6,
+    "frequencyRank": 9780,
+    "components": [],
+    "lessonOrder": 652
+  },
+  {
+    "char": "眨",
+    "meanings": [
+      "to wink"
+    ],
+    "pinyin": [
+      "zhǎ"
+    ],
+    "strokeCount": 9,
+    "level": 6,
+    "frequencyRank": 10148,
+    "components": [],
+    "lessonOrder": 653
+  },
+  {
+    "char": "锤",
+    "meanings": [
+      "hammer"
+    ],
+    "pinyin": [
+      "chuí"
+    ],
+    "strokeCount": 13,
+    "level": 6,
+    "frequencyRank": 10183,
+    "components": [],
+    "lessonOrder": 654
+  },
+  {
+    "char": "屑",
+    "meanings": [
+      "bits",
+      "crumbs",
+      "scraps; fragments; not worthwhile"
+    ],
+    "pinyin": [
+      "xiè"
+    ],
+    "strokeCount": 10,
+    "level": 6,
+    "frequencyRank": 10193,
+    "components": [],
+    "lessonOrder": 655
+  },
+  {
+    "char": "氢",
+    "meanings": [
+      "ammonia"
+    ],
+    "pinyin": [
+      "qīng"
+    ],
+    "strokeCount": 9,
+    "level": 6,
+    "frequencyRank": 11059,
+    "components": [
+      "又"
+    ],
+    "lessonOrder": 656
+  },
+  {
+    "char": "拣",
+    "meanings": [
+      "to choose",
+      "to select; to gather",
+      "to pick up"
+    ],
+    "pinyin": [
+      "jiǎn"
+    ],
+    "strokeCount": 8,
+    "level": 6,
+    "frequencyRank": 11089,
+    "components": [],
+    "lessonOrder": 657
+  },
+  {
+    "char": "橙",
+    "meanings": [
+      "orange"
+    ],
+    "pinyin": [
+      "chéng"
+    ],
+    "strokeCount": 16,
+    "level": 6,
+    "frequencyRank": 11208,
+    "components": [],
+    "lessonOrder": 658
+  },
+  {
+    "char": "攒",
+    "meanings": [
+      "to save",
+      "to hoard"
+    ],
+    "pinyin": [
+      "zǎn"
+    ],
+    "strokeCount": 19,
+    "level": 6,
+    "frequencyRank": 11208,
+    "components": [],
+    "lessonOrder": 659
+  },
+  {
+    "char": "搓",
+    "meanings": [
+      "to rub or roll between the hands"
+    ],
+    "pinyin": [
+      "cuō"
+    ],
+    "strokeCount": 12,
+    "level": 6,
+    "frequencyRank": 11489,
+    "components": [
+      "差"
+    ],
+    "lessonOrder": 660
+  },
+  {
+    "char": "愣",
+    "meanings": [
+      "dazed",
+      "stupefied"
+    ],
+    "pinyin": [
+      "lèng"
+    ],
+    "strokeCount": 12,
+    "level": 6,
+    "frequencyRank": 11493,
+    "components": [
+      "方"
+    ],
+    "lessonOrder": 661
+  },
+  {
+    "char": "秤",
+    "meanings": [
+      "balance",
+      "scale; steelyard"
+    ],
+    "pinyin": [
+      "chèng"
+    ],
+    "strokeCount": 10,
+    "level": 6,
+    "frequencyRank": 11539,
+    "components": [
+      "平"
+    ],
+    "lessonOrder": 662
+  },
+  {
+    "char": "掰",
+    "meanings": [
+      "to rip",
+      "to tear"
+    ],
+    "pinyin": [
+      "bāi"
+    ],
+    "strokeCount": 12,
+    "level": 6,
+    "frequencyRank": 11771,
+    "components": [
+      "分"
+    ],
+    "lessonOrder": 663
+  },
+  {
+    "char": "蹬",
+    "meanings": [
+      "to step on; to wear; to face bad luck"
+    ],
+    "pinyin": [
+      "dēng"
+    ],
+    "strokeCount": 19,
+    "level": 6,
+    "frequencyRank": 12339,
+    "components": [],
+    "lessonOrder": 664
+  },
+  {
+    "char": "绣",
+    "meanings": [
+      "to embroider; embroidery; ornament"
+    ],
+    "pinyin": [
+      "xiù"
+    ],
+    "strokeCount": 10,
+    "level": 6,
+    "frequencyRank": 12463,
+    "components": [],
+    "lessonOrder": 665
+  },
+  {
+    "char": "哨",
+    "meanings": [
+      "to whistle; to chirp"
+    ],
+    "pinyin": [
+      "shào"
+    ],
+    "strokeCount": 10,
+    "level": 6,
+    "frequencyRank": 12583,
+    "components": [
+      "口"
+    ],
+    "lessonOrder": 666
+  },
+  {
+    "char": "捎",
+    "meanings": [
+      "to carry",
+      "to take; to select"
+    ],
+    "pinyin": [
+      "shāo"
+    ],
+    "strokeCount": 10,
+    "level": 6,
+    "frequencyRank": 12623,
+    "components": [],
+    "lessonOrder": 667
+  },
+  {
+    "char": "搁",
+    "meanings": [
+      "to place",
+      "to lay down; to delay"
+    ],
+    "pinyin": [
+      "gē"
+    ],
+    "strokeCount": 12,
+    "level": 6,
+    "frequencyRank": 13072,
+    "components": [],
+    "lessonOrder": 668
+  },
+  {
+    "char": "舟",
+    "meanings": [
+      "boat",
+      "ship"
+    ],
+    "pinyin": [
+      "zhōu"
+    ],
+    "strokeCount": 6,
+    "level": 6,
+    "frequencyRank": 13838,
+    "components": [],
+    "lessonOrder": 669
+  },
+  {
+    "char": "船",
+    "meanings": [
+      "ship",
+      "boat",
+      "vessel"
+    ],
+    "pinyin": [
+      "chuán"
+    ],
+    "strokeCount": 11,
+    "level": 2,
+    "frequencyRank": 1346,
+    "components": [
+      "舟",
+      "几",
+      "口"
+    ],
+    "lessonOrder": 670
+  },
+  {
+    "char": "艘",
+    "meanings": [
+      "measure word for ships or vessels"
+    ],
+    "pinyin": [
+      "sōu"
+    ],
+    "strokeCount": 15,
+    "level": 6,
+    "frequencyRank": 2548,
+    "components": [
+      "舟"
+    ],
+    "lessonOrder": 671
+  },
+  {
+    "char": "舱",
+    "meanings": [
+      "cabin",
+      "ship's hold"
+    ],
+    "pinyin": [
+      "cāng"
+    ],
+    "strokeCount": 10,
+    "level": 6,
+    "frequencyRank": 5838,
+    "components": [
+      "舟"
+    ],
+    "lessonOrder": 672
+  },
+  {
+    "char": "桨",
+    "meanings": [
+      "paddle",
+      "oar"
+    ],
+    "pinyin": [
+      "jiǎng"
+    ],
+    "strokeCount": 10,
+    "level": 6,
+    "frequencyRank": 14235,
+    "components": [],
+    "lessonOrder": 673
+  },
+  {
+    "char": "眯",
+    "meanings": [
+      "to squint",
+      "to narrow the eyes; blindness"
+    ],
+    "pinyin": [
+      "mī"
+    ],
+    "strokeCount": 11,
+    "level": 6,
+    "frequencyRank": 14561,
+    "components": [
+      "米"
+    ],
+    "lessonOrder": 674
+  },
+  {
+    "char": "晾",
+    "meanings": [
+      "to air-dry; to sun-dry"
+    ],
+    "pinyin": [
+      "liàng"
+    ],
+    "strokeCount": 12,
+    "level": 6,
+    "frequencyRank": 14630,
+    "components": [
+      "日"
+    ],
+    "lessonOrder": 675
+  },
+  {
+    "char": "涮",
+    "meanings": [
+      "to rinse; to boil or cook in juice"
+    ],
+    "pinyin": [
+      "shuàn"
+    ],
+    "strokeCount": 11,
+    "level": 6,
+    "frequencyRank": 15007,
+    "components": [
+      "刷"
+    ],
+    "lessonOrder": 676
+  },
+  {
+    "char": "秃",
+    "meanings": [
+      "bald"
+    ],
+    "pinyin": [
+      "tū"
+    ],
+    "strokeCount": 7,
+    "level": 6,
+    "frequencyRank": 15174,
+    "components": [
+      "几"
+    ],
+    "lessonOrder": 677
+  },
+  {
+    "char": "耸",
+    "meanings": [
+      "to excite",
+      "to urge; to raise; to shrug; lofty",
+      "towering"
+    ],
+    "pinyin": [
+      "sǒng"
+    ],
+    "strokeCount": 10,
+    "level": 6,
+    "frequencyRank": 15254,
+    "components": [
+      "从"
+    ],
+    "lessonOrder": 678
+  },
+  {
+    "char": "甭",
+    "meanings": [
+      "\"there is no need\""
+    ],
+    "pinyin": [
+      "béng"
+    ],
+    "strokeCount": 9,
+    "level": 6,
+    "frequencyRank": 15279,
+    "components": [
+      "不",
+      "用"
+    ],
+    "lessonOrder": 679
+  },
+  {
+    "char": "丛",
+    "meanings": [
+      "bush",
+      "shrub; thicket; collection"
+    ],
+    "pinyin": [
+      "cóng"
+    ],
+    "strokeCount": 5,
+    "level": 6,
+    "frequencyRank": 15283,
+    "components": [
+      "从",
+      "一"
+    ],
+    "lessonOrder": 680
+  },
+  {
+    "char": "腥",
+    "meanings": [
+      "fishy",
+      "rank; raw meat"
+    ],
+    "pinyin": [
+      "xīng"
+    ],
+    "strokeCount": 13,
+    "level": 6,
+    "frequencyRank": 15338,
+    "components": [],
+    "lessonOrder": 681
+  },
+  {
+    "char": "筐",
+    "meanings": [
+      "bamboo basket or chest"
+    ],
+    "pinyin": [
+      "kuāng"
+    ],
+    "strokeCount": 12,
+    "level": 6,
+    "frequencyRank": 17034,
+    "components": [],
+    "lessonOrder": 682
+  },
+  {
+    "char": "畔",
+    "meanings": [
+      "river bank; a boundary path that divides fields"
+    ],
+    "pinyin": [
+      "pàn"
+    ],
+    "strokeCount": 10,
+    "level": 6,
+    "frequencyRank": 17135,
+    "components": [
+      "半"
+    ],
+    "lessonOrder": 683
+  },
+  {
+    "char": "梢",
+    "meanings": [
+      "the tip of a branch; rudder"
+    ],
+    "pinyin": [
+      "shāo"
+    ],
+    "strokeCount": 11,
+    "level": 6,
+    "frequencyRank": 17485,
+    "components": [],
+    "lessonOrder": 684
+  },
+  {
+    "char": "烘",
+    "meanings": [
+      "to bake",
+      "to roast; to dry by the fire"
+    ],
+    "pinyin": [
+      "hōng"
+    ],
+    "strokeCount": 10,
+    "level": 6,
+    "frequencyRank": 18172,
+    "components": [
+      "火"
+    ],
+    "lessonOrder": 685
+  },
+  {
+    "char": "茎",
+    "meanings": [
+      "stem",
+      "stalk"
+    ],
+    "pinyin": [
+      "jīng"
+    ],
+    "strokeCount": 8,
+    "level": 6,
+    "frequencyRank": 18899,
+    "components": [],
+    "lessonOrder": 686
+  },
+  {
+    "char": "瘸",
+    "meanings": [
+      "lameness; paralysis of the hands or legs"
+    ],
+    "pinyin": [
+      "qué"
+    ],
+    "strokeCount": 16,
+    "level": 6,
+    "frequencyRank": 19513,
+    "components": [],
+    "lessonOrder": 687
+  },
+  {
+    "char": "腮",
+    "meanings": [
+      "jaw; gills"
+    ],
+    "pinyin": [
+      "sāi"
+    ],
+    "strokeCount": 13,
+    "level": 6,
+    "frequencyRank": 19518,
+    "components": [],
+    "lessonOrder": 688
+  },
+  {
+    "char": "熨",
+    "meanings": [
+      "to press",
+      "to iron; an iron"
+    ],
+    "pinyin": [
+      "yùn"
+    ],
+    "strokeCount": 15,
+    "level": 6,
+    "frequencyRank": 20839,
+    "components": [
+      "火"
+    ],
+    "lessonOrder": 689
+  },
+  {
+    "char": "霞",
+    "meanings": [
+      "rosy clouds"
+    ],
+    "pinyin": [
+      "xiá"
+    ],
+    "strokeCount": 17,
+    "level": 6,
+    "frequencyRank": 21021,
+    "components": [],
+    "lessonOrder": 690
+  },
+  {
+    "char": "岔",
+    "meanings": [
+      "to diverge",
+      "to branch; junction",
+      "fork in the road"
+    ],
+    "pinyin": [
+      "chà"
+    ],
+    "strokeCount": 7,
+    "level": 6,
+    "frequencyRank": 21163,
+    "components": [
+      "分"
+    ],
+    "lessonOrder": 691
+  },
+  {
+    "char": "馋",
+    "meanings": [
+      "greedy",
+      "gluttonous; lewd",
+      "lecherous"
+    ],
+    "pinyin": [
+      "chán"
+    ],
+    "strokeCount": 12,
+    "level": 6,
+    "frequencyRank": 23290,
+    "components": [],
+    "lessonOrder": 692
+  },
+  {
+    "char": "挎",
+    "meanings": [
+      "to carry"
+    ],
+    "pinyin": [
+      "kuà"
+    ],
+    "strokeCount": 9,
+    "level": 6,
+    "frequencyRank": 25388,
+    "components": [
+      "夸"
+    ],
+    "lessonOrder": 693
+  },
+  {
+    "char": "拄",
+    "meanings": [
+      "post; to lean on; to prod",
+      "to ridicule"
+    ],
+    "pinyin": [
+      "zhǔ"
+    ],
+    "strokeCount": 8,
+    "level": 6,
+    "frequencyRank": 25510,
+    "components": [],
+    "lessonOrder": 694
+  },
+  {
+    "char": "搀",
+    "meanings": [
+      "to mix; to support",
+      "to sustain",
+      "to lend a hand"
+    ],
+    "pinyin": [
+      "chān"
+    ],
+    "strokeCount": 12,
+    "level": 6,
+    "frequencyRank": 31166,
+    "components": [],
+    "lessonOrder": 695
+  }
+]

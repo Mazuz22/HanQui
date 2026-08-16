@@ -1,15 +1,20 @@
 /**
  * Computes the order kanji are introduced in HanQui's lesson path.
  *
- * A kanji shouldn't be taught before the kanji it's visually built from —
- * seeing 明 before either 日 or 月 makes it harder to remember than it needs
- * to be. This is a topological sort over that component-dependency graph
- * (component -> the kanji built from it), using a priority queue instead of
- * a plain FIFO so that among characters that are all ready to be scheduled
- * at once, the easier (lower JLPT tier), more common (lower frequency rank)
- * ones are still preferred. Same technique as the open-source `topokanji`
- * project, adapted here to weight JLPT tier above frequency since tier is
- * the primary curriculum driver in HanQui.
+ * A character shouldn't be taught before the characters it's visually built
+ * from — seeing 明 before either 日 or 月 makes it harder to remember than it
+ * needs to be. This is a topological sort over that component-dependency
+ * graph (component -> the character built from it), using a priority queue
+ * instead of a plain FIFO so that among characters that are all ready to be
+ * scheduled at once, the easier (lower `level`), more common (lower
+ * frequency rank) ones are still preferred. Same technique as the
+ * open-source `topokanji` project, adapted here to weight level above
+ * frequency since level is the primary curriculum driver in HanQui.
+ *
+ * `level` is track-agnostic and always "lower number = easier": for Kanji
+ * that's a transform of JLPT (N5 -> 1 .. N1 -> 5), for Hanzi it's HSK's own
+ * numbering (HSK1 -> 1 .. HSK6 -> 6) unchanged — see each track's build
+ * script for the exact mapping.
  *
  * Malformed decomposition data can produce a cycle (A depends on B depends
  * on A) that would make a plain topological sort hang forever. Rather than
@@ -32,14 +37,11 @@ export function buildLessonOrder(records) {
     }
   }
 
-  // N5 (level 5, easiest) should sort before N1 (level 1, hardest).
-  const tierRank = (jlptLevel) => 5 - jlptLevel
-
   const compareReady = (a, b) => {
     const ka = byChar.get(a)
     const kb = byChar.get(b)
     return (
-      tierRank(ka.jlptLevel) - tierRank(kb.jlptLevel) ||
+      ka.level - kb.level ||
       (ka.frequencyRank ?? Infinity) - (kb.frequencyRank ?? Infinity) ||
       ka.strokeCount - kb.strokeCount ||
       a.codePointAt(0) - b.codePointAt(0)

@@ -1,38 +1,33 @@
 import { TaskScreen } from './layout'
 
-// The kanji dataset is built from open sources, most of them CC BY-SA —
-// share-alike licenses that require visible attribution wherever the data
-// is used. This page is that attribution, reachable from every screen.
+// Both datasets are built from open sources, several of them share-alike
+// licensed — CC BY-SA and LGPL both require visible attribution wherever
+// the data is used. This page is that attribution, reachable from every
+// screen.
 const SOURCES = [
   {
-    name: 'KANJIDIC2',
-    org: 'Electronic Dictionary Research and Development Group (EDRDG)',
-    license: 'CC BY-SA 4.0',
-    note: 'Meanings, readings, stroke counts, and JLPT tiers.',
-  },
-  {
-    name: 'JMdict',
-    org: 'EDRDG',
-    license: 'CC BY-SA 4.0',
-    note: 'Japanese vocabulary dictionary, reserved for future example-word use.',
-  },
-  {
-    name: 'KanjiVG',
-    org: 'KanjiVG project',
-    license: 'CC BY-SA 3.0',
-    note: 'Stroke-order data underlying the component decomposition.',
+    name: 'kanji-data',
+    org: 'David Gouveia',
+    license: 'MIT',
+    note: 'Kanji meanings, readings, stroke counts, and current-scale JLPT tiers (derived from KANJIDIC2, EDRDG, CC BY-SA 4.0).',
   },
   {
     name: 'kanjivg-radical',
     org: 'yagays',
     license: 'CC BY-SA 4.0',
-    note: 'Per-kanji radical/component decomposition, used to order the lesson path.',
+    note: 'Per-kanji radical/component decomposition, used to order the Kanji lesson path (derived from KanjiVG, CC BY-SA 3.0).',
   },
   {
-    name: 'kanji-data',
-    org: 'David Gouveia',
+    name: 'Make Me a Hanzi',
+    org: 'Shaunak Kishore',
+    license: 'LGPL 3.0',
+    note: 'Hanzi definitions, pinyin, stroke counts, and component decomposition (derived from Unihan + CJKlib).',
+  },
+  {
+    name: 'complete-hsk-vocabulary',
+    org: 'drkameleon',
     license: 'MIT',
-    note: 'Wrapper dataset combining KANJIDIC2 fields with current-scale JLPT tiers.',
+    note: 'HSK level tagging and frequency ranking for the Hanzi track.',
   },
   {
     name: 'ts-fsrs',

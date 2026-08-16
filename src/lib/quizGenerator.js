@@ -2,25 +2,26 @@
  * Builds a 4-option multiple-choice question for a single kanji, in either
  * direction (kanji -> meaning, or meaning -> kanji).
  *
- * Distractors are picked by proximity to the target on JLPT tier and stroke
- * count, weighted so tier dominates (a stroke-count-close kanji from a very
- * different tier is still a worse distractor than a further-stroke-count
- * kanji from the same tier) — this keeps wrong options plausible rather
- * than obviously off, without needing a hand-curated "confusable pairs"
- * list. Kanji sharing a meaning with the target are excluded outright so a
- * "wrong" answer is never also technically correct. No pre-filter by tier
- * means the same scoring naturally widens to adjacent tiers when the
- * target's own tier is thin (relevant near N1, the smallest tier).
+ * Distractors are picked by proximity to the target on level and stroke
+ * count, weighted so level dominates (a stroke-count-close character from a
+ * very different level is still a worse distractor than a further-stroke-
+ * count character from the same level) — this keeps wrong options
+ * plausible rather than obviously off, without needing a hand-curated
+ * "confusable pairs" list. Characters sharing a meaning with the target are
+ * excluded outright so a "wrong" answer is never also technically correct.
+ * No pre-filter by level means the same scoring naturally widens to
+ * adjacent levels when the target's own level is thin (relevant at the
+ * extreme ends of either track's tier range).
  */
 export function generateQuestion(char, kanjiData, direction, rng = Math.random) {
   const target = kanjiData.find((k) => k.char === char)
-  if (!target) throw new Error(`Unknown kanji: ${char}`)
+  if (!target) throw new Error(`Unknown character: ${char}`)
 
   const pool = kanjiData.filter((k) => k.char !== target.char && !sharesAnyMeaning(k, target))
   const scored = pool
     .map((kanji) => ({
       kanji,
-      score: Math.abs(kanji.jlptLevel - target.jlptLevel) * 10 + Math.abs(kanji.strokeCount - target.strokeCount),
+      score: Math.abs(kanji.level - target.level) * 10 + Math.abs(kanji.strokeCount - target.strokeCount),
     }))
     .sort((a, b) => a.score - b.score)
 
