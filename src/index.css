@@ -35,6 +35,9 @@
   --positive-rgb: 79, 194, 168;
   --negative: #d1495c;
   --negative-rgb: 209, 73, 92;
+  /* The middle mastery tier — graduated but not yet deeply known. */
+  --amber: #d1a23e;
+  --amber-rgb: 209, 162, 62;
 
   /* Few sizes, large jumps — hierarchy from contrast, not decoration. */
   --type-display: 34px;
@@ -674,9 +677,14 @@ body {
   color: var(--accent-strong);
 }
 
-.char-tile-shaky {
+.char-tile-red {
   border-color: var(--negative);
   background: rgba(var(--negative-rgb), 0.1);
+}
+
+.char-tile-yellow {
+  border-color: var(--amber);
+  background: rgba(var(--amber-rgb), 0.1);
 }
 
 .char-tile-badge {
@@ -685,6 +693,10 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.04em;
   color: var(--negative);
+}
+
+.char-tile-yellow .char-tile-badge {
+  color: var(--amber);
 }
 
 /* ---------------------------------------------------------------------------

@@ -40,7 +40,9 @@ function IntroCard({ track, record, onContinue }) {
 export default function Session({ track, mode = 'daily', progress, reviewState, onPersist, onComplete, onExit }) {
   const { data } = TRACKS[track]
   function buildSteps() {
-    return mode === 'practice' ? buildPracticeSession(progress) : buildTodaySession(data, progress, reviewState, new Date())
+    return mode === 'practice'
+      ? buildPracticeSession(progress, reviewState)
+      : buildTodaySession(data, progress, reviewState, new Date())
   }
   // Computed once at mount (lazy useState initializer) — the session
   // shouldn't reshuffle itself as the user answers questions within it.

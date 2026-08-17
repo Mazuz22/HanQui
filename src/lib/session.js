@@ -12,6 +12,7 @@
  */
 import { getDueChars } from './reviewQueue'
 import { getNextNewChars } from './lessonPath'
+import { masteryLevel } from './mastery'
 
 export const MAX_REVIEWS_PER_SESSION = 15
 export const MAX_NEW_PER_SESSION = 5
@@ -36,29 +37,43 @@ export function buildTodaySession(kanjiData, progress, reviewState, now = new Da
   return interleaveUnits(reviewUnits, newUnits)
 }
 
+// Red (barely-known) characters come up far more often than green
+// (well-known) ones in Practice — the whole point of practicing is to push
+// on what's actually shaky, not to spend equal time on things already
+// mastered. Never fully excludes green, though: it still turns up "once in
+// a while" rather than vanishing, since a little spaced repetition even on
+// well-known characters is what keeps them well-known.
+const PRACTICE_MASTERY_WEIGHTS = { red: 6, yellow: 2, green: 1 }
+
 /**
  * A free, on-demand review session over characters the user already
  * knows — not gated by FSRS due dates, unlike buildTodaySession. Answers
  * still feed back into the FSRS review state (see Session.jsx), so
  * practicing is genuine review signal, not a no-op quiz.
  */
-export function buildPracticeSession(progress, count = PRACTICE_SESSION_SIZE, rng = Math.random) {
+export function buildPracticeSession(progress, reviewState = {}, count = PRACTICE_SESSION_SIZE, rng = Math.random) {
   const introduced = progress?.introduced ?? []
-  const shuffled = shuffle(introduced, rng)
-  return shuffled.slice(0, Math.min(count, shuffled.length)).map((char) => ({
+  const picked = weightedSample(
+    introduced,
+    (char) => PRACTICE_MASTERY_WEIGHTS[masteryLevel(reviewState[char])],
+    Math.min(count, introduced.length),
+    rng,
+  )
+  return picked.map((char) => ({
     type: 'quiz',
     char,
     direction: rng() < 0.5 ? 'kanjiToMeaning' : 'meaningToKanji',
   }))
 }
 
-function shuffle(items, rng) {
-  const copy = [...items]
-  for (let i = copy.length - 1; i > 0; i--) {
-    const j = Math.floor(rng() * (i + 1))
-    ;[copy[i], copy[j]] = [copy[j], copy[i]]
-  }
-  return copy
+// Efraimidis-Spirakis weighted random sampling without replacement: each
+// item gets a key = rng()^(1/weight), and taking the top-N keys samples N
+// items without replacement with probability proportional to weight —
+// heavier items tend to sort first, but nothing is ever guaranteed excluded.
+function weightedSample(items, weightOf, count, rng) {
+  const keyed = items.map((item) => ({ item, key: rng() ** (1 / weightOf(item)) }))
+  keyed.sort((a, b) => b.key - a.key)
+  return keyed.slice(0, count).map((k) => k.item)
 }
 
 // Spreads `insertUnits` evenly across `baseUnits` (each a small run of steps

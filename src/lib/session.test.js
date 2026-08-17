@@ -73,30 +73,53 @@ describe('buildTodaySession', () => {
 describe('buildPracticeSession', () => {
   it('only includes already-introduced characters, all as quiz steps', () => {
     const progress = { introduced: ['a', 'b', 'c'] }
-    const session = buildPracticeSession(progress)
+    const session = buildPracticeSession(progress, {})
     expect(session.every((s) => s.type === 'quiz')).toBe(true)
     expect(session.every((s) => progress.introduced.includes(s.char))).toBe(true)
   })
 
   it('caps the session at the requested count', () => {
     const progress = { introduced: Array.from({ length: 50 }, (_, i) => `k${i}`) }
-    const session = buildPracticeSession(progress, 20)
+    const session = buildPracticeSession(progress, {}, 20)
     expect(session.length).toBe(20)
   })
 
   it('defaults to PRACTICE_SESSION_SIZE when no count is given', () => {
     const progress = { introduced: Array.from({ length: 50 }, (_, i) => `k${i}`) }
-    const session = buildPracticeSession(progress)
+    const session = buildPracticeSession(progress, {})
     expect(session.length).toBe(PRACTICE_SESSION_SIZE)
   })
 
   it('returns an empty session when nothing has been introduced yet', () => {
-    expect(buildPracticeSession({ introduced: [] })).toEqual([])
+    expect(buildPracticeSession({ introduced: [] }, {})).toEqual([])
   })
 
   it('never includes the same character twice', () => {
     const progress = { introduced: Array.from({ length: 50 }, (_, i) => `k${i}`) }
-    const session = buildPracticeSession(progress, 20)
+    const session = buildPracticeSession(progress, {}, 20)
     expect(new Set(session.map((s) => s.char)).size).toBe(session.length)
+  })
+
+  it('favors red (unreliably-known) characters over green (mastered) ones', () => {
+    // 5 mastered (green, high stability) characters, 45 never-reviewed
+    // (red) ones. A small, low-count sample should overwhelmingly land on
+    // the red characters despite them being a minority of the pool.
+    const green = Array.from({ length: 5 }, (_, i) => `green${i}`)
+    const red = Array.from({ length: 45 }, (_, i) => `red${i}`)
+    const progress = { introduced: [...green, ...red] }
+    const reviewState = Object.fromEntries(green.map((char) => [char, { state: 2, lapses: 0, stability: 100 }]))
+
+    // A fixed, deterministic rng makes this a stable assertion rather than
+    // a flaky probabilistic one: rng() always returns the same sequence,
+    // so the outcome is reproducible while still exercising real weighting.
+    let seed = 1
+    const rng = () => {
+      seed = (seed * 16807) % 2147483647
+      return (seed - 1) / 2147483646
+    }
+
+    const session = buildPracticeSession(progress, reviewState, 10, rng)
+    const greenCount = session.filter((s) => s.char.startsWith('green')).length
+    expect(greenCount).toBeLessThanOrEqual(2) // far below its ~50% share of a uniform sample
   })
 })
