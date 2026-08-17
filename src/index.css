@@ -274,14 +274,16 @@ body {
 
 .track-cards {
   display: flex;
+  flex-wrap: wrap;
   align-items: flex-start;
+  justify-content: center;
   gap: 14px;
   width: 100%;
-  max-width: 420px;
+  max-width: 560px;
 }
 
 .track-card {
-  flex: 1;
+  flex: 1 1 140px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -290,7 +292,7 @@ body {
   border-radius: 14px;
   border: var(--rule);
   background: var(--card-bg);
-  transition: transform 0.16s var(--ease-out), border-color 0.16s var(--ease-out), flex-basis 0.2s var(--ease-out);
+  transition: transform 0.16s var(--ease-out), border-color 0.16s var(--ease-out), flex-grow 0.2s var(--ease-out);
 }
 
 .track-card-button {
@@ -334,16 +336,17 @@ body {
 }
 
 /* Once a preference exists, the last-studied track is put forward — bigger
-   and brighter — while the other shrinks to a quieter secondary option,
-   without ever becoming unreachable. */
+   and brighter — while the others shrink to quieter secondary options,
+   without ever becoming unreachable. Flex-grow ratios rather than fixed
+   percentages, so this scales to however many tracks exist. */
 .track-card-preferred {
-  flex-basis: 60%;
+  flex: 2 1 160px;
   border-color: var(--accent);
   box-shadow: 0 4px 20px rgba(var(--accent-rgb), 0.18);
 }
 
 .track-card-secondary {
-  flex-basis: 40%;
+  flex: 1 1 120px;
   opacity: 0.75;
   padding-top: 14px;
 }
@@ -408,6 +411,13 @@ body {
 .quiz-prompt-char {
   font-size: 72px;
   line-height: 1;
+}
+
+/* A 2-kanji compound word at single-character size overflows a narrow
+   screen — scale it down rather than letting it wrap or clip. */
+.quiz-prompt-char-multi {
+  font-size: 48px;
+  letter-spacing: 0.04em;
 }
 
 .quiz-prompt-meaning {
@@ -505,6 +515,11 @@ body {
   font-size: 88px;
   line-height: 1;
   color: var(--accent-strong);
+}
+
+.intro-char-multi {
+  font-size: 56px;
+  letter-spacing: 0.04em;
 }
 
 .intro-meaning {

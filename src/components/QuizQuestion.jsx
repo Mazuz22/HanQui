@@ -48,15 +48,18 @@ export default function QuizQuestion({ track, question, kanjiRecord, onComplete,
   }
 
   const reading = kanjiRecord ? TRACKS[track].formatReading(kanjiRecord) : ''
+  const itemNoun = TRACKS[track].itemNoun
+  const isCharPrompt = question.direction === 'kanjiToMeaning'
+  const promptClass = isCharPrompt
+    ? `quiz-prompt quiz-prompt-char${[...question.prompt].length > 1 ? ' quiz-prompt-char-multi' : ''}`
+    : 'quiz-prompt quiz-prompt-meaning'
 
   return (
     <div className="quiz-question">
       <p className="quiz-direction-label">
-        {question.direction === 'kanjiToMeaning' ? 'What does this mean?' : 'Which character means this?'}
+        {isCharPrompt ? 'What does this mean?' : `Which ${itemNoun} means this?`}
       </p>
-      <div className={question.direction === 'kanjiToMeaning' ? 'quiz-prompt quiz-prompt-char' : 'quiz-prompt quiz-prompt-meaning'}>
-        {question.prompt}
-      </div>
+      <div className={promptClass}>{question.prompt}</div>
 
       <div className="quiz-options">
         {question.options.map((option, index) => {

@@ -15,7 +15,7 @@ const PROBE_SIZE = 18
  * scoring logic.
  */
 export default function PlacementTest({ track, onComplete, onExit }) {
-  const { data } = TRACKS[track]
+  const { data, itemNoun } = TRACKS[track]
   const orderedChars = useMemo(() => data.map((k) => k.char), [data])
   const probeSet = useMemo(() => buildProbeSet(orderedChars, PROBE_SIZE), [orderedChars])
   const [probeIndex, setProbeIndex] = useState(0)
@@ -39,7 +39,7 @@ export default function PlacementTest({ track, onComplete, onExit }) {
     const introduced = orderedChars.slice(0, startIndex)
     const reviewState = {}
     for (const char of introduced) {
-      reviewState[char] = recordReview(null, true, now)
+      reviewState[char] = recordReview(null, true, null, now)
     }
     onComplete({ introduced, placementComplete: true, placementStartIndex: startIndex }, reviewState)
   }
@@ -47,7 +47,7 @@ export default function PlacementTest({ track, onComplete, onExit }) {
   return (
     <TaskScreen onBack={onExit} backLabel="← Cancel" progress={`${probeIndex + 1} / ${probeSet.length}`}>
       <p className="placement-intro">
-        Quick check — pick the meaning of each character. Guessing is fine, this just finds where to start you.
+        Quick check — pick the meaning of each {itemNoun}. Guessing is fine, this just finds where to start you.
       </p>
       <QuizQuestion
         key={currentChar}

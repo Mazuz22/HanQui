@@ -30,6 +30,12 @@ const SOURCES = [
     note: 'HSK level tagging and frequency ranking for the Hanzi track.',
   },
   {
+    name: 'JMdict (via jmdict-simplified)',
+    org: 'Electronic Dictionary Research and Development Group (EDRDG)',
+    license: 'CC BY-SA 4.0',
+    note: 'English meanings and readings for the Kanji Words track — 2-kanji compound vocabulary.',
+  },
+  {
     name: 'ts-fsrs',
     org: 'Open Spaced Repetition',
     license: 'MIT',

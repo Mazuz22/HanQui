@@ -10,9 +10,10 @@ const EMPTY_STATS = { introduced: 0, reviewed: 0, correct: 0, total: 0, newChars
 
 function IntroCard({ track, record, onContinue }) {
   const reading = TRACKS[track].formatReading(record)
+  const isMulti = [...record.char].length > 1
   return (
     <div className="intro-card in">
-      <div className="intro-char">{record.char}</div>
+      <div className={isMulti ? 'intro-char intro-char-multi' : 'intro-char'}>{record.char}</div>
       <p className="intro-meaning">{record.meanings.slice(0, 3).join(', ')}</p>
       {reading && <p className="intro-reading">{reading}</p>}
       {record.components.length > 0 && (
