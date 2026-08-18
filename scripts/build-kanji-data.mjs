@@ -32,6 +32,7 @@ const PRIMARY_MEANING_OVERRIDES = {
   安: 'Cheap',
   送: 'Send',
   相: 'Mutual',
+  向: 'Facing',
 }
 
 const rawKanji = JSON.parse(readFileSync(here('data/raw/kanji-data.json'), 'utf8'))
