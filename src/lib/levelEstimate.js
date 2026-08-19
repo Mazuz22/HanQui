@@ -10,53 +10,37 @@ const LEVEL_LABELS = {
   words: { 1: 'N5', 2: 'N4', 3: 'N3', 4: 'N2', 5: 'N1' },
 }
 
-// 60% used to be the bar for "this tier is done, report the next harder
-// one" — but that reported someone as N3 while a quarter of N4 was still
-// unlearned, which reads as premature to a learner who doesn't feel N4 is
-// behind them yet. 85% means a tier has to be nearly finished, not just
-// majority-covered, before the label moves on to the next one.
-const COMPLETION_THRESHOLD = 0.85
-
 /**
- * Estimates the user's current level from how much of each tier has
- * actually been covered, not from where the lesson-path frontier happens
- * to be.
+ * Estimates the user's current level as the tier of the most recently
+ * introduced character — "the tier of whatever you just learned."
  *
- * The lesson order isn't cleanly blocked by level — it's a topological
- * sort over component dependencies with level only a tie-break, so a
- * harder-tier character whose components are already known can get
- * scheduled well before an easier-tier character that's still blocked on
- * one of its own. That means a real chunk of an "earlier" tier can still
- * be unlearned even after the frontier has moved well past it — reporting
- * "the level of whatever was scheduled around here" (a single sample, or
- * even a windowed mode of recent lessons) can call someone N3 while
- * nearly half the N4 tier is still unlearned, which is exactly what
- * happened: 188 known kanji got reported as N3 with only 55% of all N4
- * kanji actually introduced yet.
+ * This relies on a real guarantee from the build pipeline, not a
+ * coincidence: each track's build script only keeps a component as a
+ * lesson-ordering prerequisite when it's the same tier or easier than the
+ * character it's part of (see build-kanji-data.mjs / build-hanzi-data.mjs),
+ * and buildLessonOrder always schedules the lowest-level ready character
+ * first. Together those mean the lesson order's `level` sequence is always
+ * non-decreasing — you finish an entire tier before the next one starts,
+ * with no harder-tier character ever sneaking in early. So the tier of the
+ * most recent lesson *is* an honest, stable answer, not a fragile sample
+ * (see lessonOrder.test.js's monotonicity test for the property this
+ * depends on).
  *
- * Instead: walk tiers from easiest to hardest and report the first one
- * where less than COMPLETION_THRESHOLD of that tier's total characters
- * have actually been learned — "the tier you're still filling in," not
- * "the tier of the most recent lesson."
+ * An earlier version instead reported "the first tier below some
+ * completion threshold" — but that meant the label jumped to the *next*
+ * tier's name the moment the current one crossed the bar, even at 0%
+ * coverage of that next tier. 224 known kanji (all of N5, 85%+ of N4, 0%
+ * of N3) got reported as N3, which read as premature to a learner who
+ * hadn't seen a single N3 character yet. Reporting the frontier's own tier
+ * avoids that entirely: the label only changes once you've actually
+ * started learning the next one.
  */
-export function estimateLevel(data, introducedCount, threshold = COMPLETION_THRESHOLD) {
+export function estimateLevel(data, introducedCount) {
   if (introducedCount <= 0 || data.length === 0) return null
 
   const sorted = [...data].sort((a, b) => a.lessonOrder - b.lessonOrder)
-  const known = sorted.slice(0, Math.min(sorted.length, introducedCount))
-
-  const totalByLevel = new Map()
-  for (const { level } of data) totalByLevel.set(level, (totalByLevel.get(level) ?? 0) + 1)
-
-  const knownByLevel = new Map()
-  for (const { level } of known) knownByLevel.set(level, (knownByLevel.get(level) ?? 0) + 1)
-
-  const levels = [...totalByLevel.keys()].sort((a, b) => a - b)
-  for (const level of levels) {
-    const coverage = (knownByLevel.get(level) ?? 0) / totalByLevel.get(level)
-    if (coverage < threshold) return level
-  }
-  return levels[levels.length - 1] ?? null
+  const frontierIndex = Math.min(sorted.length, introducedCount) - 1
+  return sorted[frontierIndex].level
 }
 
 export function formatLevel(level, track) {

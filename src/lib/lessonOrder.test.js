@@ -70,4 +70,38 @@ describe('buildLessonOrder', () => {
     expect(order.length).toBe(records.length)
     expect(new Set(order).size).toBe(records.length)
   })
+
+  // levelEstimate.js's whole approach (report the tier of the most
+  // recently introduced character) depends on this: as long as no
+  // component is a harder tier than its own character — the build
+  // scripts' job, not this function's — the output's `level` sequence
+  // never decreases. A harder tier never gets scheduled early just
+  // because it happened to have no unresolved dependencies.
+  it('never schedules a harder tier before an easier one when no component outranks its own character', () => {
+    // A deliberately tangled graph: levels assigned independently of any
+    // dependency chain, but every component kept at or below its parent's
+    // level (the same precondition the build scripts enforce).
+    const records = [
+      record('a', { level: 1 }),
+      record('b', { level: 1, components: ['a'] }),
+      record('c', { level: 2, components: ['b'] }),
+      record('d', { level: 2 }),
+      record('e', { level: 3, components: ['c', 'd'] }),
+      record('f', { level: 1 }),
+      record('g', { level: 3, components: ['f'] }),
+      record('h', { level: 2, components: ['a', 'f'] }),
+      record('i', { level: 2 }),
+      record('j', { level: 4, components: ['h', 'i'] }),
+      record('k', { level: 4 }),
+      record('l', { level: 5, components: ['j', 'k', 'g'] }),
+    ]
+    const byChar = new Map(records.map((r) => [r.char, r]))
+    const { order } = buildLessonOrder(records)
+    let lastLevel = -Infinity
+    for (const char of order) {
+      const level = byChar.get(char).level
+      expect(level).toBeGreaterThanOrEqual(lastLevel)
+      lastLevel = Math.max(lastLevel, level)
+    }
+  })
 })
