@@ -448,6 +448,20 @@ body {
   transition: border-color 0.16s var(--ease-out), transform 0.14s var(--ease-out), background 0.16s var(--ease-out);
 }
 
+/* meaningToKanji questions show kanji/hanzi/word text as the option
+   labels rather than English words — those need to be noticeably larger
+   to actually be legible, same reasoning as .quiz-prompt-char. */
+.quiz-option-char {
+  font-size: 32px;
+}
+
+/* 2-kanji compound word options need the same downscale as
+   .quiz-prompt-char-multi, for the same overflow reason. */
+.quiz-option-char-multi {
+  font-size: 24px;
+  letter-spacing: 0.03em;
+}
+
 .quiz-option:hover:not(:disabled) {
   border-color: var(--accent);
   transform: translateY(-1px);

@@ -66,10 +66,13 @@ export default function QuizQuestion({ track, question, kanjiRecord, onComplete,
           const isCorrectOption = index === question.correctIndex
           const isSelected = index === selected
           let stateClass = ''
+          if (!isCharPrompt) {
+            stateClass = [...option.label].length > 1 ? 'quiz-option-char-multi' : 'quiz-option-char'
+          }
           if (answered) {
-            if (isCorrectOption) stateClass = 'quiz-option-correct'
-            else if (isSelected) stateClass = 'quiz-option-incorrect'
-            else stateClass = 'quiz-option-muted'
+            if (isCorrectOption) stateClass += ' quiz-option-correct'
+            else if (isSelected) stateClass += ' quiz-option-incorrect'
+            else stateClass += ' quiz-option-muted'
           }
           return (
             <button
