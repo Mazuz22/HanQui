@@ -78,8 +78,17 @@ const vocabChars = new Set(records.map((r) => r.char))
 // same "drop bare radicals and out-of-scope characters" rule as the Kanji
 // pipeline's use of kanjivg-radical. IDS structural operators (U+2FF0-
 // U+2FFF) and the "unrecognized component" placeholder '？' are skipped.
+//
+// Also drop a component if it's a harder HSK tier than the character it's
+// part of — same reasoning as the Kanji pipeline's identical filter: IDS
+// decomposition is structural, not pedagogical, so it can mark an easy,
+// common character as "containing" a much rarer one, which would otherwise
+// drag the easy character's lesson position out behind it for no real
+// learning benefit.
 let orphanedComponentRefs = 0
+let harderComponentRefs = 0
 let totalComponentRefs = 0
+const levelByChar = new Map(records.map((r) => [r.char, r.level]))
 
 for (const record of records) {
   const kept = []
@@ -88,8 +97,9 @@ for (const record of records) {
     if (code >= 0x2ff0 && code <= 0x2fff) continue // IDS structural operator
     if (ch === '？' || ch === record.char) continue
     totalComponentRefs += 1
-    if (vocabChars.has(ch)) kept.push(ch)
-    else orphanedComponentRefs += 1
+    if (!vocabChars.has(ch)) orphanedComponentRefs += 1
+    else if (levelByChar.get(ch) > record.level) harderComponentRefs += 1
+    else kept.push(ch)
   }
   record.components = kept
   delete record.decomposition
@@ -106,7 +116,10 @@ records.sort((a, b) => a.lessonOrder - b.lessonOrder)
 writeFileSync(here('../src/assets/hanzi-data.json'), JSON.stringify(records, null, 2) + '\n')
 
 console.log(`HanQui hanzi dataset built: ${records.length} hanzi`)
-console.log(`  component refs: ${totalComponentRefs} total, ${orphanedComponentRefs} dropped (out-of-vocab)`)
+console.log(
+  `  component refs: ${totalComponentRefs} total, ${orphanedComponentRefs} dropped (out-of-vocab), ` +
+    `${harderComponentRefs} dropped (harder than parent)`,
+)
 console.log(`  lesson-order cycle breaks: ${cycleBreaks}`)
 if (cycleBreaks > records.length * 0.01) {
   console.warn('  cycleBreaks is unusually high relative to dataset size — worth auditing the decomposition data.')

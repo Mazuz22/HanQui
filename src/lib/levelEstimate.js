@@ -10,7 +10,12 @@ const LEVEL_LABELS = {
   words: { 1: 'N5', 2: 'N4', 3: 'N3', 4: 'N2', 5: 'N1' },
 }
 
-const COMPLETION_THRESHOLD = 0.6
+// 60% used to be the bar for "this tier is done, report the next harder
+// one" — but that reported someone as N3 while a quarter of N4 was still
+// unlearned, which reads as premature to a learner who doesn't feel N4 is
+// behind them yet. 85% means a tier has to be nearly finished, not just
+// majority-covered, before the label moves on to the next one.
+const COMPLETION_THRESHOLD = 0.85
 
 /**
  * Estimates the user's current level from how much of each tier has

@@ -73,18 +73,32 @@ const vocabChars = new Set(records.map((r) => r.char))
 // components that are themselves learnable (in-vocabulary) kanji — this
 // drops bare radicals (亠, 儿, 卜, ...) and out-of-scope rarities in one
 // pass, since anything not JLPT-tagged simply isn't in vocabChars.
+//
+// A component is only kept as a *lesson-ordering prerequisite* if it's the
+// same tier or easier than the kanji it's part of. KanjiVG's decomposition
+// is purely visual/structural, so it happily marks something like 何
+// (N5, "what") as containing 丁 (N1, a rare component) — technically true
+// stroke-wise, but 丁 isn't something a learner needs first to grasp 何.
+// Letting a harder component gate an easier kanji dragged 何 all the way to
+// lesson position 1055 in practice, well past hundreds of genuinely harder
+// characters — exactly the "why haven't I even seen 何 yet" complaint this
+// filter exists to prevent.
 let orphanedComponentRefs = 0
+let harderComponentRefs = 0
 let totalComponentRefs = 0
+const levelByChar = new Map(records.map((r) => [r.char, r.level]))
 
 for (const record of records) {
   const rawComponents = kanji2element[record.char] ?? []
   const kept = []
   for (const component of rawComponents) {
     totalComponentRefs += 1
-    if (component.length === 1 && component !== record.char && vocabChars.has(component)) {
-      kept.push(component)
-    } else {
+    if (component.length !== 1 || component === record.char || !vocabChars.has(component)) {
       orphanedComponentRefs += 1
+    } else if (levelByChar.get(component) > record.level) {
+      harderComponentRefs += 1
+    } else {
+      kept.push(component)
     }
   }
   record.components = kept
@@ -101,7 +115,10 @@ records.sort((a, b) => a.lessonOrder - b.lessonOrder)
 writeFileSync(here('../src/assets/kanji-data.json'), JSON.stringify(records, null, 2) + '\n')
 
 console.log(`HanQui kanji dataset built: ${records.length} kanji`)
-console.log(`  component refs: ${totalComponentRefs} total, ${orphanedComponentRefs} dropped (radicals / out-of-vocab)`)
+console.log(
+  `  component refs: ${totalComponentRefs} total, ${orphanedComponentRefs} dropped (radicals / out-of-vocab), ` +
+    `${harderComponentRefs} dropped (harder than parent)`,
+)
 console.log(`  lesson-order cycle breaks: ${cycleBreaks}`)
 if (cycleBreaks > records.length * 0.01) {
   console.warn('  cycleBreaks is unusually high relative to dataset size — worth auditing the decomposition data.')
