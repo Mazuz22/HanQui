@@ -12,6 +12,8 @@
     "build:data": "node scripts/build-kanji-data.mjs"
   },
   "dependencies": {
+    "hanzi-writer": "^3.7.3",
+    "hanzi-writer-data": "^2.0.1",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
     "ts-fsrs": "^5.4.1"

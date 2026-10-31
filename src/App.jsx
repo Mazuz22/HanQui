@@ -6,6 +6,10 @@ import Session from './components/Session'
 import SessionSummary from './components/SessionSummary'
 import MyCharacters from './components/MyCharacters'
 import Credits from './components/Credits'
+import CourseHome from './components/course/CourseHome'
+import Lesson from './components/course/Lesson'
+import { LESSONS } from './lib/course'
+import { getCourseProgress, saveCourseProgress } from './lib/courseProgress'
 import { AppFooter } from './components/layout'
 import { getLastTrack, getProgress, getReviewState, saveLastTrack, saveProgress, saveReviewState } from './lib/storage'
 import { deserializeReviewState, serializeReviewState } from './lib/reviewQueue'
@@ -28,6 +32,18 @@ export default function App() {
   const [reviewState, setReviewState] = useState({})
   const [sessionStats, setSessionStats] = useState(null)
   const [justFinishedDaily, setJustFinishedDaily] = useState(false)
+  const [courseProgress, setCourseProgress] = useState(getCourseProgress)
+  const [lessonId, setLessonId] = useState(null)
+
+  // Course progress updates are functional so a quick run of marks (seen,
+  // written, quiz) never overwrites one another.
+  function updateCourseProgress(update) {
+    setCourseProgress((current) => {
+      const next = update(current)
+      saveCourseProgress(next)
+      return next
+    })
+  }
 
   useEffect(() => {
     getLastTrack().then(setLastTrackPref)
@@ -142,6 +158,28 @@ export default function App() {
         )
       case 'board':
         return <MyCharacters track={track} progress={progress} reviewState={reviewState} onBack={goHome} />
+      case 'course':
+        return (
+          <CourseHome
+            progress={courseProgress}
+            onOpenLesson={(id) => {
+              setLessonId(id)
+              setScreen('lesson')
+            }}
+            onBack={goHome}
+          />
+        )
+      case 'lesson': {
+        const lesson = LESSONS.find((l) => l.id === lessonId)
+        return (
+          <Lesson
+            lesson={lesson}
+            progress={courseProgress}
+            onProgress={updateCourseProgress}
+            onBack={() => setScreen('course')}
+          />
+        )
+      }
       case 'credits':
         return <Credits onBack={() => setScreen(returnScreen)} />
       default:
@@ -152,6 +190,7 @@ export default function App() {
             onProficiencyTest={handleProficiencyTest}
             onViewCharacters={handleViewCharacters}
             onPractice={handlePractice}
+            onOpenCourse={() => setScreen('course')}
           />
         )
     }
@@ -159,7 +198,7 @@ export default function App() {
 
   return (
     <div className="app-shell">
-      <div className="screen" key={`${screen}-${track ?? ''}`}>
+      <div className="screen" key={`${screen}-${track ?? ''}-${screen === 'lesson' ? lessonId : ''}`}>
         {render()}
       </div>
       {screen !== 'credits' && <AppFooter onCredits={openCredits} />}

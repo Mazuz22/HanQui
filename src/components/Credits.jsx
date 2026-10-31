@@ -36,6 +36,18 @@ const SOURCES = [
     note: 'English meanings and readings for the Kanji Words track — 2-kanji compound vocabulary.',
   },
   {
+    name: 'Hanzi Writer',
+    org: 'David Chanin',
+    license: 'MIT',
+    note: 'Stroke-order animation and finger-writing practice in the Semester A course.',
+  },
+  {
+    name: 'hanzi-writer-data',
+    org: 'David Chanin (from Make Me a Hanzi; glyphs by Arphic Technology)',
+    license: 'Arphic PL',
+    note: 'Stroke shapes and order for every course character, also used for the stroke-order strips and practice sheets.',
+  },
+  {
     name: 'ts-fsrs',
     org: 'Open Spaced Repetition',
     license: 'MIT',

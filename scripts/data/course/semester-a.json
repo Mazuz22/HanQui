@@ -1,0 +1,1987 @@
+{
+  "course": {
+    "title": "Chinese, first year",
+    "semester": "Semester A",
+    "note": "One lesson per syllabus week, built from the Great Wall Chinese (长城汉语 生存交际) word lists."
+  },
+  "weeks": [
+    {
+      "week": 1,
+      "titleZh": "你好，我是麦克",
+      "titlePinyin": "Nǐ hǎo, wǒ shì Màikè",
+      "titleEn": "Hello, I'm Mike",
+      "sources": [
+        "Great Wall Chinese 1, unit 1 — 你好，我是麦克",
+        "Chinese Characters 1, Book 1 unit 1 — character writing",
+        "Pinyin · stroke order"
+      ],
+      "vocab": [
+        {
+          "hanzi": "你",
+          "pinyin": "nǐ",
+          "en": "you"
+        },
+        {
+          "hanzi": "好",
+          "pinyin": "hǎo",
+          "en": "well, good"
+        },
+        {
+          "hanzi": "我",
+          "pinyin": "wǒ",
+          "en": "I"
+        },
+        {
+          "hanzi": "是",
+          "pinyin": "shì",
+          "en": "to be"
+        },
+        {
+          "hanzi": "您",
+          "pinyin": "nín",
+          "en": "you (polite)"
+        },
+        {
+          "hanzi": "你们",
+          "pinyin": "nǐmen",
+          "en": "you (plural)"
+        },
+        {
+          "hanzi": "她",
+          "pinyin": "tā",
+          "en": "she"
+        },
+        {
+          "hanzi": "谁",
+          "pinyin": "shuí",
+          "en": "who"
+        },
+        {
+          "hanzi": "他",
+          "pinyin": "tā",
+          "en": "he"
+        },
+        {
+          "hanzi": "老师",
+          "pinyin": "lǎoshī",
+          "en": "teacher"
+        }
+      ],
+      "names": [
+        {
+          "hanzi": "麦克",
+          "pinyin": "Màikè",
+          "en": "Mike"
+        },
+        {
+          "hanzi": "刘少华",
+          "pinyin": "Liú Shàohuá",
+          "en": "Liu Shaohua"
+        },
+        {
+          "hanzi": "赵玉兰",
+          "pinyin": "Zhào Yùlán",
+          "en": "Zhao Yulan"
+        },
+        {
+          "hanzi": "张芳芳",
+          "pinyin": "Zhāng Fāngfang",
+          "en": "Zhang Fangfang"
+        },
+        {
+          "hanzi": "张圆圆",
+          "pinyin": "Zhāng Yuányuan",
+          "en": "Zhang Yuanyuan"
+        },
+        {
+          "hanzi": "金太成",
+          "pinyin": "Jīn Tàichéng",
+          "en": "Kim Tae-sung"
+        },
+        {
+          "hanzi": "山口和子",
+          "pinyin": "Shānkǒu Hézǐ",
+          "en": "Yamaguchi Kazuko"
+        },
+        {
+          "hanzi": "王杨",
+          "pinyin": "Wáng Yáng",
+          "en": "Wang Yang"
+        },
+        {
+          "hanzi": "玛丽",
+          "pinyin": "Mǎlì",
+          "en": "Mary"
+        },
+        {
+          "hanzi": "菲雅",
+          "pinyin": "Fēiyǎ",
+          "en": "Faye"
+        },
+        {
+          "hanzi": "李冬生",
+          "pinyin": "Lǐ Dōngshēng",
+          "en": "Li Dongsheng"
+        },
+        {
+          "hanzi": "陈晓红",
+          "pinyin": "Chén Xiǎohóng",
+          "en": "Chen Xiaohong"
+        }
+      ],
+      "characters": [
+        "我",
+        "你",
+        "您",
+        "她",
+        "他",
+        "们",
+        "好",
+        "是",
+        "谁",
+        "老",
+        "师"
+      ],
+      "meanings": {
+        "我": "I, me",
+        "你": "you",
+        "您": "you (polite)",
+        "她": "she",
+        "他": "he, him",
+        "们": "plural for people (他们, 你们, 我们)",
+        "好": "good",
+        "是": "is, am, are",
+        "谁": "who, whom",
+        "老": "old",
+        "师": "teacher (老师)"
+      }
+    },
+    {
+      "week": 2,
+      "titleZh": "我姓金，叫金太成",
+      "titlePinyin": "Wǒ xìng Jīn, jiào Jīn Tàichéng",
+      "titleEn": "My surname is Kim, and my full name is Kim Tae-sung",
+      "sources": [
+        "Great Wall Chinese 1, unit 2 — 我姓金，叫金太成",
+        "Chinese Characters 1, Book 1 unit 2 — character writing",
+        "Pinyin"
+      ],
+      "vocab": [
+        {
+          "hanzi": "姓",
+          "pinyin": "xìng",
+          "en": "surname"
+        },
+        {
+          "hanzi": "叫",
+          "pinyin": "jiào",
+          "en": "to call, to be called"
+        },
+        {
+          "hanzi": "什么",
+          "pinyin": "shénme",
+          "en": "what"
+        },
+        {
+          "hanzi": "名字",
+          "pinyin": "míngzi",
+          "en": "name"
+        },
+        {
+          "hanzi": "对不起",
+          "pinyin": "duìbuqǐ",
+          "en": "I'm sorry"
+        },
+        {
+          "hanzi": "没关系",
+          "pinyin": "méi guānxi",
+          "en": "It doesn't matter"
+        },
+        {
+          "hanzi": "嗯",
+          "pinyin": "ng",
+          "en": "eh"
+        },
+        {
+          "hanzi": "学生",
+          "pinyin": "xuésheng",
+          "en": "student"
+        },
+        {
+          "hanzi": "吗",
+          "pinyin": "ma",
+          "en": "particle used at the end of a question"
+        },
+        {
+          "hanzi": "贵姓",
+          "pinyin": "guìxìng",
+          "en": "your surname (honorific)"
+        },
+        {
+          "hanzi": "请问",
+          "pinyin": "qǐng wèn",
+          "en": "May I ask...?"
+        },
+        {
+          "hanzi": "请",
+          "pinyin": "qǐng",
+          "en": "please"
+        },
+        {
+          "hanzi": "问",
+          "pinyin": "wèn",
+          "en": "to ask"
+        },
+        {
+          "hanzi": "认识",
+          "pinyin": "rènshi",
+          "en": "to meet, to know"
+        },
+        {
+          "hanzi": "很",
+          "pinyin": "hěn",
+          "en": "very, quite"
+        },
+        {
+          "hanzi": "高兴",
+          "pinyin": "gāoxìng",
+          "en": "happy"
+        },
+        {
+          "hanzi": "也",
+          "pinyin": "yě",
+          "en": "too, also, as well, either"
+        },
+        {
+          "hanzi": "来",
+          "pinyin": "lái",
+          "en": "used before a verb, indicating an intended action"
+        },
+        {
+          "hanzi": "介绍",
+          "pinyin": "jièshào",
+          "en": "to introduce"
+        },
+        {
+          "hanzi": "一下儿",
+          "pinyin": "yíxiàr",
+          "en": "used after a verb to indicate an action or an attempt"
+        }
+      ],
+      "names": [],
+      "meanings": {
+        "儿": "-r suffix (erhua, as in 一下儿); son",
+        "叫": "to call, to be called",
+        "很": "very",
+        "也": "also",
+        "对": "correct",
+        "不": "no, not",
+        "关": "relationship (关系)",
+        "系": "relationship (关系)",
+        "名": "name (名字)",
+        "字": "character",
+        "请": "please, to invite",
+        "问": "to ask",
+        "贵": "expensive",
+        "姓": "family name",
+        "学": "study",
+        "吗": "question particle",
+        "高": "tall, high"
+      },
+      "characters": [
+        "叫",
+        "很",
+        "也",
+        "对",
+        "不",
+        "起",
+        "没",
+        "关",
+        "系",
+        "什",
+        "么",
+        "名",
+        "字",
+        "请",
+        "问",
+        "贵",
+        "姓",
+        "学",
+        "生",
+        "吗",
+        "高",
+        "兴",
+        "认",
+        "识"
+      ]
+    },
+    {
+      "week": 3,
+      "titleZh": "我从英国伦敦来",
+      "titlePinyin": "Wǒ cóng Yīngguó Lúndūn lái",
+      "titleEn": "I come from London of the Great Britain",
+      "sources": [
+        "Great Wall Chinese 1, unit 3 — 我从英国伦敦来"
+      ],
+      "vocab": [
+        {
+          "hanzi": "从",
+          "pinyin": "cóng",
+          "en": "from"
+        },
+        {
+          "hanzi": "来",
+          "pinyin": "lái",
+          "en": "come"
+        },
+        {
+          "hanzi": "姓名",
+          "pinyin": "xìngmíng",
+          "en": "name"
+        },
+        {
+          "hanzi": "国籍",
+          "pinyin": "guójí",
+          "en": "nationality"
+        },
+        {
+          "hanzi": "再",
+          "pinyin": "zài",
+          "en": "again, once more"
+        },
+        {
+          "hanzi": "说",
+          "pinyin": "shuō",
+          "en": "to say, to speak"
+        },
+        {
+          "hanzi": "一",
+          "pinyin": "yī",
+          "en": "one"
+        },
+        {
+          "hanzi": "遍",
+          "pinyin": "biàn",
+          "en": "measure word"
+        },
+        {
+          "hanzi": "哪",
+          "pinyin": "nǎ",
+          "en": "which"
+        },
+        {
+          "hanzi": "国",
+          "pinyin": "guó",
+          "en": "country, state"
+        },
+        {
+          "hanzi": "人",
+          "pinyin": "rén",
+          "en": "people, person"
+        },
+        {
+          "hanzi": "哦",
+          "pinyin": "ò",
+          "en": "oh (expressing realization and understanding)"
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "en": "of"
+        },
+        {
+          "hanzi": "护照",
+          "pinyin": "hùzhào",
+          "en": "passport"
+        },
+        {
+          "hanzi": "给",
+          "pinyin": "gěi",
+          "en": "give"
+        },
+        {
+          "hanzi": "谢谢",
+          "pinyin": "xièxie",
+          "en": "Thanks."
+        },
+        {
+          "hanzi": "吧",
+          "pinyin": "ba",
+          "en": "a particle used at the end of a question"
+        },
+        {
+          "hanzi": "不",
+          "pinyin": "bù",
+          "en": "no, not"
+        },
+        {
+          "hanzi": "爸爸",
+          "pinyin": "bàba",
+          "en": "father"
+        },
+        {
+          "hanzi": "妈妈",
+          "pinyin": "māma",
+          "en": "mother"
+        },
+        {
+          "hanzi": "地方",
+          "pinyin": "dìfang",
+          "en": "place"
+        },
+        {
+          "hanzi": "但",
+          "pinyin": "dàn",
+          "en": "but"
+        },
+        {
+          "hanzi": "哦",
+          "pinyin": "ó",
+          "en": "oh (expressing doubt)"
+        }
+      ],
+      "names": [
+        {
+          "hanzi": "英国",
+          "pinyin": "Yīngguó",
+          "en": "the Great Britain"
+        },
+        {
+          "hanzi": "伦敦",
+          "pinyin": "Lúndūn",
+          "en": "London"
+        },
+        {
+          "hanzi": "罗森",
+          "pinyin": "Luósēn",
+          "en": "Rawson"
+        },
+        {
+          "hanzi": "法国",
+          "pinyin": "Fǎguó",
+          "en": "France"
+        },
+        {
+          "hanzi": "美国",
+          "pinyin": "Měiguó",
+          "en": "the USA"
+        },
+        {
+          "hanzi": "日本",
+          "pinyin": "Rìběn",
+          "en": "Japan"
+        },
+        {
+          "hanzi": "韩国",
+          "pinyin": "Hánguó",
+          "en": "Korea"
+        },
+        {
+          "hanzi": "北京",
+          "pinyin": "Běijīng",
+          "en": "Beijing"
+        },
+        {
+          "hanzi": "上海",
+          "pinyin": "Shànghǎi",
+          "en": "Shanghai"
+        },
+        {
+          "hanzi": "广东",
+          "pinyin": "Guǎngdōng",
+          "en": "Guangdong"
+        },
+        {
+          "hanzi": "东京",
+          "pinyin": "Dōngjīng",
+          "en": "Tokyo"
+        },
+        {
+          "hanzi": "中国",
+          "pinyin": "Zhōngguó",
+          "en": "China"
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "titleZh": "我在一家公司工作",
+      "titlePinyin": "Wǒ zài yì jiā gōngsī gōngzuò",
+      "titleEn": "I work in a company",
+      "sources": [
+        "Great Wall Chinese 1, unit 4 — 我在一家公司工作"
+      ],
+      "vocab": [
+        {
+          "hanzi": "在",
+          "pinyin": "zài",
+          "en": "at, in, on"
+        },
+        {
+          "hanzi": "家",
+          "pinyin": "jiā",
+          "en": "measure word"
+        },
+        {
+          "hanzi": "公司",
+          "pinyin": "gōngsī",
+          "en": "firm, company"
+        },
+        {
+          "hanzi": "工作",
+          "pinyin": "gōngzuò",
+          "en": "to work"
+        },
+        {
+          "hanzi": "大家",
+          "pinyin": "dàjiā",
+          "en": "everybody"
+        },
+        {
+          "hanzi": "教练",
+          "pinyin": "jiàoliàn",
+          "en": "coach"
+        },
+        {
+          "hanzi": "护士",
+          "pinyin": "hùshi",
+          "en": "nurse"
+        },
+        {
+          "hanzi": "名",
+          "pinyin": "míng",
+          "en": "measure word"
+        },
+        {
+          "hanzi": "大学生",
+          "pinyin": "dàxuéshēng",
+          "en": "college student"
+        },
+        {
+          "hanzi": "秘书",
+          "pinyin": "mìshū",
+          "en": "secretary"
+        },
+        {
+          "hanzi": "好",
+          "pinyin": "hǎo",
+          "en": "well"
+        },
+        {
+          "hanzi": "每天",
+          "pinyin": "měi tiān",
+          "en": "everyday"
+        },
+        {
+          "hanzi": "每",
+          "pinyin": "měi",
+          "en": "every, each"
+        },
+        {
+          "hanzi": "天",
+          "pinyin": "tiān",
+          "en": "day"
+        },
+        {
+          "hanzi": "图书馆",
+          "pinyin": "túshūguǎn",
+          "en": "library"
+        },
+        {
+          "hanzi": "下午",
+          "pinyin": "xiàwǔ",
+          "en": "afternoon"
+        },
+        {
+          "hanzi": "哪儿",
+          "pinyin": "nǎr",
+          "en": "where"
+        },
+        {
+          "hanzi": "部门经理",
+          "pinyin": "bùmén jīnglǐ",
+          "en": "department manager"
+        },
+        {
+          "hanzi": "部门",
+          "pinyin": "bùmén",
+          "en": "department"
+        },
+        {
+          "hanzi": "经理",
+          "pinyin": "jīnglǐ",
+          "en": "manager"
+        },
+        {
+          "hanzi": "做",
+          "pinyin": "zuò",
+          "en": "to do, to make"
+        },
+        {
+          "hanzi": "职员",
+          "pinyin": "zhíyuán",
+          "en": "office clerk"
+        },
+        {
+          "hanzi": "记者",
+          "pinyin": "jìzhě",
+          "en": "reporter"
+        },
+        {
+          "hanzi": "喜欢",
+          "pinyin": "xǐhuan",
+          "en": "to like"
+        },
+        {
+          "hanzi": "这个",
+          "pinyin": "zhège",
+          "en": "this one"
+        },
+        {
+          "hanzi": "现在",
+          "pinyin": "xiànzài",
+          "en": "now"
+        },
+        {
+          "hanzi": "画",
+          "pinyin": "huà",
+          "en": "to paint, to draw"
+        },
+        {
+          "hanzi": "画儿",
+          "pinyin": "huàr",
+          "en": "painting, drawing, picture"
+        },
+        {
+          "hanzi": "啊",
+          "pinyin": "à",
+          "en": "aha, used to express sudden realization"
+        },
+        {
+          "hanzi": "个",
+          "pinyin": "gè",
+          "en": "measure word"
+        },
+        {
+          "hanzi": "画家",
+          "pinyin": "huàjiā",
+          "en": "painter, artist"
+        }
+      ],
+      "names": [
+        {
+          "hanzi": "珍妮",
+          "pinyin": "Zhēnnī",
+          "en": "Jane"
+        },
+        {
+          "hanzi": "澳大利亚",
+          "pinyin": "Àodàlìyà",
+          "en": "Australia"
+        },
+        {
+          "hanzi": "东北",
+          "pinyin": "Dōngběi",
+          "en": "the Northeast of China"
+        },
+        {
+          "hanzi": "德国",
+          "pinyin": "Déguó",
+          "en": "Germany"
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "titleZh": "你今年多大",
+      "titlePinyin": "Nǐ jīnnián duō dà",
+      "titleEn": "How old are you",
+      "sources": [
+        "Great Wall Chinese 1, unit 5 — 你今年多大"
+      ],
+      "vocab": [
+        {
+          "hanzi": "今年",
+          "pinyin": "jīnnián",
+          "en": "this year"
+        },
+        {
+          "hanzi": "多大",
+          "pinyin": "duō dà",
+          "en": "how old"
+        },
+        {
+          "hanzi": "多",
+          "pinyin": "duō",
+          "en": "how"
+        },
+        {
+          "hanzi": "大",
+          "pinyin": "dà",
+          "en": "old, big"
+        },
+        {
+          "hanzi": "小朋友",
+          "pinyin": "xiǎopéngyou",
+          "en": "kid"
+        },
+        {
+          "hanzi": "几",
+          "pinyin": "jǐ",
+          "en": "how many, several"
+        },
+        {
+          "hanzi": "岁",
+          "pinyin": "suì",
+          "en": "age, year"
+        },
+        {
+          "hanzi": "猜",
+          "pinyin": "cāi",
+          "en": "to guess"
+        },
+        {
+          "hanzi": "对",
+          "pinyin": "duì",
+          "en": "correct, right"
+        },
+        {
+          "hanzi": "阿姨",
+          "pinyin": "āyí",
+          "en": "aunty"
+        },
+        {
+          "hanzi": "事儿",
+          "pinyin": "shìr",
+          "en": "business, matter"
+        },
+        {
+          "hanzi": "想",
+          "pinyin": "xiǎng",
+          "en": "to want"
+        },
+        {
+          "hanzi": "健身",
+          "pinyin": "jiànshēn",
+          "en": "to keep fit"
+        },
+        {
+          "hanzi": "女",
+          "pinyin": "nǚ",
+          "en": "female"
+        },
+        {
+          "hanzi": "星期六",
+          "pinyin": "xīngqīliù",
+          "en": "Saturday"
+        },
+        {
+          "hanzi": "上午",
+          "pinyin": "shàngwǔ",
+          "en": "morning"
+        },
+        {
+          "hanzi": "可以",
+          "pinyin": "kěyǐ",
+          "en": "OK"
+        },
+        {
+          "hanzi": "大妈",
+          "pinyin": "dàmā",
+          "en": "aunty"
+        },
+        {
+          "hanzi": "京剧",
+          "pinyin": "jīngjù",
+          "en": "Beijing opera"
+        },
+        {
+          "hanzi": "声音",
+          "pinyin": "shēngyīn",
+          "en": "voice"
+        },
+        {
+          "hanzi": "真",
+          "pinyin": "zhēn",
+          "en": "really"
+        },
+        {
+          "hanzi": "好听",
+          "pinyin": "hǎotīng",
+          "en": "pleasant to the ear"
+        },
+        {
+          "hanzi": "年纪",
+          "pinyin": "niánjì",
+          "en": "age"
+        },
+        {
+          "hanzi": "外婆",
+          "pinyin": "wàipó",
+          "en": "grandmother"
+        },
+        {
+          "hanzi": "看",
+          "pinyin": "kàn",
+          "en": "to take a look"
+        }
+      ],
+      "names": [
+        {
+          "hanzi": "赵汉",
+          "pinyin": "Zhào Hàn",
+          "en": "Zhao Han"
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "titleZh": "她的男朋友很帅",
+      "titlePinyin": "Tā de nánpéngyou hěn shuài",
+      "titleEn": "Her boyfriend is very handsome",
+      "sources": [
+        "Great Wall Chinese 1, unit 6 — 她的男朋友很帅"
+      ],
+      "vocab": [
+        {
+          "hanzi": "男朋友",
+          "pinyin": "nánpéngyou",
+          "en": "boyfriend"
+        },
+        {
+          "hanzi": "帅",
+          "pinyin": "shuài",
+          "en": "handsome"
+        },
+        {
+          "hanzi": "怎么样",
+          "pinyin": "zěnmeyàng",
+          "en": "how about"
+        },
+        {
+          "hanzi": "不错",
+          "pinyin": "búcuò",
+          "en": "not bad"
+        },
+        {
+          "hanzi": "外国人",
+          "pinyin": "wàiguó rén",
+          "en": "foreigner"
+        },
+        {
+          "hanzi": "外国",
+          "pinyin": "wàiguó",
+          "en": "foreign country"
+        },
+        {
+          "hanzi": "大学",
+          "pinyin": "dàxué",
+          "en": "university"
+        },
+        {
+          "hanzi": "学习",
+          "pinyin": "xuéxí",
+          "en": "to learn"
+        },
+        {
+          "hanzi": "男",
+          "pinyin": "nán",
+          "en": "male"
+        },
+        {
+          "hanzi": "还是",
+          "pinyin": "háishi",
+          "en": "or"
+        },
+        {
+          "hanzi": "个子",
+          "pinyin": "gèzi",
+          "en": "stature, height, build"
+        },
+        {
+          "hanzi": "高",
+          "pinyin": "gāo",
+          "en": "tall"
+        },
+        {
+          "hanzi": "米",
+          "pinyin": "mǐ",
+          "en": "meter"
+        },
+        {
+          "hanzi": "左右",
+          "pinyin": "zuǒyòu",
+          "en": "about"
+        },
+        {
+          "hanzi": "找",
+          "pinyin": "zhǎo",
+          "en": "to look for"
+        },
+        {
+          "hanzi": "这样",
+          "pinyin": "zhèyàng",
+          "en": "this kind"
+        },
+        {
+          "hanzi": "小姐",
+          "pinyin": "xiǎojie",
+          "en": "miss"
+        },
+        {
+          "hanzi": "累",
+          "pinyin": "lèi",
+          "en": "tired"
+        },
+        {
+          "hanzi": "明天",
+          "pinyin": "míngtiān",
+          "en": "tomorrow"
+        },
+        {
+          "hanzi": "休息",
+          "pinyin": "xiūxi",
+          "en": "to have a rest"
+        },
+        {
+          "hanzi": "要",
+          "pinyin": "yào",
+          "en": "will, to want"
+        },
+        {
+          "hanzi": "太",
+          "pinyin": "tài",
+          "en": "too"
+        },
+        {
+          "hanzi": "胖",
+          "pinyin": "pàng",
+          "en": "fat"
+        },
+        {
+          "hanzi": "啊",
+          "pinyin": "a",
+          "en": "modal word"
+        },
+        {
+          "hanzi": "体重",
+          "pinyin": "tǐzhòng",
+          "en": "weight"
+        },
+        {
+          "hanzi": "公斤",
+          "pinyin": "gōngjīn",
+          "en": "kilogram"
+        },
+        {
+          "hanzi": "还",
+          "pinyin": "hái",
+          "en": "yet, still"
+        },
+        {
+          "hanzi": "可以",
+          "pinyin": "kěyǐ",
+          "en": "passable, not bad"
+        },
+        {
+          "hanzi": "那时",
+          "pinyin": "nàshí",
+          "en": "then, at that time"
+        },
+        {
+          "hanzi": "漂亮",
+          "pinyin": "piàoliang",
+          "en": "pretty"
+        },
+        {
+          "hanzi": "外公",
+          "pinyin": "wàigōng",
+          "en": "grandfather"
+        }
+      ],
+      "names": [
+        {
+          "hanzi": "汉语",
+          "pinyin": "Hànyǔ",
+          "en": "Chinese language"
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "titleZh": "我住在阳光小区",
+      "titlePinyin": "Wǒ zhù zài Yángguāng Xiǎoqū",
+      "titleEn": "I live in Yangguang Residential District",
+      "sources": [
+        "Great Wall Chinese 1, unit 7 — 我住在阳光小区"
+      ],
+      "vocab": [
+        {
+          "hanzi": "住",
+          "pinyin": "zhù",
+          "en": "to live at"
+        },
+        {
+          "hanzi": "小区",
+          "pinyin": "xiǎoqū",
+          "en": "residential district"
+        },
+        {
+          "hanzi": "我们",
+          "pinyin": "wǒmen",
+          "en": "our, we, us"
+        },
+        {
+          "hanzi": "学校",
+          "pinyin": "xuéxiào",
+          "en": "school"
+        },
+        {
+          "hanzi": "有",
+          "pinyin": "yǒu",
+          "en": "there be, to have"
+        },
+        {
+          "hanzi": "健美操",
+          "pinyin": "jiànměicāo",
+          "en": "aerobic exercise"
+        },
+        {
+          "hanzi": "比赛",
+          "pinyin": "bǐsài",
+          "en": "competition"
+        },
+        {
+          "hanzi": "参加",
+          "pinyin": "cānjiā",
+          "en": "to participate"
+        },
+        {
+          "hanzi": "当",
+          "pinyin": "dāng",
+          "en": "to act as, to serve as"
+        },
+        {
+          "hanzi": "去",
+          "pinyin": "qù",
+          "en": "to go to"
+        },
+        {
+          "hanzi": "宿舍",
+          "pinyin": "sùshè",
+          "en": "dorm"
+        },
+        {
+          "hanzi": "号",
+          "pinyin": "hào",
+          "en": "number"
+        },
+        {
+          "hanzi": "楼",
+          "pinyin": "lóu",
+          "en": "building"
+        },
+        {
+          "hanzi": "房间",
+          "pinyin": "fángjiān",
+          "en": "room"
+        },
+        {
+          "hanzi": "电话",
+          "pinyin": "diànhuà",
+          "en": "telephone"
+        },
+        {
+          "hanzi": "见",
+          "pinyin": "jiàn",
+          "en": "to meet, to see"
+        },
+        {
+          "hanzi": "喂",
+          "pinyin": "wèi",
+          "en": "interjection"
+        },
+        {
+          "hanzi": "家",
+          "pinyin": "jiā",
+          "en": "home, family"
+        },
+        {
+          "hanzi": "里",
+          "pinyin": "lǐ",
+          "en": "inside"
+        },
+        {
+          "hanzi": "今天",
+          "pinyin": "jīntiān",
+          "en": "today"
+        },
+        {
+          "hanzi": "晚上",
+          "pinyin": "wǎnshang",
+          "en": "evening"
+        },
+        {
+          "hanzi": "宴会",
+          "pinyin": "yànhuì",
+          "en": "banquet"
+        },
+        {
+          "hanzi": "饭店",
+          "pinyin": "fàndiàn",
+          "en": "restaurant"
+        },
+        {
+          "hanzi": "按",
+          "pinyin": "àn",
+          "en": "to push"
+        },
+        {
+          "hanzi": "层",
+          "pinyin": "céng",
+          "en": "floor of a building"
+        },
+        {
+          "hanzi": "前边",
+          "pinyin": "qiánbian",
+          "en": "in front of"
+        },
+        {
+          "hanzi": "等",
+          "pinyin": "děng",
+          "en": "to wait, to expect"
+        },
+        {
+          "hanzi": "一会儿",
+          "pinyin": "yíhuìr",
+          "en": "a moment"
+        },
+        {
+          "hanzi": "第二",
+          "pinyin": "dì-èr",
+          "en": "the second"
+        },
+        {
+          "hanzi": "第",
+          "pinyin": "dì",
+          "en": "used before a numeral to form an ordinal number"
+        },
+        {
+          "hanzi": "二",
+          "pinyin": "èr",
+          "en": "two"
+        },
+        {
+          "hanzi": "医院",
+          "pinyin": "yīyuàn",
+          "en": "hospital"
+        },
+        {
+          "hanzi": "路",
+          "pinyin": "lù",
+          "en": "road"
+        },
+        {
+          "hanzi": "离",
+          "pinyin": "lí",
+          "en": "from"
+        },
+        {
+          "hanzi": "这儿",
+          "pinyin": "zhèr",
+          "en": "here"
+        },
+        {
+          "hanzi": "远",
+          "pinyin": "yuǎn",
+          "en": "far"
+        },
+        {
+          "hanzi": "知道",
+          "pinyin": "zhīdao",
+          "en": "to know"
+        },
+        {
+          "hanzi": "东边",
+          "pinyin": "dōngbian",
+          "en": "to the east"
+        },
+        {
+          "hanzi": "别客气",
+          "pinyin": "bié kèqi",
+          "en": "You are welcome."
+        },
+        {
+          "hanzi": "别",
+          "pinyin": "bié",
+          "en": "don't"
+        },
+        {
+          "hanzi": "客气",
+          "pinyin": "kèqi",
+          "en": "to be polite"
+        }
+      ],
+      "names": [
+        {
+          "hanzi": "长安饭店",
+          "pinyin": "Cháng'ān Fàndiàn",
+          "en": "Chang'an Hotel"
+        },
+        {
+          "hanzi": "阳光小区",
+          "pinyin": "Yángguāng Xiǎoqū",
+          "en": "Yangguang Residential District"
+        },
+        {
+          "hanzi": "第二医院",
+          "pinyin": "Dì-èr Yīyuàn",
+          "en": "No. 2 Hospital"
+        },
+        {
+          "hanzi": "东城路",
+          "pinyin": "Dōngchéng Lù",
+          "en": "Dongcheng Road"
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "titleZh": "期中复习",
+      "titlePinyin": "qīzhōng fùxí",
+      "titleEn": "Midterm review",
+      "sources": [
+        "Review of weeks 1–7"
+      ],
+      "reviewOf": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "week": 9,
+      "titleZh": "我喜欢大家庭",
+      "titlePinyin": "Wǒ xǐhuan dà jiātíng",
+      "titleEn": "I like an extended family",
+      "sources": [
+        "Great Wall Chinese 1, unit 8 — 我喜欢大家庭"
+      ],
+      "vocab": [
+        {
+          "hanzi": "家庭",
+          "pinyin": "jiātíng",
+          "en": "family"
+        },
+        {
+          "hanzi": "口",
+          "pinyin": "kǒu",
+          "en": "measure word"
+        },
+        {
+          "hanzi": "四",
+          "pinyin": "sì",
+          "en": "four"
+        },
+        {
+          "hanzi": "妹妹",
+          "pinyin": "mèimei",
+          "en": "younger sister"
+        },
+        {
+          "hanzi": "和",
+          "pinyin": "hé",
+          "en": "and"
+        },
+        {
+          "hanzi": "律师",
+          "pinyin": "lǜshī",
+          "en": "lawyer"
+        },
+        {
+          "hanzi": "忙",
+          "pinyin": "máng",
+          "en": "busy"
+        },
+        {
+          "hanzi": "非常",
+          "pinyin": "fēicháng",
+          "en": "very, extremely"
+        },
+        {
+          "hanzi": "常常",
+          "pinyin": "chángcháng",
+          "en": "often"
+        },
+        {
+          "hanzi": "希望",
+          "pinyin": "xīwàng",
+          "en": "to hope, to wish"
+        },
+        {
+          "hanzi": "银行",
+          "pinyin": "yínháng",
+          "en": "bank"
+        },
+        {
+          "hanzi": "可是",
+          "pinyin": "kěshì",
+          "en": "but"
+        },
+        {
+          "hanzi": "大夫",
+          "pinyin": "dàifu",
+          "en": "doctor"
+        },
+        {
+          "hanzi": "兄弟姐妹",
+          "pinyin": "xiōngdì jiěmèi",
+          "en": "brothers and sisters"
+        },
+        {
+          "hanzi": "兄弟",
+          "pinyin": "xiōngdì",
+          "en": "brother"
+        },
+        {
+          "hanzi": "姐妹",
+          "pinyin": "jiěmèi",
+          "en": "sister"
+        },
+        {
+          "hanzi": "只",
+          "pinyin": "zhǐ",
+          "en": "only"
+        },
+        {
+          "hanzi": "孩子",
+          "pinyin": "háizi",
+          "en": "child"
+        },
+        {
+          "hanzi": "呢",
+          "pinyin": "ne",
+          "en": "modal word"
+        },
+        {
+          "hanzi": "姐姐",
+          "pinyin": "jiějie",
+          "en": "elder sister"
+        },
+        {
+          "hanzi": "双胞胎",
+          "pinyin": "shuāngbāotāi",
+          "en": "twins"
+        },
+        {
+          "hanzi": "前面",
+          "pinyin": "qiánmian",
+          "en": "ahead, front"
+        },
+        {
+          "hanzi": "就",
+          "pinyin": "jiù",
+          "en": "just"
+        },
+        {
+          "hanzi": "送",
+          "pinyin": "sòng",
+          "en": "to escort"
+        },
+        {
+          "hanzi": "父母",
+          "pinyin": "fùmǔ",
+          "en": "parents"
+        },
+        {
+          "hanzi": "一起",
+          "pinyin": "yìqǐ",
+          "en": "together"
+        },
+        {
+          "hanzi": "都",
+          "pinyin": "dōu",
+          "en": "all"
+        },
+        {
+          "hanzi": "爷爷",
+          "pinyin": "yéye",
+          "en": "grandpa"
+        },
+        {
+          "hanzi": "奶奶",
+          "pinyin": "nǎinai",
+          "en": "grandma"
+        },
+        {
+          "hanzi": "哥哥",
+          "pinyin": "gēge",
+          "en": "elder brother"
+        },
+        {
+          "hanzi": "嫂子",
+          "pinyin": "sǎozi",
+          "en": "sister-in-law"
+        },
+        {
+          "hanzi": "他们",
+          "pinyin": "tāmen",
+          "en": "they"
+        },
+        {
+          "hanzi": "一共",
+          "pinyin": "yígòng",
+          "en": "altogether"
+        }
+      ],
+      "names": []
+    },
+    {
+      "week": 10,
+      "titleZh": "我最近很忙",
+      "titlePinyin": "Wǒ zuìjìn hěn máng",
+      "titleEn": "I've been very busy recently",
+      "sources": [
+        "Great Wall Chinese 1, unit 9 — 我最近很忙"
+      ],
+      "vocab": [
+        {
+          "hanzi": "最近",
+          "pinyin": "zuìjìn",
+          "en": "lately, recently"
+        },
+        {
+          "hanzi": "点",
+          "pinyin": "diǎn",
+          "en": "hour"
+        },
+        {
+          "hanzi": "半",
+          "pinyin": "bàn",
+          "en": "half"
+        },
+        {
+          "hanzi": "劳驾",
+          "pinyin": "láojià",
+          "en": "Excuse me."
+        },
+        {
+          "hanzi": "分",
+          "pinyin": "fēn",
+          "en": "minute"
+        },
+        {
+          "hanzi": "姑娘",
+          "pinyin": "gūniang",
+          "en": "miss"
+        },
+        {
+          "hanzi": "差",
+          "pinyin": "chà",
+          "en": "to be less than, to be short of"
+        },
+        {
+          "hanzi": "愿意",
+          "pinyin": "yuànyì",
+          "en": "to be willing"
+        },
+        {
+          "hanzi": "能",
+          "pinyin": "néng",
+          "en": "to be able to"
+        },
+        {
+          "hanzi": "时候",
+          "pinyin": "shíhou",
+          "en": "time, moment"
+        },
+        {
+          "hanzi": "下班",
+          "pinyin": "xià bān",
+          "en": "to be off duty, to get off work"
+        },
+        {
+          "hanzi": "行",
+          "pinyin": "xíng",
+          "en": "That's OK."
+        },
+        {
+          "hanzi": "到",
+          "pinyin": "dào",
+          "en": "to arrive at"
+        },
+        {
+          "hanzi": "吃",
+          "pinyin": "chī",
+          "en": "to eat"
+        },
+        {
+          "hanzi": "晚饭",
+          "pinyin": "wǎnfàn",
+          "en": "supper, dinner"
+        },
+        {
+          "hanzi": "开始",
+          "pinyin": "kāishǐ",
+          "en": "to start"
+        },
+        {
+          "hanzi": "训练",
+          "pinyin": "xùnliàn",
+          "en": "to train"
+        },
+        {
+          "hanzi": "先生",
+          "pinyin": "xiānsheng",
+          "en": "Mr."
+        },
+        {
+          "hanzi": "起床",
+          "pinyin": "qǐ chuáng",
+          "en": "to get up"
+        },
+        {
+          "hanzi": "以后",
+          "pinyin": "yǐhòu",
+          "en": "later, after"
+        },
+        {
+          "hanzi": "睡觉",
+          "pinyin": "shuì jiào",
+          "en": "to sleep"
+        },
+        {
+          "hanzi": "这么",
+          "pinyin": "zhème",
+          "en": "so"
+        },
+        {
+          "hanzi": "上班",
+          "pinyin": "shàng bān",
+          "en": "to go to work"
+        },
+        {
+          "hanzi": "加班",
+          "pinyin": "jiā bān",
+          "en": "to work overtime"
+        },
+        {
+          "hanzi": "总公司",
+          "pinyin": "zǒnggōngsī",
+          "en": "head office"
+        },
+        {
+          "hanzi": "项",
+          "pinyin": "xiàng",
+          "en": "measure word"
+        },
+        {
+          "hanzi": "重要",
+          "pinyin": "zhòngyào",
+          "en": "important"
+        },
+        {
+          "hanzi": "不一定",
+          "pinyin": "bù yídìng",
+          "en": "not sure"
+        },
+        {
+          "hanzi": "有时候",
+          "pinyin": "yǒushíhou",
+          "en": "sometime, occasionally"
+        },
+        {
+          "hanzi": "星期五",
+          "pinyin": "xīngqīwǔ",
+          "en": "Friday"
+        },
+        {
+          "hanzi": "有空儿",
+          "pinyin": "yǒu kòngr",
+          "en": "to be free"
+        },
+        {
+          "hanzi": "再说",
+          "pinyin": "zàishuō",
+          "en": "We won't decide at the moment"
+        }
+      ],
+      "names": []
+    },
+    {
+      "week": 11,
+      "titleZh": "我来介绍一下儿 · 10月1日是我的生日",
+      "titlePinyin": "Wǒ lái jièshào yíxiàr · Shí yuè yī rì shì wǒ de shēngri",
+      "titleEn": "Let me introduce you · October 1st is my birthday",
+      "sources": [
+        "Great Wall Chinese 1, unit 10 — 我来介绍一下儿",
+        "Great Wall Chinese 2, unit 1 — 10月1日是我的生日"
+      ],
+      "vocab": [
+        {
+          "hanzi": "这",
+          "pinyin": "zhè",
+          "en": "this"
+        },
+        {
+          "hanzi": "真的",
+          "pinyin": "zhēnde",
+          "en": "really"
+        },
+        {
+          "hanzi": "没什么",
+          "pinyin": "méi shénme",
+          "en": "nothing"
+        },
+        {
+          "hanzi": "欢迎",
+          "pinyin": "huānyíng",
+          "en": "to welcome"
+        },
+        {
+          "hanzi": "下次",
+          "pinyin": "xià cì",
+          "en": "next time"
+        },
+        {
+          "hanzi": "下",
+          "pinyin": "xià",
+          "en": "next"
+        },
+        {
+          "hanzi": "次",
+          "pinyin": "cì",
+          "en": "time"
+        },
+        {
+          "hanzi": "星期三",
+          "pinyin": "xīngqīsān",
+          "en": "Wednesday"
+        },
+        {
+          "hanzi": "好的",
+          "pinyin": "hǎo de",
+          "en": "OK"
+        },
+        {
+          "hanzi": "朋友",
+          "pinyin": "péngyou",
+          "en": "friend"
+        },
+        {
+          "hanzi": "女儿",
+          "pinyin": "nǚ'ér",
+          "en": "daughter"
+        },
+        {
+          "hanzi": "学",
+          "pinyin": "xué",
+          "en": "to learn"
+        },
+        {
+          "hanzi": "教",
+          "pinyin": "jiāo",
+          "en": "to teach"
+        },
+        {
+          "hanzi": "时间",
+          "pinyin": "shíjiān",
+          "en": "time"
+        },
+        {
+          "hanzi": "没有",
+          "pinyin": "méi yǒu",
+          "en": "do not have, be without"
+        },
+        {
+          "hanzi": "课",
+          "pinyin": "kè",
+          "en": "lesson, course, class"
+        },
+        {
+          "hanzi": "给",
+          "pinyin": "gěi",
+          "en": "to, for"
+        },
+        {
+          "hanzi": "打",
+          "pinyin": "dǎ",
+          "en": "to make"
+        },
+        {
+          "hanzi": "生日",
+          "pinyin": "shēngri",
+          "en": "birthday"
+        },
+        {
+          "hanzi": "月",
+          "pinyin": "yuè",
+          "en": "month"
+        },
+        {
+          "hanzi": "去年",
+          "pinyin": "qùnián",
+          "en": "last year"
+        },
+        {
+          "hanzi": "号",
+          "pinyin": "hào",
+          "en": "date in a month"
+        },
+        {
+          "hanzi": "星期",
+          "pinyin": "xīngqī",
+          "en": "week"
+        },
+        {
+          "hanzi": "回国",
+          "pinyin": "huí guó",
+          "en": "to return to one's homeland"
+        },
+        {
+          "hanzi": "明年",
+          "pinyin": "míngnián",
+          "en": "next year"
+        },
+        {
+          "hanzi": "回来",
+          "pinyin": "huílai",
+          "en": "to come back"
+        },
+        {
+          "hanzi": "看",
+          "pinyin": "kàn",
+          "en": "pay a visit, call on"
+        },
+        {
+          "hanzi": "星期天",
+          "pinyin": "xīngqītiān",
+          "en": "Sunday"
+        },
+        {
+          "hanzi": "噢",
+          "pinyin": "ō",
+          "en": "an interjection expressing understanding"
+        },
+        {
+          "hanzi": "巧",
+          "pinyin": "qiǎo",
+          "en": "coincident"
+        }
+      ],
+      "names": [
+        {
+          "hanzi": "圣诞节",
+          "pinyin": "Shèngdàn Jié",
+          "en": "Christmas Day"
+        },
+        {
+          "hanzi": "国庆节",
+          "pinyin": "Guóqìng Jié",
+          "en": "National Day"
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "titleZh": "你现在在哪儿",
+      "titlePinyin": "Nǐ xiànzài zài nǎr",
+      "titleEn": "Where are you now",
+      "sources": [
+        "Great Wall Chinese 2, unit 2 — 你现在在哪儿"
+      ],
+      "vocab": [
+        {
+          "hanzi": "英汉词典",
+          "pinyin": "Yīng-Hàn cídiǎn",
+          "en": "English-Chinese dictionary"
+        },
+        {
+          "hanzi": "词典",
+          "pinyin": "cídiǎn",
+          "en": "dictionary"
+        },
+        {
+          "hanzi": "桌子",
+          "pinyin": "zhuōzi",
+          "en": "desk, table"
+        },
+        {
+          "hanzi": "上",
+          "pinyin": "shàng",
+          "en": "on, at"
+        },
+        {
+          "hanzi": "抽屉",
+          "pinyin": "chōuti",
+          "en": "drawer"
+        },
+        {
+          "hanzi": "书架",
+          "pinyin": "shūjià",
+          "en": "bookshelf"
+        },
+        {
+          "hanzi": "汉英词典",
+          "pinyin": "Hàn-Yīng cídiǎn",
+          "en": "Chinese-English dictionary"
+        },
+        {
+          "hanzi": "可能",
+          "pinyin": "kěnéng",
+          "en": "probably"
+        },
+        {
+          "hanzi": "书包",
+          "pinyin": "shūbāo",
+          "en": "schoolbag"
+        },
+        {
+          "hanzi": "看见",
+          "pinyin": "kànjiàn",
+          "en": "to see"
+        },
+        {
+          "hanzi": "沙发",
+          "pinyin": "shāfā",
+          "en": "sofa"
+        },
+        {
+          "hanzi": "下边",
+          "pinyin": "xiàbian",
+          "en": "under"
+        },
+        {
+          "hanzi": "咱们",
+          "pinyin": "zánmen",
+          "en": "we, us"
+        },
+        {
+          "hanzi": "古玩店",
+          "pinyin": "gǔwándiàn",
+          "en": "antique store"
+        },
+        {
+          "hanzi": "南门",
+          "pinyin": "nán mén",
+          "en": "south gate"
+        },
+        {
+          "hanzi": "南",
+          "pinyin": "nán",
+          "en": "south"
+        },
+        {
+          "hanzi": "外边",
+          "pinyin": "wàibian",
+          "en": "outside"
+        },
+        {
+          "hanzi": "里边",
+          "pinyin": "lǐbian",
+          "en": "inside"
+        },
+        {
+          "hanzi": "女生",
+          "pinyin": "nǚshēng",
+          "en": "schoolgirl"
+        },
+        {
+          "hanzi": "挺",
+          "pinyin": "tǐng",
+          "en": "quite"
+        },
+        {
+          "hanzi": "多",
+          "pinyin": "duō",
+          "en": "many, much"
+        },
+        {
+          "hanzi": "留学生",
+          "pinyin": "liúxuéshēng",
+          "en": "student studying abroad"
+        },
+        {
+          "hanzi": "公寓",
+          "pinyin": "gōngyù",
+          "en": "boarding house"
+        },
+        {
+          "hanzi": "西边",
+          "pinyin": "xībian",
+          "en": "west"
+        },
+        {
+          "hanzi": "西",
+          "pinyin": "xī",
+          "en": "west"
+        },
+        {
+          "hanzi": "游泳馆",
+          "pinyin": "yóuyǒngguǎn",
+          "en": "natatorium"
+        },
+        {
+          "hanzi": "游泳",
+          "pinyin": "yóuyǒng",
+          "en": "to swim"
+        },
+        {
+          "hanzi": "南边",
+          "pinyin": "nánbian",
+          "en": "south"
+        },
+        {
+          "hanzi": "北边",
+          "pinyin": "běibian",
+          "en": "north"
+        },
+        {
+          "hanzi": "北",
+          "pinyin": "běi",
+          "en": "north"
+        },
+        {
+          "hanzi": "篮球场",
+          "pinyin": "lánqiúchǎng",
+          "en": "basketball court"
+        },
+        {
+          "hanzi": "篮球",
+          "pinyin": "lánqiú",
+          "en": "basketball"
+        },
+        {
+          "hanzi": "东",
+          "pinyin": "dōng",
+          "en": "east"
+        },
+        {
+          "hanzi": "晕",
+          "pinyin": "yūn",
+          "en": "to be dizzy"
+        }
+      ],
+      "names": []
+    },
+    {
+      "week": 13,
+      "titleZh": "期末复习",
+      "titlePinyin": "qīmò fùxí",
+      "titleEn": "Final review",
+      "sources": [
+        "Review of weeks 9–12"
+      ],
+      "reviewOf": [
+        9,
+        10,
+        11,
+        12
+      ]
+    }
+  ]
+}

@@ -809,3 +809,683 @@ body {
 .credits-note {
   margin: 0;
 }
+
+/* ---------------------------------------------------------------------------
+   Course (Semester A) — lessons built from the class textbooks
+   --------------------------------------------------------------------------- */
+
+/* Simplified-Chinese glyphs on Apple devices; lang="zh-CN" picks them. */
+:lang(zh-CN) {
+  font-family: 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans SC', 'Microsoft YaHei', system-ui, sans-serif;
+}
+
+.secondary-button {
+  min-height: 44px;
+  padding: 10px 16px;
+  font: inherit;
+  font-weight: 600;
+  color: var(--text);
+  background: var(--card-raised);
+  border: var(--rule);
+  border-radius: 8px;
+  cursor: pointer;
+}
+.secondary-button:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+
+.course-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  max-width: 420px;
+  margin: 0 auto var(--gap-section);
+  padding: 16px 18px;
+  text-align: left;
+  font: inherit;
+  color: var(--text);
+  background: linear-gradient(155deg, rgba(var(--accent-rgb), 0.22), var(--card-bg) 70%);
+  border: 1px solid rgba(var(--accent-rgb), 0.5);
+  border-radius: 14px;
+  cursor: pointer;
+}
+.course-card-char {
+  font-size: 44px;
+  line-height: 1;
+  color: var(--accent-strong);
+}
+.course-card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.course-card-label {
+  font-size: 17px;
+  font-weight: 700;
+}
+.course-card-note {
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.course-head,
+.lesson-head {
+  padding: 4px 0 18px;
+}
+.course-title {
+  font-size: var(--type-heading);
+  margin: 0 0 6px;
+}
+.course-note {
+  margin: 0;
+  font-size: 13px;
+  color: var(--text-muted);
+}
+.course-weeks {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.course-week {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 2px 12px;
+  width: 100%;
+  padding: 14px 16px;
+  text-align: left;
+  font: inherit;
+  color: var(--text);
+  background: var(--card-bg);
+  border: var(--rule);
+  border-radius: 12px;
+  cursor: pointer;
+}
+.course-week-review {
+  border-style: dashed;
+}
+.course-week-label {
+  grid-row: span 2;
+  align-self: center;
+  font-size: var(--type-label);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent-strong);
+  width: 58px;
+}
+.course-week-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+.course-week-en {
+  font-size: 13px;
+  color: var(--text-muted);
+}
+.course-week-chars {
+  grid-column: 1 / -1;
+  margin-top: 8px;
+  font-size: 20px;
+  letter-spacing: 0.12em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.course-week-meter {
+  grid-column: 1 / -1;
+  height: 4px;
+  margin-top: 8px;
+  background: var(--card-raised);
+  border-radius: 2px;
+  overflow: hidden;
+}
+.course-week-meter > span {
+  display: block;
+  height: 100%;
+  background: var(--positive);
+}
+.course-week-stats {
+  grid-column: 1 / -1;
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-top: 4px;
+}
+
+.lesson-title {
+  margin: 0;
+  font-size: 30px;
+}
+.lesson-pinyin {
+  margin: 2px 0 0;
+  color: var(--accent-strong);
+}
+.lesson-en {
+  margin: 2px 0 8px;
+  color: var(--text-muted);
+}
+.lesson-sources {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+/* Sticky so the tabs stay reachable while scrolling a long stroke list. */
+.lesson-tabs {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 4px;
+  margin: 0 -20px 18px;
+  padding: 8px 20px;
+  padding-top: max(8px, env(safe-area-inset-top));
+  background: var(--app-bg);
+  border-bottom: var(--rule);
+}
+.lesson-tab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1px;
+  min-height: 50px;
+  padding: 6px 2px;
+  font: inherit;
+  color: var(--text-muted);
+  background: none;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.lesson-tab-zh {
+  font-size: 18px;
+}
+.lesson-tab-en {
+  font-size: 11px;
+}
+.lesson-tab-active {
+  color: var(--text);
+  background: var(--card-raised);
+}
+.lesson-tab-active .lesson-tab-zh {
+  color: var(--accent-strong);
+}
+
+.tab-intro,
+.empty-note,
+.write-hint,
+.char-card-tap {
+  font-size: 13px;
+  color: var(--text-muted);
+  text-align: center;
+}
+
+.section-label {
+  font-size: var(--type-label);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin: var(--gap-section) 0 10px;
+}
+
+/* Live stroke canvas */
+.hanzi-stage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.hanzi-stage-frame {
+  position: relative;
+  max-width: 100%;
+  aspect-ratio: 1;
+  background: var(--card-bg);
+  border-radius: 10px;
+}
+.hanzi-stage-grid,
+.hanzi-stage-canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+/* Without this a finger stroke on iPhone scrolls the page instead of drawing. */
+.hanzi-stage-canvas {
+  touch-action: none;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+}
+.hanzi-stage-note {
+  font-size: 13px;
+  color: var(--negative);
+}
+
+/* Static character SVGs (stroke order, practice sheet) */
+.char-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.tian-grid line,
+.tian-grid rect {
+  fill: none;
+  stroke: var(--card-border);
+  stroke-width: 6;
+}
+.tian-grid .tian-border {
+  stroke-width: 10;
+}
+.tian-grid line {
+  stroke-dasharray: 26 20;
+}
+.tian-grid .tian-diagonal {
+  opacity: 0.55;
+}
+.stroke-ink {
+  fill: var(--text);
+}
+.stroke-current {
+  fill: var(--accent-strong);
+}
+.stroke-ghost {
+  fill: var(--card-raised);
+}
+.stroke-start {
+  fill: var(--positive);
+}
+
+.stroke-sequence {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(56px, 1fr));
+  gap: 6px;
+}
+.stroke-sequence-compact {
+  grid-template-columns: repeat(auto-fill, minmax(34px, 1fr));
+  gap: 3px;
+}
+.stroke-step {
+  position: relative;
+}
+.stroke-step-number {
+  position: absolute;
+  top: 2px;
+  left: 4px;
+  font-size: 10px;
+  color: var(--text-muted);
+}
+.stroke-sequence-compact .stroke-step-number {
+  display: none;
+}
+.stroke-row {
+  padding: 14px 0;
+  border-bottom: var(--rule);
+}
+.stroke-row-head {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin: 0 0 10px;
+  font-weight: 400;
+}
+.stroke-row-char {
+  font-size: 30px;
+}
+.stroke-row-pinyin {
+  color: var(--accent-strong);
+}
+.stroke-row-count {
+  margin-left: auto;
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+/* Learn tab */
+.char-card {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 16px;
+  background: var(--card-bg);
+  border: var(--rule);
+  border-radius: 14px;
+}
+.char-card-stage {
+  width: 100%;
+  max-width: 280px;
+  margin: 0 auto;
+}
+.char-card-pinyin {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  font-size: 26px;
+  color: var(--accent-strong);
+}
+.char-card-meaning {
+  margin: 4px 0 10px;
+  font-size: 16px;
+}
+.char-facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 18px;
+  margin: 0 0 10px;
+}
+.char-facts div {
+  display: flex;
+  gap: 6px;
+  font-size: 13px;
+}
+.char-facts dt {
+  color: var(--text-muted);
+}
+.char-facts dd {
+  margin: 0;
+}
+.char-card-hint {
+  margin: 0 0 10px;
+  font-size: 13px;
+  font-style: italic;
+  color: var(--text-muted);
+}
+.char-words {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.char-words li {
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+  font-size: 14px;
+}
+.char-word-hanzi {
+  font-size: 18px;
+}
+.char-word-pinyin {
+  color: var(--accent-strong);
+}
+.char-word-en {
+  color: var(--text-muted);
+}
+.speak-button {
+  min-width: 44px;
+  min-height: 44px;
+  font-size: 20px;
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+.char-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 14px 0;
+}
+.char-nav-count {
+  color: var(--text-muted);
+  font-size: 13px;
+}
+.char-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  justify-content: center;
+  margin-top: 12px;
+}
+.char-strip-item {
+  min-width: 44px;
+  min-height: 44px;
+  font: inherit;
+  font-size: 20px;
+  color: var(--text);
+  background: var(--card-bg);
+  border: var(--rule);
+  border-radius: 8px;
+  cursor: pointer;
+}
+.char-strip-active {
+  border-color: var(--accent);
+  background: rgba(var(--accent-rgb), 0.18);
+}
+.char-strip-done {
+  box-shadow: inset 0 -3px 0 var(--positive);
+}
+.vocab-list ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.vocab-item {
+  display: grid;
+  grid-template-columns: auto auto 1fr auto;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 0;
+  border-bottom: var(--rule);
+}
+.vocab-hanzi {
+  font-size: 20px;
+}
+.vocab-pinyin {
+  color: var(--accent-strong);
+  font-size: 14px;
+}
+.vocab-en {
+  color: var(--text-muted);
+  font-size: 13px;
+}
+
+/* Write tab */
+.write-tab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+.write-tab .hanzi-stage {
+  width: 100%;
+}
+.write-prompt {
+  text-align: center;
+}
+.write-phase {
+  font-size: var(--type-label);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+.write-pinyin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  margin: 4px 0 0;
+  font-size: 24px;
+  color: var(--accent-strong);
+}
+.write-meaning {
+  margin: 0;
+}
+.write-result {
+  width: 100%;
+  text-align: center;
+}
+.write-mistakes {
+  color: var(--amber);
+  font-weight: 600;
+}
+.write-actions {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px;
+}
+
+/* Quiz */
+.quiz-count {
+  float: right;
+}
+.listen-prompt {
+  display: block;
+  margin: 18px auto;
+  min-width: 160px;
+  min-height: 80px;
+  font: inherit;
+  font-size: 22px;
+  color: var(--text);
+  background: var(--card-raised);
+  border: var(--rule);
+  border-radius: 14px;
+  cursor: pointer;
+}
+.quiz-done {
+  text-align: center;
+  padding: 30px 0;
+}
+.quiz-done-score {
+  font-size: 56px;
+  font-weight: 700;
+  margin: 0;
+}
+.quiz-done-detail {
+  color: var(--text-muted);
+}
+
+/* Practice sheet: preview on screen, real sheet in print */
+.practice-sheet-actions {
+  margin-bottom: 18px;
+  text-align: center;
+}
+.practice-sheet-hint {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+.sheet-header {
+  margin-bottom: 12px;
+}
+.sheet-title {
+  margin: 0;
+  font-size: 18px;
+}
+.sheet-subtitle {
+  margin: 4px 0 0;
+  font-size: 12px;
+  color: var(--text-muted);
+}
+.sheet-char {
+  padding: 10px 0;
+  border-top: var(--rule);
+  break-inside: avoid;
+}
+.sheet-char-head {
+  display: grid;
+  grid-template-columns: 64px 1fr;
+  gap: 4px 12px;
+  align-items: start;
+  margin-bottom: 6px;
+}
+.sheet-sequence {
+  grid-column: 1 / -1;
+}
+.sheet-char-info p {
+  margin: 0;
+}
+.sheet-pinyin {
+  font-size: 18px;
+  color: var(--accent-strong);
+}
+.sheet-meaning,
+.sheet-strokes {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+.sheet-row {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+}
+.sheet-cell + .sheet-cell .tian-border {
+  /* neighbouring cells share an edge, as on squared paper */
+  stroke-width: 6;
+}
+
+@media (min-width: 560px) {
+  .char-card {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .char-card-stage {
+    flex: 0 0 240px;
+  }
+  .sheet-char-head {
+    grid-template-columns: 64px 160px 1fr;
+  }
+  .sheet-sequence {
+    grid-column: auto;
+  }
+}
+
+@media print {
+  @page {
+    size: A4;
+    margin: 12mm;
+  }
+  :root {
+    --text: #111;
+    --text-muted: #555;
+    --card-border: #b9b2a4;
+    --card-raised: #d9d4ca;
+    --card-bg: #fff;
+    --accent-strong: #b3401c;
+    --positive: #2a8f78;
+    color-scheme: light;
+  }
+  html,
+  body {
+    background: #fff !important;
+  }
+  .no-print,
+  .screen-header,
+  .app-footer {
+    display: none !important;
+  }
+  .app-shell {
+    max-width: none;
+    padding: 0;
+  }
+  .task-screen {
+    padding: 0;
+  }
+  .screen,
+  .in,
+  .stagger > * {
+    animation: none !important;
+  }
+  .sheet-char-head {
+    grid-template-columns: 22mm 45mm 1fr;
+  }
+  .sheet-sequence {
+    grid-column: auto;
+  }
+  .sheet-row {
+    grid-template-columns: repeat(8, 22mm);
+  }
+  .stroke-ghost {
+    fill: #d6d0c4;
+  }
+}
